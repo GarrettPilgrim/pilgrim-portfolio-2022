@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 
 // import Home from './pages/home'
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/about" element={<About />}></Route>
         </Routes>
       </Suspense>
+      <Footer />
     </Router>
   )
 }
