@@ -1,0 +1,77 @@
+@use '../../base.scss';
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  color: base.$white;
+}
+
+.cover-frame {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10px 3fr 2fr 10px;
+  border-bottom: 5px solid base.$tert-color;
+}
+
+.cover-frame>div {
+  align-self: flex-end;
+}
+
+h1 {
+  position: relative;
+  font-size: calc(2.6rem + 6vw);
+  line-height: calc(3rem + 5vw);
+  margin: 0;
+  text-shadow: 10px 10px 15px base.$dark;
+}
+
+span {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.second-column {
+  align-self: end;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.circle {
+  position: absolute;
+  top: 15%;
+  right: -5%;
+  width: calc(250px + 40vw);
+  height: calc(250px + 40vw);
+  background: base.$secondary-color;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.first-column {
+  margin: calc(1rem);
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  z-index: 10;
+}
+
+@media (max-width: base.$mobile-size) {
+  .cover-frame {
+    grid-template-columns: 1fr;
+    height: 85vh;
+  }
+
+  .first-column,
+  .second-column {
+    grid-column: 1 / -1;
+  }
+}

@@ -1,0 +1,62 @@
+@use '../../base.scss';
+
+.header-grid {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  grid-column: 2 / -1;
+  list-style: none;
+}
+
+nav ul a {
+  display: block;
+  padding: .6rem 1.6rem;
+  margin-right: calc(.6rem + 1vw);
+  background: rgba($color: base.$primary-color, $alpha: .8);
+  backdrop-filter: base.$blur;
+  color: base.$white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav ul a:active {
+  background: rgba($color: base.$secondary-color, $alpha: .8);
+}
+
+nav ul a:hover {
+  background: rgba($color: base.$white, $alpha: .8);
+  color: base.$primary-color;
+}
+
+.logo {
+  max-width: 50px;
+  align-self: center;
+  margin: .9rem .2rem;
+}
+
+.logo a {
+  padding: 1rem;
+}
+
+.burger-container {
+  display: none;
+}
+
+@media (max-width: base.$mobile-size) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .burger-container {
+    display: flex;
+  }
+
+}

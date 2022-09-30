@@ -1,0 +1,72 @@
+@use '../../base';
+
+.mobile-transition {
+  transition: 300ms ease-in-out;
+}
+
+.burger-container {
+  position: absolute;
+  top: .6rem;
+  right: .6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 3rem;
+  height: 3rem;
+  padding: .8rem;
+  background: rgba($color: base.$primary-color, $alpha: .8);
+  border: none;
+  backdrop-filter: base.$blur;
+  cursor: pointer;
+}
+
+.burger-container:hover {
+  background: rgba($color: base.$white, $alpha: .8);
+}
+
+.burger {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  border-radius: 1px;
+  background: rgba($color: base.$white, $alpha: .8);
+  backdrop-filter: base.$blur;
+  transform-origin: left;
+}
+
+.burger-container:hover .burger {
+  background: rgba($color: base.$primary-color, $alpha: .8);
+}
+
+.burger-container:active .burger {
+  background: rgba($color: base.$primary-color, $alpha: .8);
+}
+
+.burger-x:first-of-type {
+  transform: rotate(45deg);
+}
+
+.burger-x:nth-of-type(2) {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.burger-x:last-of-type {
+  transform: rotate(-45deg);
+}
+
+.close,
+.open {
+  position: absolute;
+  top: 80px;
+  right: 1px;
+  transition: 200ms ease-in-out;
+}
+
+.close {
+  transform: translateX(100%);
+}
+
+.open {
+  transform: translateX(0%);
+}

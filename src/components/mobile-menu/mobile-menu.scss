@@ -1,0 +1,21 @@
+@use "../../base.scss";
+
+.mobile-menu-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba($color: base.$dark, $alpha: .8);
+  backdrop-filter: base.$blur;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  transition: 200ms ease-in-out;
+}
+
+.mobile-menu li a {
+  margin: 0;
+}

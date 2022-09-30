@@ -1,0 +1,36 @@
+@use 'base.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+  background: base.$dark;
+}
+
+p,
+span,
+a,
+li {
+  font-family: base.$body-fonts;
+}
+
+p {
+  max-width: 60ch;
+  margin: auto;
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: base.$header-fonts;
+}
