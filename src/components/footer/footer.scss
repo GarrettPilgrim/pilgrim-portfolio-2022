@@ -1,6 +1,7 @@
 @use "../../base.scss";
 
 footer {
+  position: relative;
   padding: 4rem 0;
 }
 
@@ -9,6 +10,7 @@ footer form {
   margin: auto;
   padding: 3rem 1rem;
   background: rgba($color: base.$primary-color, $alpha: .8);
+  backdrop-filter: base.$blur;
 }
 
 footer fieldset>* {
@@ -79,7 +81,22 @@ footer .social-links {
   align-items: center;
 }
 
+.social-links a {
+  backdrop-filter: base.$blur;
+}
+
 .social-links svg {
   width: 80px;
   fill: base.$white;
+}
+
+footer .circle {
+  position: absolute;
+  top: 10%;
+  left: -25%;
+  width: calc(250px + 60vw);
+  height: calc(250px + 60vw);
+  background: base.$secondary-color;
+  border-radius: 100%;
+  z-index: -1;
 }

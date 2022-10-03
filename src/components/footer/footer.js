@@ -41,6 +41,7 @@ class Footer extends React.Component {
             <TikTok />
           </a>
         </div>
+        <div className="circle"></div>
        </footer>
        </>
     );
