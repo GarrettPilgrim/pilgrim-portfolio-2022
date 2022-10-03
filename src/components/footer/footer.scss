@@ -1,13 +1,14 @@
 @use "../../base.scss";
 
 footer {
-  background: base.$primary-color;
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 footer form {
   max-width: 60ch;
   margin: auto;
+  padding: 3rem 1rem;
+  background: rgba($color: base.$primary-color, $alpha: .8);
 }
 
 footer fieldset>* {
@@ -18,12 +19,26 @@ footer fieldset {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  border: none;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
 }
 
 footer label,
 footer input,
 footer textarea {
   width: 100%;
+  font-family: base.$body-fonts;
+}
+
+footer textarea,
+footer input {
+  color: base.$dark;
+  font-size: 1rem;
 }
 
 footer textarea {
@@ -32,17 +47,21 @@ footer textarea {
 }
 
 footer input {
-  height: 1.6rem;
+  height: 5ch;
   border: none;
+}
+
+footer label {
+  font-size: 1.2rem;
 }
 
 footer button {
   width: 100%;
   padding: 1rem;
-  background: base.$white;
+  background: base.$dark;
   font-family: base.$body-fonts;
   font-size: 1.4rem;
-  color: base.$primary-color;
+  color: base.$white;
   border: none;
   cursor: pointer;
 }
@@ -50,4 +69,17 @@ footer button {
 footer button:hover {
   background: base.$secondary-color;
   color: base.$white;
+}
+
+footer .social-links {
+  max-width: 60ch;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-links svg {
+  width: 80px;
+  fill: base.$white;
 }
