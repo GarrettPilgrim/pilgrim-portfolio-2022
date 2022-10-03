@@ -2,4 +2,52 @@
 
 footer {
   background: base.$primary-color;
+  padding: 5rem 0;
+}
+
+footer form {
+  max-width: 60ch;
+  margin: auto;
+}
+
+footer fieldset>* {
+  margin-top: 1rem;
+}
+
+footer fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+footer label,
+footer input,
+footer textarea {
+  width: 100%;
+}
+
+footer textarea {
+  height: 15ch;
+  resize: vertical;
+}
+
+footer input {
+  height: 1.6rem;
+  border: none;
+}
+
+footer button {
+  width: 100%;
+  padding: 1rem;
+  background: base.$white;
+  font-family: base.$body-fonts;
+  font-size: 1.4rem;
+  color: base.$primary-color;
+  border: none;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background: base.$secondary-color;
+  color: base.$white;
 }

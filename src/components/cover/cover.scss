@@ -4,16 +4,13 @@ body {
   overflow-x: hidden;
 }
 
-* {
-  color: base.$white;
-}
-
 .cover-frame {
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: 10px 3fr 2fr 10px;
   border-bottom: 5px solid base.$tert-color;
+  color: base.$white;
 }
 
 .cover-frame>div {
@@ -22,9 +19,6 @@ body {
 
 h1 {
   position: relative;
-  font-size: calc(2.6rem + 6vw);
-  line-height: calc(3rem + 5vw);
-  margin: 0;
   text-shadow: 10px 10px 15px base.$dark;
 }
 

@@ -24,8 +24,8 @@ class Footer extends React.Component {
             <label for="info">How can I help you?
               <textarea id="info" name="info"></textarea>
             </label>
+            <button type="submit">Submit</button>
           </fieldset>
-          <button type="submit">Submit</button>
         </form>
        </footer>
        </>

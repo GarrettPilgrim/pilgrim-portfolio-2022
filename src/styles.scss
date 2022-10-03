@@ -12,12 +12,14 @@ body {
   margin: 0;
   font-size: 20px;
   background: base.$dark;
+  color: base.$white;
 }
 
 p,
 span,
 a,
-li {
+li,
+form {
   font-family: base.$body-fonts;
 }
 
@@ -33,4 +35,10 @@ h2,
 h3,
 h4 {
   font-family: base.$header-fonts;
+}
+
+h1 {
+  font-size: calc(2.6rem + 6vw);
+  line-height: calc(3rem + 5vw);
+  margin: 0;
 }
