@@ -3,6 +3,8 @@
 footer {
   position: relative;
   padding: 4rem 0;
+  max-height: auto;
+  overflow: hidden;
 }
 
 footer form {
@@ -41,6 +43,7 @@ footer textarea,
 footer input {
   color: base.$dark;
   font-size: 1rem;
+  padding: .5rem;
 }
 
 footer textarea {
@@ -83,11 +86,16 @@ footer .social-links {
 
 .social-links a {
   backdrop-filter: base.$blur;
+  border-radius: 15px;
 }
 
 .social-links svg {
   width: 80px;
   fill: base.$white;
+}
+
+.social-links svg:hover {
+  fill: base.$primary-color;
 }
 
 footer .circle {

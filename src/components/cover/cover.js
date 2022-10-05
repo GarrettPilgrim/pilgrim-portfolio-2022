@@ -9,7 +9,7 @@ class Cover extends React.Component {
 
   render() {
     return (
-      <div className="cover-frame">
+      <header className="cover-frame">
         <div className="first-column">
           <h1>Garrett Pilgrim</h1>
           <span>Developer and Designer</span>
@@ -18,7 +18,7 @@ class Cover extends React.Component {
           <img src={headshot}></img>
           <div className="circle"></div>
         </div>
-      </div>
+      </header>
     )
   }
 }
