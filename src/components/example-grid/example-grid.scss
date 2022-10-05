@@ -1,0 +1,31 @@
+@use '../../base.scss';
+
+.example-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.example-grid-item {
+  display: grid;
+  background: blue;
+}
+
+.example-grid-item img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  justify-self: stretch;
+  object-fit: cover;
+}
+
+.example-grid-item h2 {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  align-self: center;
+  justify-self: center;
+}
+
+@media (max-width: base.$mobile-size) {
+  .example-grid {
+    grid-template-columns: 1fr;
+  }
+}

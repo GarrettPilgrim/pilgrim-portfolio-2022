@@ -1,10 +1,12 @@
 import React from "react";
+import Grid from "../components/example-grid/example-grid";
 
 class Dev extends React.Component {
   render() {
     return (
       <>
-        <h1>Dev Page</h1>
+        <h1>Development</h1>
+        <Grid />
       </>
     );
   }

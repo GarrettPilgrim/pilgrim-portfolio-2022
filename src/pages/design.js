@@ -4,7 +4,7 @@ class Design extends React.Component {
   render() {
     return (
       <>
-        <h1>Design Page</h1>
+        <h1>Design</h1>
       </>
     );
   }
