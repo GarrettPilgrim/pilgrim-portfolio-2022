@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as Logo } from '../../images/logos/personal-logo.svg';
+import { ReactComponent as Logo } from '../../images/logos/personal-logo-square.svg';
 import Burger from "../burger/burger";
 import "./header.scss";
 
