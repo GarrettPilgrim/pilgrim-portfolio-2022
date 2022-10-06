@@ -1,9 +1,5 @@
 @use '../../base';
 
-.mobile-transition {
-  transition: 300ms ease-in-out;
-}
-
 .burger-container {
   position: absolute;
   top: .6rem;
@@ -32,6 +28,7 @@
   background: rgba($color: base.$white, $alpha: .8);
   backdrop-filter: base.$blur;
   transform-origin: left;
+  transition: 300ms ease-in-out;
 }
 
 .burger-container:hover .burger {
