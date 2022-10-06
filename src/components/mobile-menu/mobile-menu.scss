@@ -5,6 +5,7 @@
   height: 100vh;
   background: rgba($color: base.$dark, $alpha: .8);
   backdrop-filter: base.$blur;
+  z-index: 10;
 }
 
 .mobile-menu {
@@ -12,7 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
-  padding: 0;
+  padding: 80px 0 0 0;
   transition: 200ms ease-in-out;
 }
 
