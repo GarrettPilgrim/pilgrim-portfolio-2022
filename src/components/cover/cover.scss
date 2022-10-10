@@ -17,9 +17,10 @@ body {
   align-self: flex-end;
 }
 
-h1 {
+header h1 {
   position: relative;
   text-shadow: 10px 10px 15px base.$dark;
+  margin: 0 0 0 1rem;
 }
 
 span {
