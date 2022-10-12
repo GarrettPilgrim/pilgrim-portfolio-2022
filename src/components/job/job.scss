@@ -1,6 +1,9 @@
 @use "../../base.scss";
 
 .job {
+  max-width: fit-content;
+  margin: auto;
+  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
@@ -12,4 +15,10 @@
 
 .job-text {
   max-width: 90ch;
+}
+
+@media (max-width: base.$mobile-size) {
+  .job {
+    grid-template-columns: 1fr;
+  }
 }
