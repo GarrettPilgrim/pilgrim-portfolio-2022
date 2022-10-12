@@ -24,8 +24,6 @@ form {
 }
 
 p {
-  max-width: 60ch;
-  margin: auto;
   line-height: 1.6rem;
   margin-bottom: 2rem;
 }
@@ -41,6 +39,11 @@ h1 {
   font-size: calc(2.6rem + 6vw);
   line-height: calc(3rem + 5vw);
   margin: 5rem 1rem 1rem 1rem;
+}
+
+h2 {
+  font-size: calc(1.2rem + 1vw);
+  line-height: calc(1.4rem + 1vw);
 }
 
 img {

@@ -17,11 +17,16 @@
   object-fit: cover;
 }
 
-.example-grid-item h2 {
+.example-grid-item div {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  align-self: center;
-  justify-self: center;
+  align-self: flex-end;
+  margin: 1rem;
+}
+
+.example-grid-item span {
+  font-size: .6em;
+  margin: 0;
 }
 
 @media (max-width: base.$mobile-size) {
