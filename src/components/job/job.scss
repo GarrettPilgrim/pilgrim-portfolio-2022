@@ -1,0 +1,15 @@
+@use "../../base.scss";
+
+.job {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.job img {
+  justify-self: center;
+}
+
+.job-text {
+  max-width: 90ch;
+}
