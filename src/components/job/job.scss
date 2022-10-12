@@ -17,6 +17,20 @@
   max-width: 90ch;
 }
 
+.job-text>* {
+  margin: 0;
+}
+
+.job-text span {
+  font-size: .6em;
+}
+
+.job-text p {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: .2rem solid white;
+}
+
 @media (max-width: base.$mobile-size) {
   .job {
     grid-template-columns: 1fr;

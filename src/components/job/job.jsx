@@ -8,8 +8,10 @@ class Job extends React.Component {
         <div className="job">
           <img src="https://udeany.files.wordpress.com/2022/01/flowerasset-4udeanylogo.png?w=98&h=40" />
           <div className="job-text">
-            <h3>{this.props.title}</h3>
-            <h4>{this.props.company}</h4>
+            <h3>
+              {this.props.title} <br />
+              <span>{this.props.company}</span>
+            </h3>
             <p>{this.props.description}</p>
           </div>
         </div>

@@ -64,6 +64,37 @@ const jobs = {
   },
 }
 
+const edu = {
+  Grad: {
+    degree: "MA",
+    major: "Visual Media",
+    year: 2020,
+    gpa: 3.96,
+    classes: [
+      "Analytics and Evalutation",
+      "Information Design",
+      "Interactive Graphic Design",
+      "Pixar in a Box",
+      "Visual Media Research",
+      "Web Publishing: HTML, CSS, JS",
+    ],
+  },
+  Undergrad: {
+    degree: "BA",
+    major: "Advertising",
+    minor: "Marketing",
+    year: 2018,
+    gpa: 3.98,
+    classes: [
+      "Advanced Visual Media",
+      "Branding and Strategic Media",
+      "Consumer Behavior",
+      "Creative Strategies",
+      "Logic and Psychology",
+    ],
+  }
+}
+
 const dev = {
   PilgrimWedding: {
     site: "Pilgrimwedding.com",
@@ -88,7 +119,7 @@ const design = {
 }
 
 const motion = {
-  
+
 }
 
-export { jobs, dev };
+export { jobs, edu, dev };
