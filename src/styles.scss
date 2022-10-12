@@ -36,17 +36,21 @@ h4 {
 }
 
 h1 {
-  font-size: calc(2.6rem + 6vw);
-  line-height: calc(3rem + 5vw);
-  margin: 5rem 1rem 1rem 1rem;
+  font-size: calc(2rem + 8vw);
+  line-height: calc(4rem + 8vw);
+  margin: 4rem 1rem 1rem 1rem;
 }
 
 h2 {
-  font-size: calc(1.2rem + 1vw);
+  font-size: calc(1rem + 1vw);
   line-height: calc(1.4rem + 1vw);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+a {
+  transition: 400ms ease-in-out;
 }

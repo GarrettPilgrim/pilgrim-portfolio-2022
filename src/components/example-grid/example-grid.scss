@@ -7,7 +7,13 @@
 
 .example-grid-item {
   display: grid;
-  background: blue;
+  background: base.$primary-color;
+  color: base.$white;
+  text-decoration: none;
+}
+
+.example-grid-item:hover {
+  background: base.$tert-color;
 }
 
 .example-grid-item img {

@@ -88,7 +88,7 @@ const design = {
 }
 
 const motion = {
-
+  
 }
 
 export { jobs, dev };
