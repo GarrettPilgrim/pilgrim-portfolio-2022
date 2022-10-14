@@ -3,7 +3,7 @@
 .job {
   max-width: fit-content;
   margin: auto;
-  padding: 1rem;
+  padding: .5rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
@@ -25,10 +25,16 @@
   font-size: .6em;
 }
 
-.job-text p {
+.job-text div {
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: .2rem solid white;
+}
+
+.job-text div p,
+.job-text h4 {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 @media (max-width: base.$mobile-size) {

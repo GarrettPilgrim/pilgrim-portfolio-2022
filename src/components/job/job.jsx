@@ -12,7 +12,7 @@ class Job extends React.Component {
               {this.props.title} <br />
               <span>{this.props.company}</span>
             </h3>
-            <p>{this.props.description}</p>
+            {this.props.description}
           </div>
         </div>
       </>
