@@ -22,6 +22,7 @@ nav ul a {
   margin-right: calc(.6rem + 1vw);
   background: rgba($color: base.$primary-color, $alpha: .8);
   backdrop-filter: base.$blur;
+  box-shadow: base.$drop-shadow;
   color: base.$white;
   text-decoration: none;
   cursor: pointer;

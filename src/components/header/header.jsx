@@ -5,10 +5,6 @@ import Burger from "../burger/burger";
 import "./header.scss";
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="header-grid">

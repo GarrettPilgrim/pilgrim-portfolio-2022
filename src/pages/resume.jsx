@@ -12,16 +12,29 @@ class Resume extends React.Component {
           title={jobs.Udeany.title}
           company={jobs.Udeany.company}
           description={jobs.Udeany.description}
+          start={jobs.Udeany.start}
+          end={jobs.Udeany.end}
         />
         <Job
           title={jobs.Adjunct.title}
           company={jobs.Adjunct.company}
           description={jobs.Adjunct.description}
+          start={jobs.Adjunct.start}
+          end={jobs.Adjunct.end}
         />
         <Job
           title={jobs.Mayflower.title}
           company={jobs.Mayflower.company}
           description={jobs.Mayflower.description}
+          start={jobs.Mayflower.start}
+          end={jobs.Mayflower.end}
+        />
+        <Job 
+          title={jobs.Graduate.title}
+          company={jobs.Graduate.company}
+          description={jobs.Graduate.description}
+          start={jobs.Graduate.start}
+          end={jobs.Graduate.end}
         />
         <h2>Education</h2>
         <h2>Skills</h2>
