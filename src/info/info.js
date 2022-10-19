@@ -4,6 +4,8 @@ const jobs = {
     company: "Udeany",
     start: "February 2021",
     end: "Present",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>
@@ -30,6 +32,8 @@ const jobs = {
     company: "Mayflower Originals",
     start: "January 2020",
     end: "Present",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>
@@ -37,7 +41,10 @@ const jobs = {
           morphed into my personal publishing and production brand for books and
           eventually for animated shorts.
         </p>
-        <p></p>
+        <p>
+          I developed websites, designed physical products such as clothing and books,
+          and run marketing campaigns including social media and Google Ads.
+        </p>
       </div>
     ),
   },
@@ -46,6 +53,8 @@ const jobs = {
     company: "The University of Memphis",
     start: "August 2020",
     end: "Present",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>
@@ -68,11 +77,13 @@ const jobs = {
     company: "The University of Memphis",
     start: "August 2018",
     end: "May 2020",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>
           As a Grad Assistant, I helped professors with classroom instruction,
-          organization, copywriting, grading, and taught courses indepently.
+          organization, copywriting, grading, and taught courses independently.
         </p>
         <h4>Work Areas</h4>
         <ul>
@@ -89,6 +100,8 @@ const jobs = {
     company: "Meeman 901 Strategies",
     start: "August 2017",
     end: "May 2018",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>Some text inside here</p>
@@ -100,6 +113,8 @@ const jobs = {
     company: "Meeman 901 Strategies",
     start: "August 2016",
     end: "August 2017",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>Some text inside here</p>
@@ -111,6 +126,8 @@ const jobs = {
     company: "Signature Advertising",
     start: "June 2017",
     end: "August 2017",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>Some text inside here</p>
@@ -122,6 +139,8 @@ const jobs = {
     company: "Baptist Memorial Health Care",
     start: "June 2016",
     end: "August 2017",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>Some text inside here</p>
@@ -133,6 +152,8 @@ const jobs = {
     company: "City Leadership — Choose901",
     start: "October 2014",
     end: "August 2016",
+    logo: "UofMLogo",
+    alt: "",
     description: (
       <div>
         <p>Some text inside here</p>
@@ -171,6 +192,14 @@ const edu = {
     ],
   },
 };
+
+const skills = {
+
+}
+
+const awards = {
+  
+}
 
 const dev = {
   PilgrimWedding: {
