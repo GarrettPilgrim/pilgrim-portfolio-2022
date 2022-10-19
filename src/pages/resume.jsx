@@ -14,6 +14,8 @@ class Resume extends React.Component {
           description={jobs.Udeany.description}
           start={jobs.Udeany.start}
           end={jobs.Udeany.end}
+          logo={jobs.Udeany.logo}
+          alt={jobs.Udeany.alt}
         />
         <Job
           title={jobs.Adjunct.title}
@@ -21,6 +23,8 @@ class Resume extends React.Component {
           description={jobs.Adjunct.description}
           start={jobs.Adjunct.start}
           end={jobs.Adjunct.end}
+          logo={jobs.Adjunct.logo}
+          alt={jobs.Adjunct.alt}
         />
         <Job
           title={jobs.Mayflower.title}
@@ -28,13 +32,62 @@ class Resume extends React.Component {
           description={jobs.Mayflower.description}
           start={jobs.Mayflower.start}
           end={jobs.Mayflower.end}
+          logo={jobs.Mayflower.logo}
+          alt={jobs.Mayflower.alt}
         />
-        <Job 
+        <Job
           title={jobs.Graduate.title}
           company={jobs.Graduate.company}
           description={jobs.Graduate.description}
           start={jobs.Graduate.start}
           end={jobs.Graduate.end}
+          logo={jobs.Graduate.logo}
+          alt={jobs.Graduate.alt}
+        />
+        <Job
+          title={jobs.Director.title}
+          company={jobs.Director.company}
+          description={jobs.Director.description}
+          start={jobs.Director.start}
+          end={jobs.Director.end}
+          logo={jobs.Director.logo}
+          alt={jobs.Director.alt}
+        />
+        <Job
+          title={jobs.Lead.title}
+          company={jobs.Lead.company}
+          description={jobs.Lead.description}
+          start={jobs.Lead.start}
+          end={jobs.Lead.end}
+          logo={jobs.Lead.logo}
+          alt={jobs.Lead.alt}
+        />
+        <Job
+          title={jobs.Signature.title}
+          company={jobs.Signature.company}
+          description={jobs.Signature.description}
+          start={jobs.Signature.start}
+          end={jobs.Signature.end}
+          logo={jobs.Signature.logo}
+          alt={jobs.Signature.alt}
+        />
+        <Job
+          title={jobs.Baptist.title}
+          company={jobs.Baptist.company}
+          description={jobs.Baptist.description}
+          start={jobs.Baptist.start}
+          end={jobs.Baptist.end}
+          logo={jobs.Baptist.logo}
+          alt={jobs.Baptist.alt}
+        />
+        <Job
+          title={jobs.Choose901.title}
+          company={jobs.Choose901.company}
+          description={jobs.Choose901.description}
+          start={jobs.Choose901.start}
+          end={jobs.Choose901.end}
+          logo={jobs.Choose901.logo}
+          alt={jobs.Choose901.alt}
         />
         <h2>Education</h2>
         <h2>Skills</h2>

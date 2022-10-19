@@ -5,16 +5,18 @@
   margin: auto;
   padding: 1rem 0;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-items: center;
 }
 
 .job img {
-  justify-self: center;
+  max-width: 500px;
+  padding: 1rem;
 }
 
 .job-text {
-  max-width: 70ch;
+  max-width: 80ch;
   background: rgba($color: base.$white, $alpha: .01);
   padding: 2rem;
   box-shadow: base.$drop-shadow;

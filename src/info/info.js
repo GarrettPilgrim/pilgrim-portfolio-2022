@@ -1,10 +1,14 @@
+import UofMLogo from "../images/logos/uofm-logo.png"
+import UdeanyLogo from "../images/logos/udeany-logo.png"
+import Choose901Logo from "../images/logos/choose901-logo.png"
+
 const jobs = {
   Udeany: {
     title: "Marketing and Technology Partner",
     company: "Udeany",
     start: "February 2021",
     end: "Present",
-    logo: "UofMLogo",
+    logo: UdeanyLogo,
     alt: "",
     description: (
       <div>
@@ -53,8 +57,8 @@ const jobs = {
     company: "The University of Memphis",
     start: "August 2020",
     end: "Present",
-    logo: "UofMLogo",
-    alt: "",
+    logo: UofMLogo,
+    alt: "University of Memphis Logo",
     description: (
       <div>
         <p>
@@ -77,7 +81,7 @@ const jobs = {
     company: "The University of Memphis",
     start: "August 2018",
     end: "May 2020",
-    logo: "UofMLogo",
+    logo: UofMLogo,
     alt: "",
     description: (
       <div>
@@ -152,8 +156,8 @@ const jobs = {
     company: "City Leadership — Choose901",
     start: "October 2014",
     end: "August 2016",
-    logo: "UofMLogo",
-    alt: "",
+    logo: Choose901Logo,
+    alt: "Choose901 Logo",
     description: (
       <div>
         <p>Some text inside here</p>
@@ -198,7 +202,7 @@ const skills = {
 }
 
 const awards = {
-  
+
 }
 
 const dev = {
