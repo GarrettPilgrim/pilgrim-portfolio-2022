@@ -239,8 +239,8 @@ const edu = {
     description:
     <div>
       <p>
-        I earned my degree in {major} from the Journalism Department at {university}
-        while working as a Graduate Assistant.
+        I earned my degree in Visual Media from the Journalism Department at the 
+        University of Memphis while working as a Graduate Assistant.
       </p>
       <p>
         The degree emphasized visual study with research into user interaction and 
@@ -300,7 +300,16 @@ const skills = [
 ]
 
 const awards = {
-
+  aejmc: {
+    award: "Top Student Paper Visual Communication",
+    date: "March 2019",
+    from: "AEJMC Southeast Colloquium",
+    description: 
+    <p>
+      My research paper Holy Smokies! Information Design, Humor, and Trail Safety, won top
+      student paper in the Visual Communication division's paper competition at the 44th AEJMC Southeast Colloquium
+    </p>,
+  },
 }
 
 const dev = {
@@ -326,4 +335,4 @@ const design = {};
 
 const motion = {};
 
-export { jobs, edu, dev, skills };
+export { jobs, edu, dev, skills, awards };

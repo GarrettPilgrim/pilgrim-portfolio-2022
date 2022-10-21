@@ -10,6 +10,7 @@ $secondary-color: #bc624e;
 $tert-color: #463239;
 $white: #fcfdff;
 $dark: #151515;
+$transparent-primary: rgba($color: $primary-color, $alpha: .8);
 
 $gradient-one: linear-gradient(135deg, rgba(207, 142, 128, 1) 0%, rgba(49, 133, 252, 1) 100%);
 

@@ -1,0 +1,14 @@
+@use '../../base.scss';
+
+.fancy-list ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.fancy-list ul li {
+  background: base.$transparent-primary;
+}

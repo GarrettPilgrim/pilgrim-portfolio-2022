@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/card/card";
 import GridItem from "../components/example-grid/grid-item/grid-item";
+import FancyList from "../components/fancy-list/fancy-list";
 import Job from "../components/job/job";
 import { jobs, edu, skills } from "../info/info";
 
@@ -58,11 +59,16 @@ class Resume extends React.Component {
         </section>
         <section>
           <h2>Skills</h2>
-          <ul>
-            {getArr(skills)}
-          </ul>
+          <FancyList>
+            <ul>
+              {getArr(skills)}
+            </ul>
+          </FancyList>
         </section>
-        <h2>Awards</h2>
+        <section>
+          <h2>Awards</h2>
+
+        </section>
       </>
     );
   }
