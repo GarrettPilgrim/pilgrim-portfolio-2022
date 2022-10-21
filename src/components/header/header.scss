@@ -20,7 +20,7 @@ nav ul a {
   display: block;
   padding: .6rem 1.6rem;
   margin-right: calc(.6rem + 1vw);
-  background: rgba($color: base.$primary-color, $alpha: .8);
+  background: base.$transparent-primary;
   backdrop-filter: base.$blur;
   box-shadow: base.$drop-shadow;
   color: base.$white;

@@ -1,14 +1,27 @@
 @use '../../base.scss';
 
 .fancy-list ul {
+  max-width: 90%;
+  margin: 1rem auto;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 1rem;
   padding: 0;
   list-style: none;
 }
 
 .fancy-list ul li {
-  background: base.$transparent-primary;
+  min-width: 30%;
+  padding: calc(1rem + 1%) calc(1rem + 2%);
+  box-shadow: base.$drop-shadow;
+  backdrop-filter: base.$blur;
+  font-family: base.$header-fonts;
+  font-size: 1.2rem;
+}
+
+@media (max-width: base.$mobile-size) {
+  .fancy-list ul li {
+    min-width: 40%;
+  }
 }

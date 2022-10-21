@@ -11,7 +11,7 @@ footer form {
   max-width: 60ch;
   margin: auto;
   padding: 3rem 1rem;
-  background: rgba($color: base.$primary-color, $alpha: .8);
+  background: base.$transparent-primary;
   box-shadow: base.$drop-shadow;
   backdrop-filter: base.$blur;
 }
