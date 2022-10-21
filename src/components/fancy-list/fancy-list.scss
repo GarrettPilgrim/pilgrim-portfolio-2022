@@ -18,10 +18,11 @@
   backdrop-filter: base.$blur;
   font-family: base.$header-fonts;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 @media (max-width: base.$mobile-size) {
   .fancy-list ul li {
-    min-width: 40%;
+    min-width: 48%;
   }
 }

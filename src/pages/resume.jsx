@@ -3,7 +3,7 @@ import Card from "../components/card/card";
 import GridItem from "../components/example-grid/grid-item/grid-item";
 import FancyList from "../components/fancy-list/fancy-list";
 import Job from "../components/job/job";
-import { jobs, edu, skills } from "../info/info";
+import { jobs, edu, skills, awards } from "../info/info";
 
 class Resume extends React.Component {
   render() {
@@ -31,6 +31,14 @@ class Resume extends React.Component {
         img={degree.img}
         alt={degree.alt}
       />
+    }
+
+    const getAwards = (i) => {
+      return <li>
+        {i.award} <br />
+        {i.from} <br />
+        {i.date}
+      </li>
     }
 
     const getArr = (Arr) => {
@@ -67,7 +75,14 @@ class Resume extends React.Component {
         </section>
         <section>
           <h2>Awards</h2>
-
+          <FancyList>
+            <ul>
+              {getAwards(awards.aejmc)}
+              {getAwards(awards.adfed)}
+              {getAwards(awards.meeman901)}
+              {getAwards(awards.ron)}
+            </ul>
+          </FancyList>
         </section>
       </>
     );

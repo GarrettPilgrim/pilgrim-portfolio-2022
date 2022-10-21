@@ -310,6 +310,33 @@ const awards = {
       student paper in the Visual Communication division's paper competition at the 44th AEJMC Southeast Colloquium
     </p>,
   },
+  adfed: {
+    award: "Student Chapter President",
+    date: "August 2017 - May 2018",
+    from: "American Advertising Federation",
+    description: 
+    <p>
+
+    </p>,
+  },
+  meeman901: {
+    award: "Meeman 901 Strategies Leadership Award",
+    date: "April 2017",
+    from: "The University of Memphis",
+    description: 
+    <p>
+      
+    </p>,
+  },
+  ron: {
+    award: "Ron Spielberger Advertising Creative Achievement Award",
+    date: "April 2017",
+    from: "The University of Memphis",
+    description: 
+    <p>
+      
+    </p>,
+  },
 }
 
 const dev = {
