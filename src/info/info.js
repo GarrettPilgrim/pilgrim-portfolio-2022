@@ -239,12 +239,13 @@ const edu = {
     description:
     <div>
       <p>
-        At Choose901, I blogged on Memphis area events to promote the good
-        happening in the city as part of a City Leadership initiative.
+        I earned my degree in {major} from the Journalism Department at {university}
+        while working as a Graduate Assistant.
       </p>
       <p>
-        While on the job, took photos, conducted research, wrote SEO focused web copy,
-        and inserted SEO tags.  
+        The degree emphasized visual study with research into user interaction and 
+        experience with media. While working towards graduation, I won Top Student Paper 
+        at the AEJMC Southeast Colloqium for research on user interaction with humor and design.
       </p>
     </div>,
     courses: [
@@ -268,10 +269,6 @@ const edu = {
       <p>
         At Choose901, I blogged on Memphis area events to promote the good
         happening in the city as part of a City Leadership initiative.
-      </p>
-      <p>
-        While on the job, took photos, conducted research, wrote SEO focused web copy,
-        and inserted SEO tags.  
       </p>
   </div>,
     courses: [
