@@ -1,7 +1,8 @@
 import React from "react";
 import Card from "../components/card/card";
+import GridItem from "../components/example-grid/grid-item/grid-item";
 import Job from "../components/job/job";
-import { jobs, edu } from "../info/info";
+import { jobs, edu, skills } from "../info/info";
 
 class Resume extends React.Component {
   render() {
@@ -25,14 +26,14 @@ class Resume extends React.Component {
         university={degree.university}
         year={degree.year}
         description={degree.description}
-        courses={getCourses(degree.courses)}
+        courses={getArr(degree.courses)}
         img={degree.img}
         alt={degree.alt}
       />
     }
 
-    const getCourses = (courseArr) => {
-      return courseArr.map(i => <li>{i}</li>);
+    const getArr = (Arr) => {
+      return Arr.map(i => <li>{i}</li>);
     }
 
     return (
@@ -54,20 +55,13 @@ class Resume extends React.Component {
           <h2>Education</h2>
           {getDegree(edu.Grad)}
           {getDegree(edu.Undergrad)}
-          {/* <Card className="grad">
-            <h3>{edu.Grad.degree} <br />
-              <span>{edu.Grad.major}</span>
-            </h3>
-            <p>{edu.Grad.year}</p>
-          </Card> */}
-          {/* <Card className="undergrad">
-            <h3>{edu.Undergrad.degree} <br />
-              <span>{edu.Undergrad.major}</span>
-            </h3>
-            <p>{edu.Undergrad.year}</p>
-          </Card> */}
         </section>
-        <h2>Skills</h2>
+        <section>
+          <h2>Skills</h2>
+          <ul>
+            {getArr(skills)}
+          </ul>
+        </section>
         <h2>Awards</h2>
       </>
     );

@@ -236,6 +236,17 @@ const edu = {
     university: "The University of Memphis",
     year: 2020,
     gpa: 3.96,
+    description:
+    <div>
+      <p>
+        At Choose901, I blogged on Memphis area events to promote the good
+        happening in the city as part of a City Leadership initiative.
+      </p>
+      <p>
+        While on the job, took photos, conducted research, wrote SEO focused web copy,
+        and inserted SEO tags.  
+      </p>
+    </div>,
     courses: [
       "Analytics and Evalutation",
       "Information Design",
@@ -252,6 +263,17 @@ const edu = {
     university: "The University of Memphis",
     year: 2018,
     gpa: 3.98,
+    description:
+    <div>
+      <p>
+        At Choose901, I blogged on Memphis area events to promote the good
+        happening in the city as part of a City Leadership initiative.
+      </p>
+      <p>
+        While on the job, took photos, conducted research, wrote SEO focused web copy,
+        and inserted SEO tags.  
+      </p>
+  </div>,
     courses: [
       "Advanced Visual Media",
       "Branding and Strategic Media",
@@ -262,9 +284,23 @@ const edu = {
   },
 };
 
-const skills = {
-
-}
+const skills = [
+  "CSS3",
+  "HTML5",
+  "Javascript ES6",
+  "Responsive Design",
+  "React",
+  "SEO",
+  "Teachable",
+  "UI",
+  "UX",
+  "After Effects",
+  "Blender",
+  "Premiere Pro",
+  "Video Production",
+  "Photoshop",
+  "Illustrator",
+]
 
 const awards = {
 
@@ -293,4 +329,4 @@ const design = {};
 
 const motion = {};
 
-export { jobs, edu, dev };
+export { jobs, edu, dev, skills };

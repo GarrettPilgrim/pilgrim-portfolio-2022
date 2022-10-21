@@ -31,7 +31,8 @@ p {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: base.$header-fonts;
   margin: 1em .5rem 0 .5rem;
 }
@@ -45,6 +46,7 @@ h1 {
 h2 {
   font-size: clamp(2em, 5vw, 4em);
   line-height: 100%;
+  text-align: center;
 }
 
 h3 {

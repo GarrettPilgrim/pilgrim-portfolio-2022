@@ -6,9 +6,6 @@ class Card extends React.Component {
     return (
       <>
         <div className="card">
-          <div className="card-img">
-            <img src={this.props.img} alt={this.props.alt} />
-          </div>
           <div className="card-text">
             <h3>
               {this.props.degree} <br />
