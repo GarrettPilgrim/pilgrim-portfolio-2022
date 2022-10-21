@@ -231,11 +231,11 @@ const jobs = {
 
 const edu = {
   Grad: {
-    degree: "MA",
+    degree: "Master of Arts",
     major: "Visual Media",
     year: 2020,
     gpa: 3.96,
-    classes: [
+    courses: [
       "Analytics and Evalutation",
       "Information Design",
       "Interactive Graphic Design",
@@ -245,12 +245,12 @@ const edu = {
     ],
   },
   Undergrad: {
-    degree: "BA",
+    degree: "Bachelor of Arts",
     major: "Advertising",
     minor: "Marketing",
     year: 2018,
     gpa: 3.98,
-    classes: [
+    courses: [
       "Advanced Visual Media",
       "Branding and Strategic Media",
       "Consumer Behavior",

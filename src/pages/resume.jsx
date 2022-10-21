@@ -1,95 +1,60 @@
 import React from "react";
 import Job from "../components/job/job";
-import { jobs } from "../info/info";
+import { jobs, edu } from "../info/info";
 
 class Resume extends React.Component {
   render() {
+    const getJobs = (job) => {
+      return <Job
+        title={job.title}
+        company={job.company}
+        description={job.description}
+        start={job.start}
+        end={job.end}
+        logo={job.logo}
+        alt={job.alt}
+      />
+    }
+
+    const getCourses = (courseArr) => {
+      return courseArr.map(i => <li>{i}</li>);
+    }
     return (
       <>
         <h1>Resume</h1>
-        <h2>Jobs</h2>
-        <Job
-          title={jobs.Udeany.title}
-          company={jobs.Udeany.company}
-          description={jobs.Udeany.description}
-          start={jobs.Udeany.start}
-          end={jobs.Udeany.end}
-          logo={jobs.Udeany.logo}
-          alt={jobs.Udeany.alt}
-        />
-        <Job
-          title={jobs.Adjunct.title}
-          company={jobs.Adjunct.company}
-          description={jobs.Adjunct.description}
-          start={jobs.Adjunct.start}
-          end={jobs.Adjunct.end}
-          logo={jobs.Adjunct.logo}
-          alt={jobs.Adjunct.alt}
-        />
-        <Job
-          title={jobs.Mayflower.title}
-          company={jobs.Mayflower.company}
-          description={jobs.Mayflower.description}
-          start={jobs.Mayflower.start}
-          end={jobs.Mayflower.end}
-          logo={jobs.Mayflower.logo}
-          alt={jobs.Mayflower.alt}
-        />
-        <Job
-          title={jobs.Graduate.title}
-          company={jobs.Graduate.company}
-          description={jobs.Graduate.description}
-          start={jobs.Graduate.start}
-          end={jobs.Graduate.end}
-          logo={jobs.Graduate.logo}
-          alt={jobs.Graduate.alt}
-        />
-        <Job
-          title={jobs.Director.title}
-          company={jobs.Director.company}
-          description={jobs.Director.description}
-          start={jobs.Director.start}
-          end={jobs.Director.end}
-          logo={jobs.Director.logo}
-          alt={jobs.Director.alt}
-        />
-        <Job
-          title={jobs.Lead.title}
-          company={jobs.Lead.company}
-          description={jobs.Lead.description}
-          start={jobs.Lead.start}
-          end={jobs.Lead.end}
-          logo={jobs.Lead.logo}
-          alt={jobs.Lead.alt}
-        />
-        <Job
-          title={jobs.Signature.title}
-          company={jobs.Signature.company}
-          description={jobs.Signature.description}
-          start={jobs.Signature.start}
-          end={jobs.Signature.end}
-          logo={jobs.Signature.logo}
-          alt={jobs.Signature.alt}
-        />
-        <Job
-          title={jobs.Baptist.title}
-          company={jobs.Baptist.company}
-          description={jobs.Baptist.description}
-          start={jobs.Baptist.start}
-          end={jobs.Baptist.end}
-          logo={jobs.Baptist.logo}
-          alt={jobs.Baptist.alt}
-        />
-        <Job
-          title={jobs.Choose901.title}
-          company={jobs.Choose901.company}
-          description={jobs.Choose901.description}
-          start={jobs.Choose901.start}
-          end={jobs.Choose901.end}
-          logo={jobs.Choose901.logo}
-          alt={jobs.Choose901.alt}
-        />
-        <h2>Education</h2>
+        <section>
+          <h2>Jobs</h2>
+          {getJobs(jobs.Udeany)}
+          {getJobs(jobs.Adjunct)}
+          {getJobs(jobs.Mayflower)}
+          {getJobs(jobs.Graduate)}
+          {getJobs(jobs.Director)}
+          {getJobs(jobs.Lead)}
+          {getJobs(jobs.Signature)}
+          {getJobs(jobs.Baptist)}
+          {getJobs(jobs.Choose901)}
+        </section>
+        <section>
+          <h2>Education</h2>
+          <div className="grad">
+            <h3>{edu.Grad.degree} <br />
+              <span>{edu.Grad.major}</span>
+            </h3>
+            <p>{edu.Grad.year}</p>
+            <ul>
+              {getCourses(edu.Grad.courses)}
+            </ul>
+          </div>
+          <div className="undergrad">
+            <h3>{edu.Undergrad.degree} <br />
+              <span>{edu.Undergrad.major}</span>
+            </h3>
+            <p>{edu.Undergrad.year}</p>
+            <ul>
+              {getCourses(edu.Undergrad.courses)}
+            </ul>
+          </div>
+        </section>
         <h2>Skills</h2>
         <h2>Awards</h2>
       </>
