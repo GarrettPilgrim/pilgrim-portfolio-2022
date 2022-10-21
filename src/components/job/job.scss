@@ -2,33 +2,44 @@
 
 .job {
   max-width: fit-content;
-  margin: auto;
-  padding: 1rem 0;
+  margin: 2rem auto;
+  padding: 3rem 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(100px, 1fr) 1fr;
+  grid-gap: 2rem;
   align-items: center;
   justify-items: center;
+  background: rgba($color: base.$white, $alpha: .01);
+  box-shadow: base.$drop-shadow;
 }
 
 .job img {
-  max-width: 500px;
+  max-height: 200px;
   padding: 1rem;
 }
 
 .job-text {
   max-width: 80ch;
-  background: rgba($color: base.$white, $alpha: .01);
-  padding: 2rem;
-  box-shadow: base.$drop-shadow;
+  padding: 1rem;
 }
 
 .job-text>* {
   margin: 0;
 }
 
+.job-text h3 {
+  color: base.$primary-color;
+}
+
 .job-text span {
   font-size: .6em;
+  color: base.$white;
 }
+
+.job-text h3 + p {
+  font-size: .8em;
+}
+
 
 .job-text div {
   margin-top: 2rem;

@@ -63,5 +63,10 @@ img {
 }
 
 a {
-  transition: 400ms ease-in-out;
+  color: base.$primary-color;
+  transition: 300ms ease-in-out;
+}
+
+a:hover {
+  color: base.$white;
 }

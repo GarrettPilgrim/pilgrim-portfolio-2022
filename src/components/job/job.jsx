@@ -6,13 +6,15 @@ class Job extends React.Component {
     return (
       <>
         <div className="job">
-          <img src={this.props.logo} alt={this.props.alt} />
+          <div className="job-logo">
+            <img src={this.props.logo} alt={this.props.alt} />
+          </div>
           <div className="job-text">
             <h3>
               {this.props.title} <br />
-              <span>{this.props.company} — </span>
-              <span>{this.props.start} to {this.props.end}</span>
+              <span>{this.props.company}</span>
             </h3>
+            <p>{this.props.start} to {this.props.end}</p>
             {this.props.description}
           </div>
         </div>

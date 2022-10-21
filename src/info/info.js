@@ -1,6 +1,10 @@
 import UofMLogo from "../images/logos/uofm-logo.png"
 import UdeanyLogo from "../images/logos/udeany-logo.png"
 import Choose901Logo from "../images/logos/choose901-logo.png"
+import Baptist from "../images/logos/baptist-logo.png"
+import Meeman from "../images/logos/meeman-901-logo.png"
+import Mayflower from "../images/logos/mayflower-logo.png"
+import Signature from "../images/logos/signature-logo.png"
 
 const jobs = {
   Udeany: {
@@ -36,7 +40,7 @@ const jobs = {
     company: "Mayflower Originals",
     start: "January 2020",
     end: "Present",
-    logo: "UofMLogo",
+    logo: Mayflower,
     alt: "",
     description: (
       <div>
@@ -47,7 +51,7 @@ const jobs = {
         </p>
         <p>
           I developed websites, designed physical products such as clothing and books,
-          and run marketing campaigns including social media and Google Ads.
+          and ran marketing campaigns including social media and Google Ads.
         </p>
       </div>
     ),
@@ -104,11 +108,18 @@ const jobs = {
     company: "Meeman 901 Strategies",
     start: "August 2017",
     end: "May 2018",
-    logo: "UofMLogo",
+    logo: Meeman,
     alt: "",
     description: (
       <div>
-        <p>Some text inside here</p>
+        <p>
+          As Firm Director, I managed Account Leads and ensured delivery of quality service
+          to our clients. 
+        </p>
+        <p>
+          I hosted weekly meetings to ensure clients needs were being met and to strategize 
+          with leads and their teams.
+        </p>
       </div>
     ),
   },
@@ -117,11 +128,27 @@ const jobs = {
     company: "Meeman 901 Strategies",
     start: "August 2016",
     end: "August 2017",
-    logo: "UofMLogo",
+    logo: Meeman,
     alt: "",
     description: (
       <div>
-        <p>Some text inside here</p>
+        <p>
+          As Account Lead I managed clients and collaborated to meet their marketing needs.
+          I worked with two primary clients: Pi Beta Phi and Meeman 901 Strategies itself.
+        </p>
+        <p>
+          With Meeman 901 Strategies, I oversaw the design and development of a new website
+          for the firm. This included guiding the design process, outlining strategic needs,
+          and debugging errors along the way. Additionally, I wrote and edited the site's copy
+          for SEO.
+        </p>
+        <p>
+          With Pi Beta Phi, I lead the creation of
+          a <a href="https://www.meeman901strategies.com/copy-of-fedex-institute-of-technolo">new recruitment video</a> for 
+          the sorority. This included planning and client coordination, production, 
+          post production, and reshoots.
+        </p>
+
       </div>
     ),
   },
@@ -130,11 +157,27 @@ const jobs = {
     company: "Signature Advertising",
     start: "June 2017",
     end: "August 2017",
-    logo: "UofMLogo",
+    logo: Signature,
     alt: "",
     description: (
       <div>
-        <p>Some text inside here</p>
+        <p>
+          While working in Digital Media, I wrote web copy for sales pages,
+          tested an 8-bit video game, and maintained a retro Memphis apparel website.
+        </p>
+        <p>
+          While working in Digital Media, I wrote web copy for sales pages, managed the agency's social media,
+          tested an 8-bit video game, and maintained a retro Memphis apparel website, Mid-South Flair.
+        </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Copy writing and editing</li>
+          <li>Keyword research</li>
+          <li>Product descriptions</li>
+          <li>Social media scheduling</li>
+          <li>Social media strategy</li>
+          <li>Video game testing</li>
+        </ul>
       </div>
     ),
   },
@@ -143,11 +186,24 @@ const jobs = {
     company: "Baptist Memorial Health Care",
     start: "June 2016",
     end: "August 2017",
-    logo: "UofMLogo",
+    logo: Baptist,
     alt: "",
     description: (
       <div>
-        <p>Some text inside here</p>
+        <p>
+          As an intern, I assisted corporate marketing leads in running the strategies and tactics
+          for the entire coverage area including West Tennessee, Northeast Mississippi, 
+          and Eastern Arkansas.
+        </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Collaborating with corporate clients to address marketing needs</li>
+          <li>Editing and writing marketing materials</li>
+          <li>Editing and writing web copy</li>
+          <li>Managing marketing requests via Salesforce to ensure timely delivery</li>
+          <li>Proofing new designs</li>
+          <li>Taking and editing photos for the Art of Caring events</li>
+        </ul>
       </div>
     ),
   },
@@ -160,7 +216,14 @@ const jobs = {
     alt: "Choose901 Logo",
     description: (
       <div>
-        <p>Some text inside here</p>
+        <p>
+          At Choose901, I blogged on Memphis area events to promote the good
+          happening in the city as part of a City Leadership initiative.
+        </p>
+        <p>
+          While on the job, took photos, conducted research, wrote SEO focused web copy,
+          and inserted SEO tags.  
+        </p>
       </div>
     ),
   },
