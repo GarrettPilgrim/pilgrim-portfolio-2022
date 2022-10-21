@@ -1,0 +1,60 @@
+@use "../../base.scss";
+
+.card {
+  max-width: fit-content;
+  margin: 2rem auto;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  background: rgba($color: base.$white, $alpha: .01);
+  box-shadow: base.$drop-shadow;
+}
+
+.card img {
+  max-height: 200px;
+  padding: 1rem;
+}
+
+.card-text {
+  max-width: 80ch;
+  padding: 1rem;
+}
+
+.card-text>* {
+  margin: 0;
+}
+
+.card-text h3 {
+  color: base.$primary-color;
+}
+
+.card-text h4 {
+  font-family: base.$body-fonts;
+  font-size: 1em;
+}
+
+.card-text h3 span {
+  font-family: base.$header-fonts;
+  font-size: .6em;
+  color: base.$white;
+}
+
+.card-text div {
+  margin-top: 2rem;
+  border-top: .2rem solid base.$white;
+}
+
+.card-text div p,
+.card-text h4 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (max-width: base.$mobile-size) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}

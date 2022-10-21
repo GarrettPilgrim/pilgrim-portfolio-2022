@@ -233,6 +233,7 @@ const edu = {
   Grad: {
     degree: "Master of Arts",
     major: "Visual Media",
+    university: "The University of Memphis",
     year: 2020,
     gpa: 3.96,
     courses: [
@@ -248,6 +249,7 @@ const edu = {
     degree: "Bachelor of Arts",
     major: "Advertising",
     minor: "Marketing",
+    university: "The University of Memphis",
     year: 2018,
     gpa: 3.98,
     courses: [
