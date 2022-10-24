@@ -37,6 +37,7 @@
 
 .nested-list-item h3 {
   font-size: clamp(1.2em, 2.5vw, 1.8em);
+  color: base.$primary-color;
 }
 
 @media (max-width: base.$mobile-size) {

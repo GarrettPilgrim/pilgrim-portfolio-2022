@@ -316,7 +316,9 @@ const awards = {
     from: "American Advertising Federation",
     description: 
     <p>
-
+      I was named the Student Chapter President of the American Advertising Federation's 
+      University of Memphis chapter. The award came with the responsibility to manage
+      student AdFed meetings and certifications with the university.
     </p>,
   },
   meeman901: {
@@ -325,7 +327,9 @@ const awards = {
     from: "The University of Memphis",
     description: 
     <p>
-      
+      The Department of Journalism and Strategic Media awarded me the Meeman 901 
+      Strategies Leadership Award for my work managing clients as an Account Lead 
+      with the firm.
     </p>,
   },
   ron: {
@@ -334,7 +338,8 @@ const awards = {
     from: "The University of Memphis",
     description: 
     <p>
-      
+      I earned the Advertising Creative Achievement Award twice for my design, photo, and
+       video work in strategic design courses.
     </p>,
   },
 }
