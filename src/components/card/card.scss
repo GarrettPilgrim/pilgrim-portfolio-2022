@@ -59,3 +59,9 @@
 .card ul {
   margin: 1rem 0;
 }
+
+@media (max-width: base.$mobile-size) {
+  .card {
+    padding: 3rem 0rem;
+  }
+}
