@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../components/card/card";
-import GridItem from "../components/example-grid/grid-item/grid-item";
 import FancyList from "../components/fancy-list/fancy-list";
 import Job from "../components/job/job";
 import { jobs, edu, skills, awards } from "../info/info";
@@ -38,8 +37,8 @@ class Resume extends React.Component {
         <h3>{i.award}</h3>
         <p>
           <em>
-          {i.from} <br />
-          {i.date}
+            {i.from} <br />
+            {i.date}
           </em>
         </p>
         {i.description}
