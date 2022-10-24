@@ -16,6 +16,7 @@ const Motion = lazy(() => import('./pages/motion'));
 const Design = lazy(() => import('./pages/design'));
 const Resume = lazy(() => import('./pages/resume'));
 const About = lazy(() => import('./pages/about'));
+const ClearCaivrs = lazy(() => import('./pages/dev/clearcaivrs'));
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/motion" element={<Motion />}></Route>
           <Route path="/resume" element={<Resume />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route path="/dev/clearcaivrs" element={<ClearCaivrs />}></Route>
         </Routes>
       </Suspense>
       <Footer />

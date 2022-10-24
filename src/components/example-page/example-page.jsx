@@ -10,6 +10,7 @@ class ExamplePage extends React.Component {
     return (
       <>
         <div className="example-page">
+          <h1>{this.props.name}</h1>
           {this.props.children}
         </div>
       </>

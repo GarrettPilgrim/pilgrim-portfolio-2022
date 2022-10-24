@@ -11,9 +11,9 @@ class Dev extends React.Component {
         <Grid>
           <GridItem
             header={dev.Caivrs.name}
-            subheader="two"
-            cover=""
-            link=""
+            subheader="A landing page designed to convince clients to buy the Udeany CAIVRS ecourse."
+            cover={dev.Caivrs.name}
+            link="/dev/clearcaivrs"
           />
           <GridItem
             header={dev.Pslf.name}

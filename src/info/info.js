@@ -350,24 +350,28 @@ const dev = {
     url: "https://pilgrimagewedding.netlify.app/",
     cover: "",
     content: "",
+    link: "",
   },
   Caivrs: {
     name: "ClearCaivrs.com",
     url: "https://clearcaivrs.com/",
     cover: "",
     content: "",
+    link: "",
   },
   Pslf: {
     name: "PSLFWaiver.co",
     url: "https://pslfwaiver.co/",
     cover: "",
     content: "",
+    link: "",
   },
   Teachable: {
     name: "courses.Udeany.com",
     url: "https://courses.udeany.com/",
     cover: "",
     content: "",
+    link: "",
   },
 };
 
@@ -377,24 +381,28 @@ const design = {
     url: "",
     cover: "",
     content: "",
+    link: "",
   },
   Ahsoka: {
     name: "Ahsoka Illustration",
     url: "",
     cover: "",
     content: "",
+    link: "",
   },
   Chulo: {
     name: "Chulo Illustration",
     url: "",
     cover: "",
     content: "",
+    link: "",
   },
   WoodlandHills: {
     name: "Woodland Hills",
     url: "",
     cover: "",
     content: "",
+    link: "",
   },
 };
 
@@ -404,13 +412,15 @@ const motion = {
     url: "",
     cover: "",
     content: "",
+    link: "",
   },
   Donut: {
     name: "Blender 3D Donut",
     url: "",
     cover: "",
     content: "",
+    link: "",
   },
 };
 
-export { jobs, edu, dev, skills, awards };
+export { jobs, edu, dev, skills, awards, design, motion };
