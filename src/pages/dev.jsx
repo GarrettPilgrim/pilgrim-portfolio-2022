@@ -10,21 +10,21 @@ class Dev extends React.Component {
         <h1>Dev</h1>
         <Grid>
           <GridItem
-            header={dev.Caivrs.site}
+            header={dev.Caivrs.name}
             subheader="two"
-            img=""
+            cover=""
             link=""
           />
           <GridItem
-            header={dev.Pslf.site}
+            header={dev.Pslf.name}
             subheader="two"
-            img=""
+            cover=""
             link=""
           />
           <GridItem
-            header={dev.PilgrimWedding.site}
+            header={dev.PilgrimWedding.name}
             subheader="two"
-            img=""
+            cover=""
             link=""
           />
         </Grid>

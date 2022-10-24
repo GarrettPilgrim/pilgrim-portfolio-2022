@@ -346,25 +346,71 @@ const awards = {
 
 const dev = {
   PilgrimWedding: {
-    site: "Pilgrimwedding.com",
+    name: "Pilgrimwedding.com",
     url: "https://pilgrimagewedding.netlify.app/",
+    cover: "",
+    content: "",
   },
   Caivrs: {
-    site: "ClearCaivrs.com",
+    name: "ClearCaivrs.com",
     url: "https://clearcaivrs.com/",
+    cover: "",
+    content: "",
   },
   Pslf: {
-    site: "PSLFWaiver.co",
+    name: "PSLFWaiver.co",
     url: "https://pslfwaiver.co/",
+    cover: "",
+    content: "",
   },
   Teachable: {
-    site: "courses.Udeany.com",
+    name: "courses.Udeany.com",
     url: "https://courses.udeany.com/",
+    cover: "",
+    content: "",
   },
 };
 
-const design = {};
+const design = {
+  Waititi: {
+    name: "Taika Waitit Illustration",
+    url: "",
+    cover: "",
+    content: "",
+  },
+  Ahsoka: {
+    name: "Ahsoka Illustration",
+    url: "",
+    cover: "",
+    content: "",
+  },
+  Chulo: {
+    name: "Chulo Illustration",
+    url: "",
+    cover: "",
+    content: "",
+  },
+  WoodlandHills: {
+    name: "Woodland Hills",
+    url: "",
+    cover: "",
+    content: "",
+  },
+};
 
-const motion = {};
+const motion = {
+  Udeany: {
+    name: "Udeany Motion Graphics",
+    url: "",
+    cover: "",
+    content: "",
+  },
+  Donut: {
+    name: "Blender 3D Donut",
+    url: "",
+    cover: "",
+    content: "",
+  },
+};
 
 export { jobs, edu, dev, skills, awards };
