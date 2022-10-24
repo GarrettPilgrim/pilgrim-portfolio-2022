@@ -34,11 +34,16 @@ class Resume extends React.Component {
     }
 
     const getAwards = (i) => {
-      return <li>
-        {i.award} <br />
-        {i.from} <br />
-        {i.date}
-      </li>
+      return <div className="nested-list-item">
+        <h3>{i.award}</h3>
+        <p>
+          <em>
+          {i.from} <br />
+          {i.date}
+          </em>
+        </p>
+        {i.description}
+      </div>
     }
 
     const getArr = (Arr) => {
@@ -75,13 +80,11 @@ class Resume extends React.Component {
         </section>
         <section>
           <h2>Awards</h2>
-          <FancyList>
-            <ul>
-              {getAwards(awards.aejmc)}
-              {getAwards(awards.adfed)}
-              {getAwards(awards.meeman901)}
-              {getAwards(awards.ron)}
-            </ul>
+          <FancyList listType="nested-list">
+            {getAwards(awards.aejmc)}
+            {getAwards(awards.adfed)}
+            {getAwards(awards.meeman901)}
+            {getAwards(awards.ron)}
           </FancyList>
         </section>
       </>
