@@ -1,1 +1,24 @@
 @use '../../base.scss';
+
+.example-page {}
+
+.example-page-cover {
+  font-size: clamp(3.2em, 10vw, 8em);
+}
+
+.example-page h1 {
+  font-size: .5em;
+  margin: 4rem .5rem 1rem .5rem;
+}
+
+.example-page-text {
+  max-width: 80ch;
+  margin: auto;
+}
+
+.example-page embed {
+  display: block;
+  width: 90%;
+  height: 70vh;
+  margin: 1rem auto;
+}

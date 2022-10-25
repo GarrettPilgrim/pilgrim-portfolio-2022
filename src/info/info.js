@@ -6,6 +6,8 @@ import Meeman from "../images/logos/meeman-901-logo.png"
 import Mayflower from "../images/logos/mayflower-logo.png"
 import Signature from "../images/logos/signature-logo.png"
 
+import Caivrs from "../images/photos/dev/clear-caivrs-site.jpg"
+
 const jobs = {
   Udeany: {
     title: "Marketing and Technology Partner",
@@ -349,13 +351,15 @@ const dev = {
     name: "Pilgrimwedding.com",
     url: "https://pilgrimagewedding.netlify.app/",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
   Caivrs: {
     name: "ClearCaivrs.com",
     url: "https://clearcaivrs.com/",
-    cover: "",
+    cover: Caivrs,
+    alt: "",
     content: "",
     link: "",
   },
@@ -363,6 +367,7 @@ const dev = {
     name: "PSLFWaiver.co",
     url: "https://pslfwaiver.co/",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
@@ -370,6 +375,7 @@ const dev = {
     name: "courses.Udeany.com",
     url: "https://courses.udeany.com/",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
@@ -380,6 +386,7 @@ const design = {
     name: "Taika Waitit Illustration",
     url: "",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
@@ -387,6 +394,7 @@ const design = {
     name: "Ahsoka Illustration",
     url: "",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
@@ -394,6 +402,7 @@ const design = {
     name: "Chulo Illustration",
     url: "",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
@@ -401,6 +410,7 @@ const design = {
     name: "Woodland Hills",
     url: "",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
@@ -411,6 +421,7 @@ const motion = {
     name: "Udeany Motion Graphics",
     url: "",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
@@ -418,6 +429,7 @@ const motion = {
     name: "Blender 3D Donut",
     url: "",
     cover: "",
+    alt: "",
     content: "",
     link: "",
   },
