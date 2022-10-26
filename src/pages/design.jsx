@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "../components/example-grid/example-grid";
-import GridItem from "../components/example-grid/grid-item/grid-item";
+import { design, getGridItems } from "../info/info";
 
 class Design extends React.Component {
   render() {
@@ -8,10 +8,10 @@ class Design extends React.Component {
       <>
         <h1>Design</h1>
         <Grid>
-          <GridItem />
-          <GridItem />
-          <GridItem />
-          <GridItem />
+          {getGridItems(design.Waititi)}
+          {getGridItems(design.Ahsoka)}
+          {getGridItems(design.Chulo)}
+          {getGridItems(design.WoodlandHills)}
         </Grid>
       </>
     );

@@ -6,9 +6,7 @@ class TaikaWaititi extends React.Component {
   render() {
     return (
       <>
-        <ExamplePage
-          name="Hello There"
-        />
+        <ExamplePage name="Hello There" />
       </>
     );
   }

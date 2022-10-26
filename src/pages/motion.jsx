@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "../components/example-grid/example-grid";
-import GridItem from "../components/example-grid/grid-item/grid-item";
+import { motion, getGridItems } from "../info/info";
 
 class Motion extends React.Component {
   render() {
@@ -8,10 +8,8 @@ class Motion extends React.Component {
       <>
         <h1>Motion</h1>
         <Grid>
-          <GridItem />
-          <GridItem />
-          <GridItem />
-          <GridItem />
+          {getGridItems(motion.Donut)}
+          {getGridItems(motion.Udeany)}
         </Grid>
       </>
     );

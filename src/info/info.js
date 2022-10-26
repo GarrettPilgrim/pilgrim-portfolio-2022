@@ -1,4 +1,5 @@
 import React from "react";
+import GridItem from "../components/example-grid/grid-item/grid-item";
 
 // LOGO IMPORTS
 import { ReactComponent as UofMLogo } from "../images/logos/uofm-logo.svg";
@@ -9,8 +10,20 @@ import { ReactComponent as Meeman } from "../images/logos/meeman901-logo.svg";
 import { ReactComponent as Mayflower } from "../images/logos/mayflower-logo.svg";
 import { ReactComponent as Signature } from "../images/logos/signature-logo.svg";
 
-// COVRE IMAGE IMPORTS
+// COVER IMAGE IMPORTS
 import Caivrs from "../images/photos/dev/clear-caivrs-site.jpg";
+
+// FUNCTIONS
+const getGridItems = (item) => {
+  return (
+    <GridItem
+      header={item.name}
+      subheader={item.subheader}
+      cover={item.cover}
+      link={item.link}
+    />
+  );
+};
 
 const jobs = {
   Udeany: {
@@ -367,7 +380,7 @@ const dev = {
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/dev/pilgrimwedding",
   },
   Caivrs: {
     name: "ClearCaivrs.com",
@@ -386,7 +399,7 @@ const dev = {
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/dev/pslfwaiver",
   },
   Teachable: {
     name: "courses.Udeany.com",
@@ -395,19 +408,19 @@ const dev = {
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/dev/teachable",
   },
 };
 
 const design = {
   Waititi: {
-    name: "Taika Waitit Illustration",
+    name: "Taika Waititi Illustration",
     url: "",
     subheader: "",
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/design/taikawaititi",
   },
   Ahsoka: {
     name: "Ahsoka Illustration",
@@ -416,7 +429,7 @@ const design = {
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/design/ahsokatano",
   },
   Chulo: {
     name: "Chulo Illustration",
@@ -425,7 +438,7 @@ const design = {
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/design/chulo",
   },
   WoodlandHills: {
     name: "Woodland Hills",
@@ -459,4 +472,4 @@ const motion = {
   },
 };
 
-export { jobs, edu, dev, skills, awards, design, motion };
+export { jobs, edu, dev, skills, awards, design, motion, getGridItems };

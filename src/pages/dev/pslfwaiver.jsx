@@ -6,9 +6,7 @@ class PSLFWaiver extends React.Component {
   render() {
     return (
       <>
-        <ExamplePage
-          name="Hello There"
-        />
+        <ExamplePage name="PSLF Waiver" />
       </>
     );
   }
