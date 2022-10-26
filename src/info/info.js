@@ -363,6 +363,7 @@ const dev = {
   PilgrimWedding: {
     name: "Pilgrimwedding.com",
     url: "https://pilgrimagewedding.netlify.app/",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -371,14 +372,17 @@ const dev = {
   Caivrs: {
     name: "ClearCaivrs.com",
     url: "https://clearcaivrs.com/",
+    subheader:
+      "A landing page designed to convince clients to buy the Udeany CAIVRS ecourse.",
     cover: Caivrs,
     alt: "A screenshot of the ClearCAIVRS landing page",
     content: "",
-    link: "",
+    link: "/dev/clearcaivrs",
   },
   Pslf: {
     name: "PSLFWaiver.co",
     url: "https://pslfwaiver.co/",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -387,6 +391,7 @@ const dev = {
   Teachable: {
     name: "courses.Udeany.com",
     url: "https://courses.udeany.com/",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -398,6 +403,7 @@ const design = {
   Waititi: {
     name: "Taika Waitit Illustration",
     url: "",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -406,6 +412,7 @@ const design = {
   Ahsoka: {
     name: "Ahsoka Illustration",
     url: "",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -414,6 +421,7 @@ const design = {
   Chulo: {
     name: "Chulo Illustration",
     url: "",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -422,6 +430,7 @@ const design = {
   WoodlandHills: {
     name: "Woodland Hills",
     url: "",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -433,6 +442,7 @@ const motion = {
   Udeany: {
     name: "Udeany Motion Graphics",
     url: "",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",
@@ -441,6 +451,7 @@ const motion = {
   Donut: {
     name: "Blender 3D Donut",
     url: "",
+    subheader: "",
     cover: "",
     alt: "",
     content: "",

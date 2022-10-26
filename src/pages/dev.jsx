@@ -5,28 +5,25 @@ import { dev } from "../info/info";
 
 class Dev extends React.Component {
   render() {
+    const getGridItems = (item) => {
+      return (
+        <GridItem
+          header={item.name}
+          subheader={item.subheader}
+          cover={item.cover}
+          link={item.link}
+        />
+      );
+    };
+
     return (
       <>
         <h1>Dev</h1>
         <Grid>
-          <GridItem
-            header={dev.Caivrs.name}
-            subheader="A landing page designed to convince clients to buy the Udeany CAIVRS ecourse."
-            cover={dev.Caivrs.name}
-            link="/dev/clearcaivrs"
-          />
-          <GridItem
-            header={dev.Pslf.name}
-            subheader="two"
-            cover=""
-            link=""
-          />
-          <GridItem
-            header={dev.PilgrimWedding.name}
-            subheader="two"
-            cover=""
-            link=""
-          />
+          {getGridItems(dev.Caivrs)}
+          {getGridItems(dev.Pslf)}
+          {getGridItems(dev.Teachable)}
+          {getGridItems(dev.PilgrimWedding)}
         </Grid>
       </>
     );

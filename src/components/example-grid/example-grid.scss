@@ -13,22 +13,33 @@
   text-decoration: none;
 }
 
-.example-grid-item:hover {
-  background: base.$tert-color;
-}
-
 .example-grid-item img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  justify-self: stretch;
+  // justify-self: stretch;
   object-fit: cover;
+  filter: blur(3px);
 }
 
-.example-grid-item div {
+.example-grid-item a {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  align-self: flex-end;
-  margin: 1rem;
+  align-self: center;
+  padding: 3rem 1rem;
+  position: relative;
+  color: base.$white;
+  text-decoration: none;
+  background: base.$transparent-dark;
+  box-shadow: base.$drop-shadow;
+  backdrop-filter: base.$blur;
+}
+
+.example-grid-item a:hover {
+  background: base.$transparent-primary;
+}
+
+.example-grid-item a h2 {
+  margin-top: 0;
 }
 
 .example-grid-item span {
