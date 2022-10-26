@@ -81,6 +81,7 @@ footer .social-links {
   max-width: 60ch;
   margin: 4rem auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -88,6 +89,7 @@ footer .social-links {
 .social-links a {
   backdrop-filter: base.$blur;
   border-radius: 15px;
+  margin: 1rem 1.4rem;
 }
 
 .social-links svg {

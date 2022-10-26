@@ -10,6 +10,7 @@ class ClearCaivrs extends React.Component {
           name={dev.Caivrs.name}
           url={dev.Caivrs.url}
           img={dev.Caivrs.cover}
+          alt={dev.Caivrs.alt}
         >
           <h2>The Problem</h2>
           <p>

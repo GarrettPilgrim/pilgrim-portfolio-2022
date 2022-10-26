@@ -372,7 +372,7 @@ const dev = {
     name: "ClearCaivrs.com",
     url: "https://clearcaivrs.com/",
     cover: Caivrs,
-    alt: "",
+    alt: "A screenshot of the ClearCAIVRS landing page",
     content: "",
     link: "",
   },

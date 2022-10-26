@@ -8,7 +8,7 @@ class ExamplePage extends React.Component {
         <div className="example-page">
           <div className="example-page-cover">
             <h1>{this.props.name}</h1>
-            <img src={this.props.img} alt="" />
+            <img src={this.props.img} alt={this.props.alt} />
           </div>
           <div className="example-page-text">{this.props.children}</div>
           <embed src={this.props.url}></embed>
