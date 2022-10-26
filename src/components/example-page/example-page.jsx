@@ -11,7 +11,14 @@ class ExamplePage extends React.Component {
             <img src={this.props.img} alt={this.props.alt} />
           </div>
           <div className="example-page-text">{this.props.children}</div>
-          <embed src={this.props.url}></embed>
+          <div className="embed">
+            <embed src={this.props.url}></embed>
+          </div>
+          <div className="example-page-link">
+            <a href={this.props.url} target="_blank" rel="noreferrer">
+              Visit the Site
+            </a>
+          </div>
         </div>
       </>
     );

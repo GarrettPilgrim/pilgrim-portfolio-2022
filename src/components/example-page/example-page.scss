@@ -1,7 +1,5 @@
 @use '../../base.scss';
 
-.example-page {}
-
 .example-page-cover {
   font-size: clamp(3.2em, 10vw, 8em);
 }
@@ -16,9 +14,31 @@
   margin: auto;
 }
 
-.example-page embed {
-  display: block;
+.embed {
   width: 90%;
   height: 70vh;
   margin: 1rem auto;
+}
+
+.example-page embed {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.example-page-link {
+  display: flex;
+  justify-content: center;
+}
+
+.example-page a {
+  padding: 1.2rem 3.2rem;
+  background: base.$primary-color;
+  color: base.$white;
+  text-decoration: none;
+}
+
+.example-page a:hover {
+  background: base.$white;
+  color: base.$primary-color;
 }
