@@ -7,7 +7,7 @@ class Job extends React.Component {
       <>
         <div className="job">
           <div className="job-logo">
-            <img src={this.props.logo} alt={this.props.alt} />
+            {this.props.logo}
           </div>
           <div className="job-text">
             <h3>

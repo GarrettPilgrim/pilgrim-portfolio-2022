@@ -13,9 +13,10 @@
   box-shadow: base.$drop-shadow;
 }
 
-.job img {
-  max-height: 200px;
+.job svg {
+  width: 100%;
   padding: 1rem;
+  fill: base.$white;
 }
 
 .job-text {
