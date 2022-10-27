@@ -19,33 +19,33 @@ class ClearCaivrs extends React.Component {
             Alert Verification Reporting System so they can buy a house.
           </p>
           <p>
-            When a potential client is listed on CAIVRS, lenders are not
-            allowed, by law, to approve them for a mortgage. Udeany's main area
-            of expertise is helping people get off of CAIVRS fast.
+            When a potential client shows up on CAIVRS, lenders are not allowed,
+            by law, to approve them for a mortgage. Udeany's student loan
+            expertise is in helping people remove CAIVRS fast.
           </p>
           <p>
-            Most leads would not buy the course on their own, needed to be
+            Most leads would not buy the course on their own, would need to be
             convinced on the phone to purchase the course, and would potentially
-            still not purchase which caused many hours of work to be lost.
+            still not purchase, which caused many hours of work to be lost.
           </p>
 
           <h2>The Strategy</h2>
           <p>
             Because Udeany is a small business, the company needed a way to
             limit the amount of time spent on phone calls convincing leads to
-            sign up. The site is designed to save the company time and act as a
+            sign up. The site needed to save the company time and act as a
             landing page for a Google Ads campaign.
           </p>
           <p>
             The site funnels users to one of two actions: The ecourse page for
-            purchase or a contact form with an automateed email system.
+            purchase or a contact form with an automated email system.
           </p>
           <p>
-            Udeany's president wanted to ensure there was a means of contact in
-            case site visitors were still not convinced to buy on their own,
-            which is why the contact form was essential. The automated email
-            response within the CRM mitigated time waste while the site
-            primarily pushes users to the ecourse.
+            Udeany's president wanted to ensure a means of contact in case site
+            visitors were still not convinced to buy on their own, which is why
+            the contact form was essential. The automated email response within
+            the CRM mitigated wasted time while the site primarily pushes users
+            to the ecourse.
           </p>
 
           <h2>The Solution</h2>
@@ -56,10 +56,11 @@ class ClearCaivrs extends React.Component {
             urgency.
           </p>
           <p>
-            The tight deadline (less than 2 weeks), led me to use
-            Wordpress.com's builder starting with a blank template as a low-code
-            solution alongside the already integrated Jotform to build a form
-            that links to the CRM for lead management and email automation.
+            The tight deadline (less than two weeks) led me to use
+            Wordpress.com's builder, starting with a blank template as a
+            low-code solution alongside the already integrated Jotform to build
+            a form that links to the CRM for lead management and email
+            automation.
           </p>
           <h3>Skills and Programs</h3>
           <ul>
@@ -76,19 +77,15 @@ class ClearCaivrs extends React.Component {
           <h2>The Results</h2>
           <p>
             After launch, sales increased by 50% from April to May 2022. They
-            increase a further 12.5% in June and set a new company record for
-            the month.
-          </p>
-          <p>
-            Additionally, the site reached the first page on Google search
-            within a month of launch.
+            improved a further 12.5% in June and set a new company record for
+            the month. Additionally, the site reached the first page of Google
+            search within a month of launch.
           </p>
           <p>
             However, after the sales boost, temporary changes from the federal
-            government removed everyone from the CAIVRS list which ceased the
+            government removed everyone from the CAIVRS list, which ceased the
             demand.
           </p>
-          <h2>Browse the site</h2>
         </ExamplePage>
       </>
     );

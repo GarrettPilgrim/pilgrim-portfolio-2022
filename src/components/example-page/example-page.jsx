@@ -5,19 +5,22 @@ class ExamplePage extends React.Component {
   render() {
     const returnURL = (url) => {
       if (url !== undefined) {
-        return <>
-          <div className="embed">
+        return (
+          <>
+            <h2>Browse the site</h2>
+            <div className="embed">
               <embed src={this.props.url}></embed>
             </div>
             <div className="example-page-link">
               <a href={this.props.url} target="_blank" rel="noreferrer">
                 Visit the Site
               </a>
-          </div>
-        </>
+            </div>
+          </>
+        );
       }
       return "";
-    }
+    };
 
     return (
       <>
