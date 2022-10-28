@@ -69,3 +69,8 @@ a {
 a:hover {
   color: base.$white;
 }
+
+.centered-text {
+  max-width: 80ch;
+  margin: 0 auto 5rem auto;
+}
