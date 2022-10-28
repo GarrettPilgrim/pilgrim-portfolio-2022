@@ -8,6 +8,7 @@
 
 .example-grid-item {
   display: grid;
+  align-items: center;
   background: base.$primary-color;
   color: base.$white;
   text-decoration: none;
@@ -16,15 +17,13 @@
 .example-grid-item img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  // justify-self: stretch;
-  object-fit: cover;
-  filter: blur(3px);
+  width: 100%;
+  position: relative;
 }
 
 .example-grid-item a {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  align-self: center;
   padding: 3rem 1rem;
   position: relative;
   color: base.$white;

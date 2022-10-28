@@ -50,6 +50,16 @@ const jobs = {
           increased sales by 50% from April to May and a further 12.5% from May
           to June setting a company sales record.
         </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Ecourse Development</li>
+          <li>Email Marketing</li>
+          <li>Motion Graphics</li>
+          <li>Video Production</li>
+          <li>Web Design</li>
+          <li>Web Development</li>
+          <li>Zoho CRM</li>
+        </ul>
       </div>
     ),
   },
@@ -71,6 +81,17 @@ const jobs = {
           books, and ran marketing campaigns including social media and Google
           Ads.
         </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Animation</li>
+          <li>Graphic Design</li>
+          <li>Illustration</li>
+          <li>Marketing</li>
+          <li>Motion Graphics</li>
+          <li>Video Production</li>
+          <li>Web Design</li>
+          <li>Web Development</li>
+        </ul>
       </div>
     ),
   },
@@ -222,6 +243,7 @@ const jobs = {
             Managing marketing requests via Salesforce to ensure timely delivery
           </li>
           <li>Proofing new designs</li>
+          <li>Salesforce management</li>
           <li>Taking and editing photos for the Art of Caring events</li>
         </ul>
       </div>
@@ -409,6 +431,24 @@ const dev = {
     alt: "",
     content: "",
     link: "/dev/teachable",
+  },
+  WillyWonka: {
+    name: "Willy Wonka Site",
+    url: "",
+    subheader: "A single-page site created live in class",
+    cover: "",
+    alt: "",
+    content: "",
+    link: "/dev/willywonka",
+  },
+  Portfolio: {
+    name: "This portfolio site",
+    url: "",
+    subheader: "The website you're currently on, my portfolio",
+    cover: "",
+    alt: "",
+    content: "",
+    link: "/dev/portfolio",
   },
 };
 
