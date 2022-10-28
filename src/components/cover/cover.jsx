@@ -1,12 +1,8 @@
 import React from "react";
-import './cover.scss';
-import headshot from "../../images/photos/headshot.png"
+import "./cover.scss";
+import headshot from "../../images/photos/headshot.png";
 
 class Cover extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <header className="cover-frame">
@@ -15,12 +11,15 @@ class Cover extends React.Component {
           <span>Developer and Designer</span>
         </div>
         <div className="second-column">
-          <img src={headshot}></img>
+          <img
+            src={headshot}
+            alt="A portrait of Garrett Pilgrim from the shoulders up."
+          ></img>
           <div className="circle"></div>
         </div>
       </header>
-    )
+    );
   }
 }
 
-export default Cover
+export default Cover;

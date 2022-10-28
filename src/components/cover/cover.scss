@@ -34,6 +34,13 @@ img {
   z-index: 2;
 }
 
+.first-column {
+  padding: 1rem .5rem;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  z-index: 10;
+}
+
 .second-column {
   align-self: end;
   grid-column: 3 / 4;
@@ -49,13 +56,6 @@ img {
   background: base.$secondary-color;
   border-radius: 100%;
   z-index: -1;
-}
-
-.first-column {
-  margin: calc(1rem);
-  grid-column: 2 / 4;
-  grid-row: 1 / 2;
-  z-index: 10;
 }
 
 @media (max-width: base.$mobile-size) {

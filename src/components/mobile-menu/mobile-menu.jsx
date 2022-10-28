@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 import "./mobile-menu.scss"
 
 class MobileMenu extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
         <>
@@ -27,9 +23,9 @@ class MobileMenu extends React.Component {
               <li>
                 <Link to="/resume" onClick={this.props.clickClose}>Resume</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/about" onClick={this.props.clickClose}>About</Link>
-              </li>
+              </li> */}
             </ul>
         </nav>
       </>
