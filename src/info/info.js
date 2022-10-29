@@ -398,6 +398,7 @@ const dev = {
   PilgrimWedding: {
     name: "Pilgrimwedding.com",
     url: "https://pilgrimagewedding.netlify.app/",
+    github: "https://github.com/GarrettPilgrim/pilgrim-wedding",
     subheader: "",
     cover: "",
     alt: "",
@@ -435,6 +436,7 @@ const dev = {
   WillyWonka: {
     name: "Willy Wonka Site",
     url: "",
+    github: "https://github.com/GarrettPilgrim/willy-wonka",
     subheader: "A single-page site created live in class",
     cover: "",
     alt: "",
@@ -444,6 +446,7 @@ const dev = {
   Portfolio: {
     name: "This portfolio site",
     url: "",
+    github: "https://github.com/GarrettPilgrim/pilgrim-portfolio-2022",
     subheader: "The website you're currently on, my portfolio",
     cover: "",
     alt: "",
