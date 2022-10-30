@@ -6,9 +6,7 @@ class Donut extends React.Component {
   render() {
     return (
       <>
-        <ExamplePage
-          name="Hello There"
-        />
+        <ExamplePage name={motion.Donut.name} />
       </>
     );
   }

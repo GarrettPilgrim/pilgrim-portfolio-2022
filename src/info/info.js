@@ -459,7 +459,7 @@ const design = {
   Waititi: {
     name: "Taika Waititi Illustration",
     url: "",
-    subheader: "",
+    subheader: "Fan-made Taika Waititi illustration using Fresco",
     cover: "",
     alt: "",
     content: "",
@@ -468,7 +468,7 @@ const design = {
   Ahsoka: {
     name: "Ahsoka Illustration",
     url: "",
-    subheader: "",
+    subheader: "Fan-made Ahsoka design using Fresco and Illustrator",
     cover: "",
     alt: "",
     content: "",
@@ -477,7 +477,7 @@ const design = {
   Chulo: {
     name: "Chulo Illustration",
     url: "",
-    subheader: "",
+    subheader: "Dog photo colorization and illustration",
     cover: "",
     alt: "",
     content: "",
@@ -486,7 +486,7 @@ const design = {
   WoodlandHills: {
     name: "Woodland Hills",
     url: "",
-    subheader: "",
+    subheader: "Design work for the Woodland Hills Church",
     cover: "",
     alt: "",
     content: "",
@@ -496,22 +496,23 @@ const design = {
 
 const motion = {
   Udeany: {
-    name: "Udeany Motion Graphics",
+    name: "Udeany Motion",
     url: "",
-    subheader: "",
+    subheader:
+      "Motion graphics and video production work for ecourse lessons and promotion",
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/motion/3ddonut",
   },
   Donut: {
-    name: "Blender 3D Donut",
+    name: "3D Donut",
     url: "",
-    subheader: "",
+    subheader: "3D donut design, visual effects, and animation using Blender",
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/motion/udeanymotion",
   },
 };
 

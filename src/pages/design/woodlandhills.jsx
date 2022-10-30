@@ -6,9 +6,7 @@ class WoodlandHills extends React.Component {
   render() {
     return (
       <>
-        <ExamplePage
-          name="Hello There"
-        />
+        <ExamplePage name={design.WoodlandHills.name} />
       </>
     );
   }

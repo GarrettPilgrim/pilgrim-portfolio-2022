@@ -7,7 +7,7 @@ class Ahsoka extends React.Component {
     return (
       <>
         <ExamplePage
-          name="Hello There"
+          name={design.Ahsoka.name}
         />
       </>
     );

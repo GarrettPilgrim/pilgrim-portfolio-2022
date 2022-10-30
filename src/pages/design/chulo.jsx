@@ -7,7 +7,7 @@ class Chulo extends React.Component {
     return (
       <>
         <ExamplePage
-          name="Hello There"
+          name={design.Chulo.name}
         />
       </>
     );

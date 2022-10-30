@@ -29,9 +29,9 @@ const UdeanyMotion = lazy(() => import("./pages/motion/udeanymotion"));
 const App = () => {
   return (
     <Router>
-      <ScrollToTop>
-        <Header />
-        <Suspense>
+      <Header />
+      <Suspense>
+        <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/dev" element={<Dev />}></Route>
@@ -60,9 +60,9 @@ const App = () => {
               element={<UdeanyMotion />}
             ></Route>
           </Routes>
-        </Suspense>
-        <Footer />
-      </ScrollToTop>
+        </ScrollToTop>
+      </Suspense>
+      <Footer />
     </Router>
   );
 };
