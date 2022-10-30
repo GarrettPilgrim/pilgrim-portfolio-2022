@@ -40,12 +40,21 @@ nav ul a:hover {
 .logo {
   max-width: 50px;
   align-self: center;
-  margin: .9rem .2rem;
   z-index: 100;
 }
 
 .logo a {
   padding: 1rem;
+  filter: drop-shadow(4px 4px 12px rgba($color: #000000, $alpha: .8));
+}
+
+.logo svg {
+  transition: 300ms ease-in-out;
+}
+
+.logo svg:hover {
+  filter: hue-rotate(180deg);
+  transform: scale(110%);
 }
 
 .burger-container {
