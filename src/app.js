@@ -12,6 +12,8 @@ const Design = lazy(() => import("./pages/design"));
 const Resume = lazy(() => import("./pages/resume"));
 const About = lazy(() => import("./pages/about"));
 
+const ErrorPage = lazy(() => import("./pages/404"));
+
 // SUBPAGES
 const ClearCaivrs = lazy(() => import("./pages/dev/clearcaivrs"));
 const PilgrimWedding = lazy(() => import("./pages/dev/pilgrimwedding"));
@@ -39,6 +41,7 @@ const App = () => {
             <Route path="/motion" element={<Motion />}></Route>
             <Route path="/resume" element={<Resume />}></Route>
             <Route path="/about" element={<About />}></Route>
+            <Route path="/404" element={<ErrorPage />}></Route>
             {/* sub pages */}
             <Route path="/dev/clearcaivrs" element={<ClearCaivrs />}></Route>
             <Route
