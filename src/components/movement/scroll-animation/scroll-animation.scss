@@ -1,0 +1,29 @@
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+
+}
+@keyframes slideout {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+.out-of-view {
+  animation: 450ms slideout forwards;
+}
+
+.animated {
+  // transition: ease-in-out 450ms;
+  animation: 450ms slidein;
+}

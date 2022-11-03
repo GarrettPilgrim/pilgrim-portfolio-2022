@@ -35,7 +35,7 @@ import WoodlandHills from "./pages/design/woodlandhills";
 
 import Donut from "./pages/motion/3ddonut";
 import UdeanyMotion from "./pages/motion/udeanymotion";
-import ScrollToTop from "./components/scroll-to-top/scroll-to-top";
+import ScrollToTop from "./components/movement/scroll-to-top/scroll-to-top";
 
 const routes = [
   // MAIN PAGES

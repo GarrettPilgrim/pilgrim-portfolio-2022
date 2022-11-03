@@ -17,7 +17,7 @@ function ScrollToTop() {
     document.documentElement.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant", // Optional if you want to skip the scrolling animation
+      behavior: "smooth", // Optional if you want to skip the scrolling animation
     });
   }, [pathname]);
 

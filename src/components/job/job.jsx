@@ -1,10 +1,11 @@
 import React from "react";
 import './job.scss';
+import ScrollAnimation from "../movement/scroll-animation/scroll-animation";
 
 class Job extends React.Component {
   render() {
     return (
-      <>
+      <ScrollAnimation>
         <div className="job">
           <div className="job-logo">
             {this.props.logo}
@@ -18,7 +19,7 @@ class Job extends React.Component {
             {this.props.description}
           </div>
         </div>
-      </>
+      </ScrollAnimation>
     );
   }
 }
