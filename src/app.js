@@ -25,6 +25,8 @@ import About from "./pages/about"
 // const Resume = lazy(() => import("./pages/resume"));
 // const About = lazy(() => import("./pages/about"));
 
+const ErrorPage = lazy(() => import("./pages/404"));
+
 // SUBPAGES
 import ClearCaivrs from "./pages/dev/clearcaivrs"
 import PilgrimWedding from "./pages/dev/pilgrimwedding"
@@ -66,6 +68,7 @@ const App = () => {
             <Route path="/motion" element={<Motion />}></Route>
             <Route path="/resume" element={<Resume />}></Route>
             <Route path="/about" element={<About />}></Route>
+            <Route path="/404" element={<ErrorPage />}></Route>
             {/* sub pages */}
             <Route path="/dev/clearcaivrs" element={<ClearCaivrs />}></Route>
             <Route

@@ -32,6 +32,7 @@ class Home extends React.Component {
             subheader="My work in motion graphics and animation"
             link="/motion"
           />
+          {/* Add onion skin ball for cover image on motion */}
           <GridItem
             cover={DevCover}
             alt=""
@@ -39,6 +40,7 @@ class Home extends React.Component {
             subheader="My jobs, educations, skills, and awards"
             link="/resume"
           />
+          {/* Bullet list/ghost resume template for cover */}
         </Grid>
         <div className="centered-text">
           <h2>About</h2>
