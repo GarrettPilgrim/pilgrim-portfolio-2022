@@ -3,10 +3,7 @@ import { createRef } from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
-  Route,
   RouterProvider,
-  Routes,
-  Router,
   useLocation,
   useOutlet,
 } from "react-router-dom";
@@ -123,7 +120,7 @@ const routes = [
     nodeRef: createRef(),
   },
   {
-    path: "/404",
+    path: "*",
     name: "Page Does Not Exist",
     element: <ErrorPage />,
     nodeRef: createRef(),
