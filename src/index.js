@@ -35,6 +35,7 @@ import WoodlandHills from "./pages/design/woodlandhills";
 
 import Donut from "./pages/motion/3ddonut";
 import UdeanyMotion from "./pages/motion/udeanymotion";
+import ScrollToTop from "./components/scroll-to-top/scroll-to-top";
 
 const routes = [
   // MAIN PAGES
@@ -147,6 +148,7 @@ function Index() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <SwitchTransition>
         <CSSTransition
           key={location.pathname}
