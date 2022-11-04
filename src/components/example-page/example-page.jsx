@@ -3,8 +3,9 @@ import "./example-page.scss";
 
 class ExamplePage extends React.Component {
   render() {
-    const returnURL = (url) => {
-      if (url !== undefined) {
+    // Add embed={true} for each page to display embed and link
+    const returnURL = (embed) => {
+      if (embed === true) {
         return (
           <>
             <h2>Browse the site</h2>
@@ -21,9 +22,13 @@ class ExamplePage extends React.Component {
       }
       return "";
     };
-    // add toggle boolean for embed to decide on each page to display or not
 
-    // add if function to return img if img is defined
+    // Determines if the object has an image assigned and returns <img> to DOM if true
+    const returnImage = (img) => {
+      if (img.length > 0) {
+        return <img src={this.props.img} alt={this.props.alt} />;
+      }
+    };
 
     // add semantic tags <main> <section>
     return (
@@ -31,10 +36,10 @@ class ExamplePage extends React.Component {
         <div className="example-page">
           <div className="example-page-cover">
             <h1>{this.props.name}</h1>
-            <img src={this.props.img} alt={this.props.alt} />
+            {returnImage(this.props.img)}
           </div>
           <div className="example-page-text">{this.props.children}</div>
-          {returnURL(this.props.url)}
+          {returnURL(this.props.embed)}
         </div>
       </>
     );

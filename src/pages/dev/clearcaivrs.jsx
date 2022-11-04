@@ -10,6 +10,7 @@ const ClearCaivrs = () => {
         url={dev.Caivrs.url}
         img={dev.Caivrs.cover}
         alt={dev.Caivrs.alt}
+        embed={true}
       >
         <h2>The Problem</h2>
         <p>
