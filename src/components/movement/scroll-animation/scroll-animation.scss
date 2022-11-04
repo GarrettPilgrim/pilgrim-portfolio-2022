@@ -1,20 +1,24 @@
 @keyframes slidein {
   0% {
-    transform: translateX(-100%);
+    opacity: 0;
+    transform: translateY(15%);
   }
 
   100% {
-    transform: translateX(0%);
+    opacity: 1;
+    transform: translateY(0%);
   }
 
 }
 @keyframes slideout {
   0% {
+    opacity: 1;
     transform: translateX(0%);
   }
 
   100% {
-    transform: translateX(-100%);
+    opacity: 0;
+    transform: translateX(-15%);
   }
 }
 
