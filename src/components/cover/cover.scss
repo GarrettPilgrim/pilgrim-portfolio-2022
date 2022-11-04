@@ -9,7 +9,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 10px 3fr 2fr 10px;
-  border-bottom: 5px solid base.$tert-color;
+  // border-bottom: 5px solid base.$tert-color;
   color: base.$white;
 }
 
@@ -35,7 +35,7 @@ img {
 }
 
 .first-column {
-  padding: 1rem .5rem;
+  padding: 1.2rem .5rem;
   grid-column: 2 / 4;
   grid-row: 1 / 2;
   z-index: 10;
