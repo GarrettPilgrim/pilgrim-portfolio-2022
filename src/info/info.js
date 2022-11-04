@@ -490,7 +490,16 @@ const design = {
     cover: "",
     alt: "",
     content: "",
-    link: "",
+    link: "/design/woodlandhills",
+  },
+  BobRoss: {
+    name: "Bob Ross",
+    url: "",
+    subheader: "Digitally painting with Bob Ross",
+    cover: "",
+    alt: "",
+    content: "",
+    link: "/design/bobross",
   },
 };
 

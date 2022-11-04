@@ -32,6 +32,7 @@ import Ahsoka from "./pages/design/ahsokatano";
 import Chulo from "./pages/design/chulo";
 import Waititi from "./pages/design/taikawaititi";
 import WoodlandHills from "./pages/design/woodlandhills";
+import BobRoss from "./pages/design/bobross";
 
 import Donut from "./pages/motion/3ddonut";
 import UdeanyMotion from "./pages/motion/udeanymotion";
@@ -106,6 +107,12 @@ const routes = [
     path: "/design/woodlandhills",
     name: "Woodland Hills",
     element: <WoodlandHills />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/design/bobross",
+    name: "Bob Ross",
+    element: <BobRoss />,
     nodeRef: createRef(),
   },
   {
