@@ -77,7 +77,7 @@ class Home extends React.Component {
             and in storytelling with short films.
           </p>
         </div>
-        <h2>Something</h2>
+        {/* <h2>Something</h2>
         <FancyList listType="nested-list">
           <div className="nested-list-item">
             <h3>Hello</h3>
@@ -101,7 +101,7 @@ class Home extends React.Component {
             </p>
             <p>lots of text here</p>
           </div>
-        </FancyList>
+        </FancyList> */}
       </>
     );
   }
