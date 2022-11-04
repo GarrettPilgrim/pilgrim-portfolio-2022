@@ -21,7 +21,11 @@ class ExamplePage extends React.Component {
       }
       return "";
     };
+    // add toggle boolean for embed to decide on each page to display or not
 
+    // add if function to return img if img is defined
+
+    // add semantic tags <main> <section>
     return (
       <>
         <div className="example-page">
