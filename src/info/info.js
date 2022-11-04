@@ -425,7 +425,7 @@ const dev = {
     link: "/dev/pslfwaiver",
   },
   Teachable: {
-    name: "courses.Udeany.com",
+    name: "Udeany Teachable",
     url: "https://courses.udeany.com/",
     subheader: "",
     cover: "",

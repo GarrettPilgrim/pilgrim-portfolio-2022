@@ -25,22 +25,23 @@ class ExamplePage extends React.Component {
 
     // Determines if the object has an image assigned and returns <img> to DOM if true
     const returnImage = (img) => {
-      if (img.length > 0) {
+      if (img !== "") {
         return <img src={this.props.img} alt={this.props.alt} />;
       }
+      return "";
     };
 
     // add semantic tags <main> <section>
     return (
       <>
-        <div className="example-page">
+        <main className="example-page">
           <div className="example-page-cover">
             <h1>{this.props.name}</h1>
             {returnImage(this.props.img)}
           </div>
           <div className="example-page-text">{this.props.children}</div>
           {returnURL(this.props.embed)}
-        </div>
+        </main>
       </>
     );
   }
