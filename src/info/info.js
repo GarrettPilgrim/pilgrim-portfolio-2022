@@ -451,7 +451,7 @@ const dev = {
     cover: "",
     alt: "",
     content: "",
-    link: "/dev/portfolio",
+    link: "/dev/thisportfolio",
   },
 };
 

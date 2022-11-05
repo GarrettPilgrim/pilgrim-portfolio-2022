@@ -14,6 +14,8 @@ import ClearCaivrs from "./pages/dev/clearcaivrs";
 import PilgrimWedding from "./pages/dev/pilgrimwedding";
 import PSLFWaiver from "./pages/dev/pslfwaiver";
 import Teachable from "./pages/dev/teachable";
+import WillyWonka from "./pages/dev/willywonka";
+import ThisPortfolio from "./pages/dev/thisportfolio";
 
 import Ahsoka from "./pages/design/ahsokatano";
 import Chulo from "./pages/design/chulo";
@@ -63,6 +65,18 @@ const routes = [
     path: "/dev/teachable",
     name: "Teachable",
     element: <Teachable />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/dev/willywonka",
+    name: "Willy Wonka",
+    element: <WillyWonka />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/dev/thisportfolio",
+    name: "This Portfolio",
+    element: <ThisPortfolio />,
     nodeRef: createRef(),
   },
   {
