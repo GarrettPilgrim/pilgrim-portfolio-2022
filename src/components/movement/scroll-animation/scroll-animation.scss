@@ -28,6 +28,15 @@
 }
 
 .animated {
-  // transition: ease-in-out 450ms;
   animation: 450ms slidein;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .out-of-view {
+    animation: none;
+  }
+  
+  .animated {
+    animation: none;
+  }
 }
