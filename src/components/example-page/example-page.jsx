@@ -5,7 +5,7 @@ class ExamplePage extends React.Component {
   render() {
     // Add embed={true} for each page to display embed and link
     const returnURL = (embed) => {
-      if (embed === true) {
+      if (embed === true && embed !== "") {
         return (
           <>
             <h2>Browse the site</h2>
@@ -25,7 +25,7 @@ class ExamplePage extends React.Component {
 
     // Determines if the object has an image assigned and returns <img> to DOM if true
     const returnImage = (img) => {
-      if (img !== "") {
+      if (img !== "" || img !== undefined) {
         return <img src={this.props.img} alt={this.props.alt} />;
       }
       return "";

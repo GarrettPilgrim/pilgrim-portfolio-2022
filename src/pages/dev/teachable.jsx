@@ -7,8 +7,11 @@ class Teachable extends React.Component {
     return (
       <>
         <ExamplePage
-          name="Hello There"
-        />
+          name={dev.Teachable.name}
+          url={dev.Teachable.url}
+          img={dev.Teachable.cover}
+          alt={dev.Teachable.alt}
+        ></ExamplePage>
       </>
     );
   }
