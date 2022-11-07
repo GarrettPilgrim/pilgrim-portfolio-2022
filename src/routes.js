@@ -122,7 +122,7 @@ const routes = [
     nodeRef: createRef(),
   },
   {
-    path: "/motion/woodlandhills",
+    path: "/motion/udeanymotion",
     name: "Udeany Motion",
     element: <UdeanyMotion />,
     nodeRef: createRef(),

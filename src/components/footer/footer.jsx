@@ -43,20 +43,20 @@ class Footer extends React.Component {
             >
               <GitHub />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/pilgrimgarrett/?next=%2F"
               target="_blank"
               rel="noreferrer"
             >
               <Instagram />
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://www.tiktok.com/@garrettpilgrim"
               target="_blank"
               rel="noreferrer"
             >
               <TikTok />
-            </a>
+            </a> */}
           </div>
           <div className="circle"></div>
         </footer>

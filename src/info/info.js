@@ -15,6 +15,7 @@ import CaivrsCover from "../images/photos/dev/caivrs-cover.jpg";
 import PilgrimCover from "../images/photos/dev/pilgrimwedding-cover.jpg";
 import PslfCover from "../images/photos/dev/pslfwaiver-cover.jpg";
 import TeachableCover from "../images/photos/dev/teachable-cover.jpg";
+import AhsokaCover from "../images/photos/design/ahsoka-cover.png";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -466,7 +467,7 @@ const design = {
     name: "Ahsoka Illustration",
     url: "",
     subheader: "Fan-made Ahsoka design using Fresco and Illustrator",
-    cover: "",
+    cover: AhsokaCover,
     alt: "",
     link: "/design/ahsokatano",
   },
@@ -504,7 +505,7 @@ const motion = {
       "Motion graphics and video production work for ecourse lessons and promotion",
     cover: "",
     alt: "",
-    link: "/motion/3ddonut",
+    link: "/motion/udeanymotion",
   },
   Donut: {
     name: "3D Donut",
@@ -512,7 +513,7 @@ const motion = {
     subheader: "3D donut design, visual effects, and animation using Blender",
     cover: "",
     alt: "",
-    link: "/motion/udeanymotion",
+    link: "/motion/3ddonut",
   },
 };
 

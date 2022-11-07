@@ -5,7 +5,11 @@ import { design } from "../../info/info";
 const Ahsoka = () => {
   return (
     <>
-      <ExamplePage name={design.Ahsoka.name}>
+      <ExamplePage
+        name={design.Ahsoka.name}
+        img={design.Ahsoka.cover}
+        alt={design.Ahsoka.alt}
+      >
         <h2>The Idea</h2>
         <p>
           Star Wars is my favorite fictional universe and has been since
@@ -17,6 +21,7 @@ const Ahsoka = () => {
           moment using Adobe Fresco. I used it as a challenge to practice my
           illustration skills and digitally paint Ahsoka.
         </p>
+        {/* <h2>The Creation</h2> */}
         <h3>The Tools</h3>
         <ul>
           <li>Illustrator</li>
