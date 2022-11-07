@@ -1,20 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as Logo } from '../../images/logos/personal-logo-square.svg';
+import { ReactComponent as Logo } from "../../images/logos/personal-logo-square.svg";
 import Burger from "../burger/burger";
 import "./header.scss";
 
 class Header extends React.Component {
   render() {
     return (
-      <div className="header-grid">
+      <nav className="header-grid">
         <div className="logo">
           <Link to="/">
             <Logo />
           </Link>
         </div>
-        <nav>
-          <ul className="desktop-menu">
+        <div className="desktop-menu">
+          <ul>
             <li>
               <Link to="/dev">Dev</Link>
             </li>
@@ -31,12 +31,10 @@ class Header extends React.Component {
               <Link to="/about">About</Link>
             </li> */}
           </ul>
-        </nav>
-        <div>
-          <Burger className="burger" onClick={this.toggleMenu} />
         </div>
-      </div>
-    )
+        <Burger onClick={this.toggleMenu} />
+      </nav>
+    );
   }
 }
 
