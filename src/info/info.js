@@ -16,6 +16,7 @@ import PilgrimCover from "../images/photos/dev/pilgrimwedding-cover.jpg";
 import PslfCover from "../images/photos/dev/pslfwaiver-cover.jpg";
 import TeachableCover from "../images/photos/dev/teachable-cover.jpg";
 import AhsokaCover from "../images/photos/design/ahsoka-cover.png";
+import WaititiCover from "../images/photos/design/waititi-cover.png";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -459,7 +460,7 @@ const design = {
     name: "Taika Waititi Illustration",
     url: "",
     subheader: "Fan-made Taika Waititi illustration using Fresco",
-    cover: "",
+    cover: WaititiCover,
     alt: "",
     link: "/design/taikawaititi",
   },

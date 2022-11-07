@@ -8,10 +8,10 @@ class Design extends React.Component {
       <>
         <h1>Design</h1>
         <Grid>
+          {getGridItems(design.WoodlandHills)}
           {getGridItems(design.Waititi)}
           {getGridItems(design.Ahsoka)}
           {getGridItems(design.Chulo)}
-          {getGridItems(design.WoodlandHills)}
         </Grid>
       </>
     );

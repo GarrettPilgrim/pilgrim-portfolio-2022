@@ -6,11 +6,15 @@ class TaikaWaititi extends React.Component {
   render() {
     return (
       <>
-        <ExamplePage name={design.Waititi.name}>
+        <ExamplePage
+          name={design.Waititi.name}
+          img={design.Waititi.cover}
+          alt={design.Waititi.alt}
+        >
           <h2>The Ideas</h2>
           <p>
             I enjoy Taika Waititi's storytelling in film and TV. So, I decided
-            to draw his likeness digitally and one of his characters, Glootie.
+            to draw him and one of his characters, Glootie.
           </p>
           <h2>The Processes</h2>
           <p>
