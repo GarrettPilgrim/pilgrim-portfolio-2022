@@ -11,7 +11,10 @@ import { ReactComponent as Mayflower } from "../images/logos/mayflower-logo.svg"
 import { ReactComponent as Signature } from "../images/logos/signature-logo.svg";
 
 // COVER IMAGE IMPORTS
-import Caivrs from "../images/photos/dev/clear-caivrs-site.jpg";
+import CaivrsCover from "../images/photos/dev/caivrs-cover.jpg";
+import PilgrimCover from "../images/photos/dev/pilgrimwedding-cover.jpg";
+import PslfCover from "../images/photos/dev/pslfwaiver-cover.jpg";
+import TeachableCover from "../images/photos/dev/teachable-cover.jpg";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -399,10 +402,9 @@ const dev = {
     name: "Pilgrimwedding.com",
     url: "https://pilgrimagewedding.netlify.app/",
     github: "https://github.com/GarrettPilgrim/pilgrim-wedding",
-    subheader: "",
-    cover: "",
-    alt: "",
-    content: "",
+    subheader: "A single-page Gatsby landing page to RSVP for my wedding.",
+    cover: PilgrimCover,
+    alt: "A screenshot of the Pilgrim Wedding webpage showing a loving couple and rose illustrations.",
     link: "/dev/pilgrimwedding",
   },
   Caivrs: {
@@ -410,27 +412,25 @@ const dev = {
     url: "https://clearcaivrs.com/",
     subheader:
       "A landing page designed to convince clients to buy the Udeany CAIVRS ecourse.",
-    cover: Caivrs,
-    alt: "A screenshot of the ClearCAIVRS landing page",
-    content: "",
+    cover: CaivrsCover,
+    alt: "A screenshot of the ClearCAIVRS landing page showing two men shaking hands in front of a sold house sign.",
     link: "/dev/clearcaivrs",
   },
   Pslf: {
     name: "PSLFWaiver.co",
     url: "https://pslfwaiver.co/",
-    subheader: "",
-    cover: "",
+    subheader:
+      "A landing page guiding leads to purchase the PSLF Waiver course.",
+    cover: PslfCover,
     alt: "",
-    content: "",
     link: "/dev/pslfwaiver",
   },
   Teachable: {
-    name: "Udeany Teachable",
+    name: "Udeany Courses",
     url: "https://courses.udeany.com/",
     subheader: "",
-    cover: "",
+    cover: TeachableCover,
     alt: "",
-    content: "",
     link: "/dev/teachable",
   },
   WillyWonka: {
@@ -440,7 +440,6 @@ const dev = {
     subheader: "A single-page site created live in class",
     cover: "",
     alt: "",
-    content: "",
     link: "/dev/willywonka",
   },
   Portfolio: {
@@ -450,7 +449,6 @@ const dev = {
     subheader: "The website you're currently on, my portfolio",
     cover: "",
     alt: "",
-    content: "",
     link: "/dev/thisportfolio",
   },
 };
@@ -462,7 +460,6 @@ const design = {
     subheader: "Fan-made Taika Waititi illustration using Fresco",
     cover: "",
     alt: "",
-    content: "",
     link: "/design/taikawaititi",
   },
   Ahsoka: {
@@ -471,7 +468,6 @@ const design = {
     subheader: "Fan-made Ahsoka design using Fresco and Illustrator",
     cover: "",
     alt: "",
-    content: "",
     link: "/design/ahsokatano",
   },
   Chulo: {
@@ -480,7 +476,6 @@ const design = {
     subheader: "Dog photo colorization and illustration",
     cover: "",
     alt: "",
-    content: "",
     link: "/design/chulo",
   },
   WoodlandHills: {
@@ -489,7 +484,6 @@ const design = {
     subheader: "Design work for the Woodland Hills Church",
     cover: "",
     alt: "",
-    content: "",
     link: "/design/woodlandhills",
   },
   BobRoss: {
@@ -498,7 +492,6 @@ const design = {
     subheader: "Digitally painting with Bob Ross",
     cover: "",
     alt: "",
-    content: "",
     link: "/design/bobross",
   },
 };
@@ -511,7 +504,6 @@ const motion = {
       "Motion graphics and video production work for ecourse lessons and promotion",
     cover: "",
     alt: "",
-    content: "",
     link: "/motion/3ddonut",
   },
   Donut: {
@@ -520,7 +512,6 @@ const motion = {
     subheader: "3D donut design, visual effects, and animation using Blender",
     cover: "",
     alt: "",
-    content: "",
     link: "/motion/udeanymotion",
   },
 };

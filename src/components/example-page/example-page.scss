@@ -4,6 +4,10 @@
   font-size: clamp(3.2em, 10vw, 8em);
 }
 
+.example-page-cover img {
+  width: 100%;
+}
+
 .example-page h1 {
   font-size: .5em;
   margin: 4rem .5rem 1rem .5rem;
