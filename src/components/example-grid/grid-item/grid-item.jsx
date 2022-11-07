@@ -9,11 +9,13 @@ class GridItem extends React.Component {
         <div className="example-grid-item">
           <img src={this.props.cover} alt={this.props.alt} />
           <Link to={this.props.link}>
-            <h2>
-              {this.props.header}
-              <br />
-              <span>{this.props.subheader}</span>
-            </h2>
+            <div className="example-grid-item-text">
+              <h2>
+                {this.props.header}
+                <br />
+                <span>{this.props.subheader}</span>
+              </h2>
+            </div>
           </Link>
         </div>
       </>
