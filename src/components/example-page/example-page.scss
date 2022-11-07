@@ -1,11 +1,13 @@
 @use '../../base.scss';
 
 .example-page-cover {
+  width: 100vw;
   font-size: clamp(3.2em, 10vw, 8em);
 }
 
 .example-page-cover img {
-  width: 100%;
+  margin: auto;
+  object-fit: cover;
 }
 
 .example-page h1 {
