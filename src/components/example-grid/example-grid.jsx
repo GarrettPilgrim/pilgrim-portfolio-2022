@@ -5,9 +5,9 @@ class Grid extends React.Component {
   render() {
     return (
       <>
-        <div className="example-grid">
+        <section className="example-grid">
           {this.props.children}
-        </div>
+        </section>
       </>
     );
   }

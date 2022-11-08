@@ -17,6 +17,7 @@ import PslfCover from "../images/photos/dev/pslfwaiver-cover.jpg";
 import TeachableCover from "../images/photos/dev/teachable-cover.jpg";
 import AhsokaCover from "../images/photos/design/ahsoka-cover.png";
 import WaititiCover from "../images/photos/design/waititi-cover.png";
+import DonutCover from "../images/photos/motion/donut-cover.png"
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -512,7 +513,7 @@ const motion = {
     name: "3D Donut",
     url: "",
     subheader: "3D donut design, visual effects, and animation using Blender",
-    cover: "",
+    cover: DonutCover,
     alt: "",
     link: "/motion/3ddonut",
   },

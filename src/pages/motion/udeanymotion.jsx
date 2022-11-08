@@ -6,7 +6,14 @@ class UdeanyMotion extends React.Component {
   render() {
     return (
       <>
-        <ExamplePage name={motion.Udeany.name} />
+        <ExamplePage
+          name={motion.Udeany.name}
+          img={motion.Udeany.cover}
+          alt={motion.Udeany.alt}
+        >
+          <h2>The Challenge</h2>
+          <p>The Process</p>
+        </ExamplePage>
       </>
     );
   }

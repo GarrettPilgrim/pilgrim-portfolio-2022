@@ -42,7 +42,7 @@ class Home extends React.Component {
           />
           {/* Bullet list/ghost resume template for cover */}
         </Grid>
-        <div className="centered-text">
+        <section className="centered-text">
           <h2>About</h2>
           <p>
             Two things I've done my whole life: Solve puzzles and build things.
@@ -120,7 +120,7 @@ class Home extends React.Component {
             write, thinks logically and strategically, loves code, enjoys
             puzzles, and likes to solve problems.
           </p>
-        </div>
+        </section>
         {/* <h2>Something</h2>
         <FancyList listType="nested-list">
           <div className="nested-list-item">

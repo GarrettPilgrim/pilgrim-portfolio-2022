@@ -12,7 +12,7 @@ class Dev extends React.Component {
           {getGridItems(dev.Teachable)}
           {getGridItems(dev.PilgrimWedding)}
           {getGridItems(dev.Portfolio)}
-          {getGridItems(dev.WillyWonka)}
+          {/* {getGridItems(dev.WillyWonka)} */}
           {getGridItems(dev.Pslf)}
         </Grid>
       </>
