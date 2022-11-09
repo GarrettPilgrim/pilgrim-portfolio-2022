@@ -71,15 +71,15 @@ const WoodlandHills = () => {
           freedom.
         </p>
         <p>
-          Originally planned for 2020, the fortrest design was repurposed for
+          Originally planned for 2020, the fortress design was repurposed for
           VBS in 2021. I followed a block-style castle idea and warped the
           bottom to line up the theme name and verse.
         </p>
-        <h3>VBS Puppet Team</h3>
         <figure>
           <img src={LawClaw} alt="" />
           <figcaption>A reward hoodie design for the puppet team.</figcaption>
         </figure>
+        <h3>VBS Puppet Team</h3>
         <p>
           As a surprise gift to the volunteers who worked puppets at the 2021
           VBS, I was asked to design a graphic for hoodies to give out.

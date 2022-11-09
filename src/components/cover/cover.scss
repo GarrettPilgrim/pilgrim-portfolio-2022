@@ -4,7 +4,7 @@
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 10px 10fr 9fr 10px;
+  grid-template-columns: 10px 2fr 3fr 10px;
   // border-bottom: 5px solid base.$tert-color;
   color: base.$white;
 }
@@ -36,9 +36,10 @@ header img {
 }
 
 .second-column {
-  align-self: end;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .circle {
