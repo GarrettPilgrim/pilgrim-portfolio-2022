@@ -17,7 +17,8 @@ import PslfCover from "../images/photos/dev/pslfwaiver-cover.jpg";
 import TeachableCover from "../images/photos/dev/teachable-cover.jpg";
 import AhsokaCover from "../images/photos/design/ahsoka-cover.png";
 import WaititiCover from "../images/photos/design/waititi-cover.png";
-import DonutCover from "../images/photos/motion/donut-cover.png"
+import ChuloCover from "../images/photos/design/chulo-cover.jpg";
+import DonutCover from "../images/photos/motion/donut-cover.png";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -459,7 +460,6 @@ const dev = {
 const design = {
   Waititi: {
     name: "Taika Waititi Illustration",
-    url: "",
     subheader: "Fan-made Taika Waititi illustration using Fresco",
     cover: WaititiCover,
     alt: "",
@@ -467,7 +467,6 @@ const design = {
   },
   Ahsoka: {
     name: "Ahsoka Illustration",
-    url: "",
     subheader: "Fan-made Ahsoka design using Fresco and Illustrator",
     cover: AhsokaCover,
     alt: "",
@@ -475,15 +474,13 @@ const design = {
   },
   Chulo: {
     name: "Chulo Illustration",
-    url: "",
     subheader: "Dog photo colorization and illustration",
-    cover: "",
+    cover: ChuloCover,
     alt: "",
     link: "/design/chulo",
   },
   WoodlandHills: {
     name: "Woodland Hills",
-    url: "",
     subheader: "Design work for the Woodland Hills Church",
     cover: "",
     alt: "",
@@ -491,7 +488,6 @@ const design = {
   },
   BobRoss: {
     name: "Bob Ross",
-    url: "",
     subheader: "Digitally painting with Bob Ross",
     cover: "",
     alt: "",

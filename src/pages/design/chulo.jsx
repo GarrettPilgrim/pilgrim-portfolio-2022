@@ -5,7 +5,11 @@ import { design } from "../../info/info";
 const Chulo = () => {
   return (
     <>
-      <ExamplePage name={design.Chulo.name}>
+      <ExamplePage
+        name={design.Chulo.name}
+        img={design.Chulo.cover}
+        alt={design.Chulo.alt}
+      >
         <h2>The Idea</h2>
         <p>
           A family member asked me to create a design for a friend whose dog
