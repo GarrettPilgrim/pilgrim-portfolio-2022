@@ -3,7 +3,10 @@ import Cover from "../components/cover/cover";
 import FancyList from "../components/fancy-list/fancy-list";
 import Grid from "../components/example-grid/example-grid";
 import GridItem from "../components/example-grid/grid-item/grid-item";
-import DevCover from "../images/photos/development-cover.jpg";
+import DevCover from "../images/photos/dev-home.jpg";
+import DesignCover from "../images/photos/design-home.jpg";
+import MotionCover from "../images/photos/motion-home.jpg";
+import ResumeCover from "../images/photos/resume-home.jpg";
 
 class Home extends React.Component {
   render() {
@@ -19,14 +22,14 @@ class Home extends React.Component {
             link="/dev"
           />
           <GridItem
-            cover={DevCover}
+            cover={DesignCover}
             alt=""
             header="Design"
             subheader="My work in design and illustrations"
             link="/design"
           />
           <GridItem
-            cover={DevCover}
+            cover={MotionCover}
             alt=""
             header="Motion"
             subheader="My work in motion graphics and animation"
@@ -34,7 +37,7 @@ class Home extends React.Component {
           />
           {/* Add onion skin ball for cover image on motion */}
           <GridItem
-            cover={DevCover}
+            cover={ResumeCover}
             alt=""
             header="Resume"
             subheader="My jobs, educations, skills, and awards"

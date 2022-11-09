@@ -18,6 +18,7 @@ import TeachableCover from "../images/photos/dev/teachable-cover.jpg";
 import AhsokaCover from "../images/photos/design/ahsoka-cover.png";
 import WaititiCover from "../images/photos/design/waititi-cover.png";
 import ChuloCover from "../images/photos/design/chulo-cover.jpg";
+import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg"
 import DonutCover from "../images/photos/motion/donut-cover.png";
 
 // FUNCTIONS
@@ -482,7 +483,7 @@ const design = {
   WoodlandHills: {
     name: "Woodland Hills",
     subheader: "Design work for the Woodland Hills Church",
-    cover: "",
+    cover: WoodlandHillsCover,
     alt: "",
     link: "/design/woodlandhills",
   },

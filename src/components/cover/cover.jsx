@@ -15,7 +15,7 @@ class Cover extends React.Component {
             src={headshot}
             alt="A portrait of Garrett Pilgrim from the shoulders up."
           ></img>
-          <div className="circle"></div>
+          <div className="circle" />
         </div>
       </header>
     );
