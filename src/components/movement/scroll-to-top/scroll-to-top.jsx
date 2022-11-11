@@ -10,7 +10,7 @@ import { useLocation } from "react-router";
 //   return <>{props.children}</>;
 // };
 
-function ScrollToTop() {
+const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -22,6 +22,6 @@ function ScrollToTop() {
   }, [pathname]);
 
   return null;
-}
+};
 
 export default ScrollToTop;

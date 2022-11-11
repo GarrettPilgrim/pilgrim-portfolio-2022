@@ -2,8 +2,7 @@ import React from "react";
 import Grid from "../components/example-grid/example-grid";
 import { design, getGridItems } from "../info/info";
 
-class Design extends React.Component {
-  render() {
+const Design = () => {
     return (
       <>
         <h1>Design</h1>
@@ -16,6 +15,5 @@ class Design extends React.Component {
       </>
     );
   }
-}
 
 export default Design;

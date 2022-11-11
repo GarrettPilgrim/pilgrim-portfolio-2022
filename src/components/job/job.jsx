@@ -1,27 +1,25 @@
 import React from "react";
-import './job.scss';
+import "./job.scss";
 import ScrollAnimation from "../movement/scroll-animation/scroll-animation";
 
-class Job extends React.Component {
-  render() {
-    return (
-      <ScrollAnimation>
-        <div className="job">
-          <div className="job-logo">
-            {this.props.logo}
-          </div>
-          <div className="job-text">
-            <h3>
-              {this.props.title} <br />
-              <span>{this.props.company}</span>
-            </h3>
-            <p>{this.props.start} to {this.props.end}</p>
-            {this.props.description}
-          </div>
+const Job = (props) => {
+  return (
+    <ScrollAnimation>
+      <div className="job">
+        <div className="job-logo">{props.logo}</div>
+        <div className="job-text">
+          <h3>
+            {props.title} <br />
+            <span>{props.company}</span>
+          </h3>
+          <p>
+            {props.start} to {props.end}
+          </p>
+          {props.description}
         </div>
-      </ScrollAnimation>
-    );
-  }
-}
+      </div>
+    </ScrollAnimation>
+  );
+};
 
 export default Job;
