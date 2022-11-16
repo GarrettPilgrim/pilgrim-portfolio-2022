@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <>
       <Cover />
+      <h2>See My Work</h2>
       <Grid>
         <GridItem
           cover={DevCover}
