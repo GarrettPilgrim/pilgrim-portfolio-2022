@@ -12,7 +12,7 @@ class Donut extends React.Component {
           img={motion.Donut.cover}
           alt={motion.Donut.alt}
         >
-        <h2>The Animation</h2>
+          <h2>The Animation</h2>
           <video
             controls="controls"
             controlsList="nodownload"
@@ -22,8 +22,31 @@ class Donut extends React.Component {
             <source src={DonutVideo} />
           </video>
           <h2>The Challenge</h2>
-          <p></p>
+          <p>
+            I started with a tutorial from{" "}
+            <a href="https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD">
+              the Blender Guru.
+            </a>{" "}
+            In the process, I learned how to create objects, shape them with
+            geometry and a stylus, build an environment, and animate the objects
+            within that environment.
+          </p>
           <h2>The Process</h2>
+          <p>
+            I followed the each step of the tutorial video and kept the donut
+            theme. However, I put my own spin on the styling, effects, and
+            animation process.
+          </p>
+          <p>
+            This tutorial series helped me better understand Blender, lighting,
+            effects, textures, rendering, and animation.
+          </p>
+          <h3>The Tools</h3>
+          <ul>
+            <li>Blender</li>
+            <li>Wacom Stylus</li>
+            <li>YouTube</li>
+          </ul>
         </ExamplePage>
       </>
     );

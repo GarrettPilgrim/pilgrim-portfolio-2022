@@ -45,7 +45,7 @@
   justify-content: center;
 }
 
-.example-page a {
+.example-page a:not(p > a) {
   padding: 1.2rem 3.2rem;
   background: base.$primary-color;
   color: base.$white;
