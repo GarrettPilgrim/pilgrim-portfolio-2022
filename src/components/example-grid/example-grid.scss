@@ -16,6 +16,11 @@
   text-decoration: none;
 }
 
+.example-grid-item,
+.example-grid-item > * {
+  border-radius: base.$border-curve;
+}
+
 .example-grid-item img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;

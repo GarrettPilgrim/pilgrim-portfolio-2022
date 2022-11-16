@@ -15,6 +15,7 @@ footer form {
   background: base.$transparent-primary;
   box-shadow: base.$drop-shadow;
   backdrop-filter: base.$blur;
+  border-radius: base.$border-curve;
 }
 
 footer fieldset>* {

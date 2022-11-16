@@ -24,6 +24,7 @@
   box-shadow: base.$drop-shadow;
   backdrop-filter: base.$blur;
   font-family: base.$header-fonts;
+  border-radius: base.$border-curve;
 }
 
 .fancy-list ul li {

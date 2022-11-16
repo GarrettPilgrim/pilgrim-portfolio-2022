@@ -11,6 +11,7 @@
   justify-items: center;
   background: rgba($color: base.$white, $alpha: .01);
   box-shadow: base.$drop-shadow;
+  border-radius: base.$border-curve;
 }
 
 .job svg {

@@ -28,6 +28,7 @@ nav ul a {
   color: base.$white;
   text-decoration: none;
   cursor: pointer;
+  border-radius: base.$border-curve;
 }
 
 nav ul a:active {
@@ -37,6 +38,9 @@ nav ul a:active {
 nav ul a:hover {
   background: rgba($color: base.$white, $alpha: .8);
   color: base.$primary-color;
+  border-radius: calc(base.$border-curve * 2);
+  transform: scale(110%);
+
 }
 
 .logo {
