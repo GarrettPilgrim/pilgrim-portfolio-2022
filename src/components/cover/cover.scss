@@ -8,11 +8,7 @@
   grid-template-columns: 10px 2fr 3fr 10px;
   // border-bottom: 5px solid base.$tert-color;
   color: base.$white;
-  background: linear-gradient(135deg,
-    rgba(188,98,78,0.1) 0%,
-    rgba(188,98,78,0.5) 50%,
-    rgba(49,133,252,0.7) 100%
-  ); 
+  background: base.$gradient-multi;
 }
 
 .cover-frame>div {

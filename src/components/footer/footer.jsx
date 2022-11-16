@@ -57,7 +57,7 @@ const Footer = () => {
               <TikTok />
             </a> */}
         </div>
-        <div className="circle"></div>
+        {/* <div className="circle"></div> */}
       </footer>
     </>
   );
