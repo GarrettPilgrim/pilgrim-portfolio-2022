@@ -63,9 +63,11 @@
 }
 
 .close {
-  transform: translateX(105%);
+  opacity: 0;
+  transform: translateX(110%);
 }
 
 .open {
+  opacity: 1;
   transform: translateX(0%);
 }

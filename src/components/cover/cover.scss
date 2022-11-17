@@ -59,7 +59,16 @@ header img {
 @media (max-width: base.$mobile-size) {
   .cover-frame {
     grid-template-columns: 1fr;
-    height: 100vh;
+    grid-template-rows: repeat(2, 1fr);
+    height: 80vh;
+  }
+
+  .first-column {
+    grid-row: 1 / 2;
+  }
+
+  .second-column {
+    grid-row: 2 / 3;
   }
 
   .first-column,

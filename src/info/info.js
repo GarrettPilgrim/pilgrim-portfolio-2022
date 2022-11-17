@@ -18,7 +18,7 @@ import TeachableCover from "../images/photos/dev/teachable-cover.jpg";
 import AhsokaCover from "../images/photos/design/ahsoka-cover.png";
 import WaititiCover from "../images/photos/design/waititi-cover.png";
 import ChuloCover from "../images/photos/design/chulo-cover.jpg";
-import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg"
+import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg";
 import DonutCover from "../images/photos/motion/donut-cover.png";
 
 // FUNCTIONS
@@ -404,7 +404,7 @@ const awards = {
 
 const dev = {
   PilgrimWedding: {
-    name: "Pilgrimwedding.com",
+    name: "Pilgrim Wedding",
     url: "https://pilgrimagewedding.netlify.app/",
     github: "https://github.com/GarrettPilgrim/pilgrim-wedding",
     subheader: "A single-page Gatsby landing page to RSVP for my wedding.",
@@ -413,7 +413,7 @@ const dev = {
     link: "/dev/pilgrimwedding",
   },
   Caivrs: {
-    name: "ClearCaivrs.com",
+    name: "Clear Caivrs",
     url: "https://clearcaivrs.com/",
     subheader:
       "A landing page designed to convince clients to buy the Udeany CAIVRS ecourse.",
@@ -422,7 +422,7 @@ const dev = {
     link: "/dev/clearcaivrs",
   },
   Pslf: {
-    name: "PSLFWaiver.co",
+    name: "PSLF Waiver",
     url: "https://pslfwaiver.co/",
     subheader:
       "A landing page guiding leads to purchase the PSLF Waiver course.",
