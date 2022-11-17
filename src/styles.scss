@@ -19,7 +19,8 @@ p,
 span,
 a,
 li,
-form {
+form,
+figcaption {
   font-family: base.$body-fonts;
 }
 
@@ -36,6 +37,7 @@ h5 {
   font-family: base.$header-fonts;
   margin: 2em .5rem 0 .5rem;
   line-height: 100%;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -73,4 +75,19 @@ a:hover {
 .centered-text {
   max-width: 80ch;
   margin: 0 auto 5rem auto;
+}
+
+figure {
+  margin: .5rem;
+  font-size: .8rem;
+  text-align: right;
+}
+
+figcaption {
+  margin: .5rem 0;
+}
+
+video {
+  max-width: 100%;
+  margin: 1rem auto;
 }

@@ -1,3 +1,6 @@
+# Garrett's React Portfolio
+This project aims to show off Garrett Pilgrim's development, design, and motion skills for job placement.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

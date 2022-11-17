@@ -13,13 +13,21 @@ $dark: #151515;
 $transparent-primary: rgba($color: $primary-color, $alpha: .8);
 $transparent-secondary: rgba($color: $secondary-color, $alpha: .8);
 $transparent-dark: rgba($color: $dark, $alpha: .8);
+$transparent-white: rgba($color: $white, $alpha: .8);
 
 $gradient-one: linear-gradient(135deg, rgba(207, 142, 128, 1) 0%, rgba(49, 133, 252, 1) 100%);
+$gradient-multi: linear-gradient(180deg,
+rgba(188,98,78,0.5) 0%,
+rgba(49,133,252,0.5) 100%),
+linear-gradient(90deg,  
+rgba(188,98,78,0.5) 00%, 
+rgba(49,133,252,0.5) 100%);
 
 // LAYOUT
 $mobile-size: 900px;
 
 // 
 $blur: blur(6px);
-$drop-shadow: 4px 4px 12px rgba($color: #000000, $alpha: .8),
+$drop-shadow: 4px 4px 6px rgba($color: #000, $alpha: .5),
   inset 1px 1px 2px rgba($color: $white, $alpha: .1);
+$border-curve: 5px;

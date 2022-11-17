@@ -1,21 +1,21 @@
 @use "../../base.scss";
 
 .job {
-  max-width: fit-content;
-  margin: 2rem auto;
+  margin: 2rem 1rem;
   padding: 3rem 2rem;
   display: grid;
-  grid-template-columns: minmax(100px, 1fr) 1fr;
+  grid-template-columns: auto auto;
   grid-gap: 2rem;
   align-items: center;
   justify-items: center;
   background: rgba($color: base.$white, $alpha: .01);
   box-shadow: base.$drop-shadow;
+  border-radius: base.$border-curve;
 }
 
 .job svg {
   width: 100%;
-  padding: 1rem;
+  padding: 2rem;
   fill: base.$white;
 }
 

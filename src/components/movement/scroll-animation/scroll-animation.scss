@@ -1,0 +1,42 @@
+@keyframes slidein {
+  0% {
+    opacity: 0;
+    transform: translateY(15%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+}
+@keyframes slideout {
+  0% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-15%);
+  }
+}
+
+
+.out-of-view {
+  animation: 450ms slideout forwards;
+}
+
+.animated {
+  animation: 450ms slidein;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .out-of-view {
+    animation: none;
+  }
+  
+  .animated {
+    animation: none;
+  }
+}

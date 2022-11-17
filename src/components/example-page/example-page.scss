@@ -1,12 +1,26 @@
 @use '../../base.scss';
 
 .example-page-cover {
+  width: 100vw;
   font-size: clamp(3.2em, 10vw, 8em);
+}
+
+.example-page-cover img {
+  margin: auto;
+  object-fit: cover;
 }
 
 .example-page h1 {
   font-size: .5em;
   margin: 4rem .5rem 1rem .5rem;
+}
+
+.example-page h3 {
+  margin-top: 1em;
+}
+
+.example-page figure {
+  margin-top: 3rem;
 }
 
 .example-page-text {
@@ -31,7 +45,7 @@
   justify-content: center;
 }
 
-.example-page a {
+.example-page a:not(p > a) {
   padding: 1.2rem 3.2rem;
   background: base.$primary-color;
   color: base.$white;

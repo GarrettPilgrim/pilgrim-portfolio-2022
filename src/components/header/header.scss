@@ -6,6 +6,7 @@
   top: 0;
   display: grid;
   grid-template-columns: 80px 1fr;
+  align-items: center;
   z-index: 100;
 }
 
@@ -13,6 +14,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   grid-column: 2 / -1;
+  margin: 1rem 0;
   list-style: none;
 }
 
@@ -26,6 +28,7 @@ nav ul a {
   color: base.$white;
   text-decoration: none;
   cursor: pointer;
+  border-radius: base.$border-curve;
 }
 
 nav ul a:active {
@@ -35,17 +38,19 @@ nav ul a:active {
 nav ul a:hover {
   background: rgba($color: base.$white, $alpha: .8);
   color: base.$primary-color;
+  border-radius: calc(base.$border-curve * 2);
+  transform: scale(110%);
+
 }
 
 .logo {
   max-width: 50px;
-  align-self: center;
   z-index: 100;
 }
 
 .logo a {
   padding: 1rem;
-  filter: drop-shadow(4px 4px 12px rgba($color: #000000, $alpha: .8));
+  filter: drop-shadow(4px 4px 6px rgba($color: #000000, $alpha: .5));
 }
 
 .logo svg {
@@ -58,7 +63,10 @@ nav ul a:hover {
 }
 
 .burger-container {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
   display: none;
+  justify-self: flex-end;
 }
 
 @media (max-width: base.$mobile-size) {

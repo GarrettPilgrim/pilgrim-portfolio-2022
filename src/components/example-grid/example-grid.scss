@@ -1,8 +1,10 @@
 @use '../../base.scss';
 
 .example-grid {
+  margin: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   font-size: .4rem;
 }
 
@@ -14,6 +16,11 @@
   text-decoration: none;
 }
 
+.example-grid-item,
+.example-grid-item > * {
+  border-radius: base.$border-curve;
+}
+
 .example-grid-item img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -22,19 +29,27 @@
 }
 
 .example-grid-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
   padding: 3rem 1rem;
   position: relative;
+  align-self: stretch;
   color: base.$white;
   text-decoration: none;
   background: base.$transparent-dark;
   box-shadow: base.$drop-shadow;
-  backdrop-filter: base.$blur;
+  backdrop-filter: blur(3px);
   z-index: 90;
 }
 
 .example-grid-item a:hover {
+  background: base.$transparent-primary;
+}
+
+.example-grid-item a:active {
   background: base.$transparent-primary;
 }
 

@@ -28,7 +28,7 @@ class Burger extends React.Component {
   render() {
     if (this.state.visibility) {
       return (
-        <div>
+        <>
           <button className="burger-container" onClick={this.toggleVisibility}>
             <div className="burger burger-x" />
             <div className="burger burger-x" />
@@ -37,11 +37,11 @@ class Burger extends React.Component {
           <div className="open">
             <MobileMenu clickClose={this.closeOnClick} />
           </div>
-        </div>
+        </>
       );
     } else {
       return (
-        <div>
+        <>
           <button className="burger-container" onClick={this.toggleVisibility}>
             <div className="burger burger-reg" />
             <div className="burger burger-reg" />
@@ -50,7 +50,7 @@ class Burger extends React.Component {
           <div className="close">
             <MobileMenu clickClose={this.closeOnClick} />
           </div>
-        </div>
+        </>
       );
     }
   }
