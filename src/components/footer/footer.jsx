@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.scss";
 import { ReactComponent as LinkedIn } from "../../images/svgs/linkedin-icon.svg";
-import { ReactComponent as TikTok } from "../../images/svgs/tiktok-icon.svg";
-import { ReactComponent as Instagram } from "../../images/svgs/instagram-icon.svg";
+// import { ReactComponent as TikTok } from "../../images/svgs/tiktok-icon.svg";
+// import { ReactComponent as Instagram } from "../../images/svgs/instagram-icon.svg";
 import { ReactComponent as GitHub } from "../../images/svgs/github-icon.svg";
 
 const Footer = () => {
