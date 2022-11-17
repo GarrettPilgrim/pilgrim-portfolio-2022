@@ -6,7 +6,7 @@ import Dev from "./pages/dev";
 import Design from "./pages/design";
 import Motion from "./pages/motion";
 import Resume from "./pages/resume";
-import About from "./pages/about";
+// import About from "./pages/about";
 import ErrorPage from "./pages/404";
 
 // SUB PAGES

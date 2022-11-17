@@ -1,6 +1,6 @@
 import React from "react";
 import Cover from "../components/cover/cover";
-import FancyList from "../components/fancy-list/fancy-list";
+// import FancyList from "../components/fancy-list/fancy-list";
 import Grid from "../components/example-grid/example-grid";
 import GridItem from "../components/example-grid/grid-item/grid-item";
 import DevCover from "../images/photos/dev-home.jpg";
