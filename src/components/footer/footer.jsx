@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <form method="get" action="">
+        <form name="contact" method="POST" data-netlify="true">
           <h2>Get in Touch</h2>
           <fieldset>
             <label for="name">
