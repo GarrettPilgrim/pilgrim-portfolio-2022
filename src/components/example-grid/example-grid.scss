@@ -62,7 +62,7 @@
   margin: 0;
 }
 
-@media (max-width: base.$mobile-size) {
+@media (max-width: base.$tablet-size) {
   .example-grid {
     grid-template-columns: 1fr;
   }
