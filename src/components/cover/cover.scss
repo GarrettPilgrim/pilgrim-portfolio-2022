@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 2fr 3fr;
   margin-bottom: 3rem;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .cover-frame > div {
@@ -32,7 +32,7 @@ header img {
 .first-column {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
-  padding: 1.2rem 0.5rem;
+  padding: 1.2rem 0.6rem;
   z-index: 10;
 }
 
