@@ -6,8 +6,10 @@ const Cover = () => {
   return (
     <header className="cover-frame">
       <div className="first-column">
-        <h1>Garrett Pilgrim</h1>
-        <span>Developer and Designer</span>
+        <div>
+          <h1>Garrett Pilgrim</h1>
+          <span>Developer and Designer</span>
+        </div>
       </div>
       <div className="second-column">
         <img

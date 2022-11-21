@@ -1,9 +1,10 @@
 import React from "react";
+import ScrollAnimation from "../movement/scroll-animation/scroll-animation";
 import "./card.scss";
 
 const Card = (props) => {
   return (
-    <>
+    <ScrollAnimation>
       <div className="card">
         <div className="card-text">
           <h3>
@@ -19,7 +20,7 @@ const Card = (props) => {
           <ul>{props.courses}</ul>
         </div>
       </div>
-    </>
+    </ScrollAnimation>
   );
 };
 

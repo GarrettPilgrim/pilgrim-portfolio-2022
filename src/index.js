@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import { createRef } from "react";
 import { createRoot } from "react-dom/client";
 import {
@@ -37,6 +37,19 @@ function Index() {
   const currentOutlet = useOutlet();
   const { nodeRef } =
     routes.find((route) => route.path === location.pathname) ?? {};
+
+  const styleTitle = () => {
+    const pageTitle = location.pathname.replaceAll("/", " ");
+    const newPageTitle = pageTitle.charAt(1).toUpperCase() + pageTitle.slice(2);
+    return newPageTitle;
+  };
+  useEffect(() => {
+    if (styleTitle()) {
+      document.title = `Garrett Pilgrim — ` + styleTitle();
+    } else {
+      document.title = `Garrett Pilgrim Portfolio`;
+    }
+  });
   return (
     <>
       <Header />

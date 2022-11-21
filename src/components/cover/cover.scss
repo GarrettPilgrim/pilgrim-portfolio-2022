@@ -1,24 +1,23 @@
-@use '../../base.scss';
+@use "../../base.scss";
+
+// Rework cover layout to better work on mobile
 
 .cover-frame {
-  width: 100%;
-  height: 100vh;
-  margin-bottom: 3rem;
-  display: grid;
-  grid-template-columns: 10px 2fr 3fr 10px;
-  // border-bottom: 5px solid base.$tert-color;
-  color: base.$white;
   background: base.$gradient-multi;
+  color: base.$white;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-bottom: 3rem;
+  padding-top: 100px;
 }
 
-.cover-frame>div {
+.cover-frame > div {
   align-self: flex-end;
 }
 
 header h1 {
-  position: relative;
+  margin: 0 0 5px 0;
   text-shadow: 4px 4px 10px base.$dark;
-  margin: 0;
 }
 
 span {
@@ -26,52 +25,36 @@ span {
 }
 
 header img {
-  position: relative;
   filter: drop-shadow(2px 5px 10px base.$dark);
+  position: relative;
 }
 
 .first-column {
-  padding: 1.2rem .5rem;
-  grid-column: 2 / 4;
+  grid-column: 1 / -1;
   grid-row: 1 / 2;
+  padding: 1.2rem 0.6rem;
   z-index: 10;
 }
 
 .second-column {
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
   display: flex;
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
   justify-content: flex-end;
-}
-
-.circle {
-  position: absolute;
-  bottom: 0%;
-  right: 1%;
-  width: calc(300px + 30vw);
-  height: calc(300px + 30vw);
-  background: base.$gradient-one;
-  border-radius: 100%;
-  filter: drop-shadow(-10px -10px 0 base.$transparent-white);
-  z-index: -1;
 }
 
 @media (max-width: base.$mobile-size) {
   .cover-frame {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    height: 80vh;
   }
 
   .first-column {
-    grid-row: 1 / 2;
-  }
-
-  .second-column {
+    background: base.$transparent-dark;
+    border-top: 5px solid base.$tert-color;
     grid-row: 2 / 3;
+    justify-self: center;
   }
 
-  .first-column,
   .second-column {
     grid-column: 1 / -1;
   }

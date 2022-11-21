@@ -7,13 +7,13 @@ import "./header.scss";
 class Header extends React.Component {
   render() {
     return (
-      <nav className="header-grid">
+      <header className="header-grid">
         <div className="logo">
           <Link to="/">
             <Logo />
           </Link>
         </div>
-        <div className="desktop-menu">
+        <nav className="desktop-menu">
           <ul>
             <li>
               <Link to="/dev">Dev</Link>
@@ -31,9 +31,9 @@ class Header extends React.Component {
               <Link to="/about">About</Link>
             </li> */}
           </ul>
-        </div>
+        </nav>
         <Burger onClick={this.toggleMenu} />
-      </nav>
+      </header>
     );
   }
 }

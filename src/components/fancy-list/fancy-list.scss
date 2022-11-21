@@ -41,7 +41,7 @@
   color: base.$primary-color;
 }
 
-@media (max-width: base.$mobile-size) {
+@media (max-width: base.$tablet-size) {
   .fancy-list ul {
     grid-template-columns: 1fr;
   }
