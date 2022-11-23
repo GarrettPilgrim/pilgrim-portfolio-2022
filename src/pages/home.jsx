@@ -103,18 +103,18 @@ const Home = () => {
           That's when something clicked in my brain. I love to code.
         </p>
         <p>
-          From then on, I took any chance to learn more about code, programming
-          languages, ways to develop more efficiently, different techniques, and
-          so much more. It was like putting glasses on for the first time. I
-          could see a whole new world and wanted to learn everything I could
-          about it.
+          From then on, I took any chance to learn more about coding,
+          programming languages, ways to develop more efficiently, different
+          techniques, and much more. It was like putting glasses on for the
+          first time. I could see a whole new world and wanted to learn
+          everything I could about it.
         </p>
         <h3>What now?</h3>
         <p>
           Now I want to keep learning and growing my abilities to develop
           websites, apps, and programs to suit strategic needs, whether it's
-          personal projects to hone my skills or a job that allows me to use and
-          build my skills as a developer.
+          personal projects to hone my skills or professional work that allows
+          me to build my skills as a developer.
         </p>
         <p>
           Let's get in touch if you want to work with a nerd who knows how to
