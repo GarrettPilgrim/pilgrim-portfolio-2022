@@ -3,10 +3,10 @@ import Cover from "../components/cover/cover";
 // import FancyList from "../components/fancy-list/fancy-list";
 import Grid from "../components/example-grid/example-grid";
 import GridItem from "../components/example-grid/grid-item/grid-item";
-import DevCover from "../images/photos/dev-home.jpg";
-import DesignCover from "../images/photos/design-home.jpg";
-import MotionCover from "../images/photos/motion-home.jpg";
-import ResumeCover from "../images/photos/resume-home.jpg";
+import DevCover from "../images/photos/dev-home.webp";
+import DesignCover from "../images/photos/design-home.webp";
+import MotionCover from "../images/photos/motion-home.webp";
+import ResumeCover from "../images/photos/resume-home.webp";
 
 const Home = () => {
   return (
