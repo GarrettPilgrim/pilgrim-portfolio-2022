@@ -20,6 +20,8 @@ import WaititiCover from "../images/photos/design/waititi-cover.png";
 import ChuloCover from "../images/photos/design/chulo-cover.jpg";
 import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg";
 import DonutCover from "../images/photos/motion/donut-cover.png";
+import ResumeCover from "../images/photos/resume-home.jpg";
+import UdeanyMotionCover from "../images/photos/motion/udeanymotion-cover.jpg";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -452,7 +454,7 @@ const dev = {
     url: "",
     github: "https://github.com/GarrettPilgrim/pilgrim-portfolio-2022",
     subheader: "The website you're currently on, my portfolio",
-    cover: "",
+    cover: ResumeCover,
     alt: "",
     link: "/dev/thisportfolio",
   },
@@ -502,8 +504,8 @@ const motion = {
     url: "",
     subheader:
       "Motion graphics and video production work for ecourse lessons and promotion",
-    cover: "",
-    alt: "",
+    cover: UdeanyMotionCover,
+    alt: 'The cover graphic for a Udeany promotional video with the text: "Clear CAIVRS Like Magic with Udeany"',
     link: "/motion/udeanymotion",
   },
   Donut: {

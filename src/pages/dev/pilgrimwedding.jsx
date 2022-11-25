@@ -11,6 +11,7 @@ class PilgrimWedding extends React.Component {
           url={dev.PilgrimWedding.url}
           img={dev.PilgrimWedding.cover}
           alt={dev.PilgrimWedding.alt}
+          github={dev.PilgrimWedding.github}
         >
           <h2>The Need</h2>
           <p>
