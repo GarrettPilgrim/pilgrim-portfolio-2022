@@ -20,7 +20,7 @@ import WaititiCover from "../images/photos/design/waititi-cover.png";
 import ChuloCover from "../images/photos/design/chulo-cover.jpg";
 import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg";
 import DonutCover from "../images/photos/motion/donut-cover.png";
-import ResumeCover from "../images/photos/resume-home.webp";
+import ResumeCover from "../images/photos/resume-home.jpg";
 import UdeanyMotionCover from "../images/photos/motion/udeanymotion-cover.jpg";
 
 // FUNCTIONS
