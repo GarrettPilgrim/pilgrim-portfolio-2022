@@ -20,6 +20,7 @@ import WaititiCover from "../images/photos/design/waititi-cover.png";
 import ChuloCover from "../images/photos/design/chulo-cover.jpg";
 import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg";
 import DonutCover from "../images/photos/motion/donut-cover.png";
+import ResumeCover from "../images/photos/resume-home.jpg";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -452,7 +453,7 @@ const dev = {
     url: "",
     github: "https://github.com/GarrettPilgrim/pilgrim-portfolio-2022",
     subheader: "The website you're currently on, my portfolio",
-    cover: "",
+    cover: ResumeCover,
     alt: "",
     link: "/dev/thisportfolio",
   },
