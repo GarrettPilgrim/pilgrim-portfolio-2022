@@ -1,6 +1,6 @@
 import React from "react";
 import "./cover.scss";
-import headshot from "../../images/photos/headshot.png";
+import headshot from "../../images/photos/headshot.webp";
 
 const Cover = () => {
   return (
