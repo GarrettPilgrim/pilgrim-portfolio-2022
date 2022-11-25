@@ -1,4 +1,4 @@
-@use '../../base.scss';
+@use "../../base.scss";
 
 .example-page-cover {
   width: 100vw;
@@ -11,8 +11,8 @@
 }
 
 .example-page h1 {
-  font-size: .5em;
-  margin: 4rem .5rem 1rem .5rem;
+  font-size: 0.5em;
+  margin: 4rem 0.5rem 1rem 0.5rem;
 }
 
 .example-page h3 {
@@ -55,4 +55,16 @@
 .example-page a:hover {
   background: base.$white;
   color: base.$primary-color;
+}
+
+.example-page iframe {
+  max-width: 100%;
+  width: 1000px;
+  height: 400px;
+}
+
+@media (max-width: base.$mobile-size) {
+  .example-page iframe {
+    height: 250px;
+  }
 }

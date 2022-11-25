@@ -11,14 +11,23 @@ class UdeanyMotion extends React.Component {
           img={motion.Udeany.cover}
           alt={motion.Udeany.alt}
         >
-          <h2>Example Video</h2>
-          <video
-            controls="controls"
-            controlsList="nodownload"
-            preload="metadata"
-          >
-            <source src="" />
-          </video>
+          <h2>The Motion</h2>
+          <h3>CAIVRS Hero Video</h3>
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/h7k1A5uDIXg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h3>Course Promo Video</h3>
+          <iframe
+            src="https://www.youtube.com/embed/UiFyDTTOWqs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           <h2>The Need</h2>
           <p>
             I guided the production of ecourse and promotional content for
