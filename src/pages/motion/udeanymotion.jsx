@@ -11,6 +11,14 @@ class UdeanyMotion extends React.Component {
           img={motion.Udeany.cover}
           alt={motion.Udeany.alt}
         >
+          <h2>Example Video</h2>
+          <video
+            controls="controls"
+            controlsList="nodownload"
+            preload="metadata"
+          >
+            <source src="" />
+          </video>
           <h2>The Need</h2>
           <p>
             I guided the production of ecourse and promotional content for
