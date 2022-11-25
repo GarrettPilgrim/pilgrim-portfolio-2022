@@ -30,7 +30,22 @@ const ExamplePage = (props) => {
     return "";
   };
 
-  // add semantic tags <main> <section>
+  // Determines if the object has a Github link and returns an anchor to show the respository.
+  const returnGit = (github) => {
+    if (github !== undefined && github !== null && github !== "") {
+      return (
+        <>
+          <div className="example-page-link">
+            <a href={props.github} target="_blank" rel="noreferrer">
+              View on Github
+            </a>
+          </div>
+        </>
+      );
+    }
+    return "";
+  };
+
   return (
     <>
       <main className="example-page">
@@ -40,6 +55,7 @@ const ExamplePage = (props) => {
         </div>
         <div className="example-page-text">{props.children}</div>
         {returnURL(props.embed)}
+        {returnGit(props.github)}
       </main>
     </>
   );

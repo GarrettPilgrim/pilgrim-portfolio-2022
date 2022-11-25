@@ -8,6 +8,7 @@ const ThisPortfolio = () => {
       <ExamplePage
         name={dev.Portfolio.name}
         url={dev.Portfolio.url}
+        github={dev.Portfolio.github}
         img={dev.Portfolio.cover}
         alt={dev.Portfolio.alt}
       >
