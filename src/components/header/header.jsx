@@ -9,7 +9,7 @@ class Header extends React.Component {
     return (
       <header className="header-grid">
         <div className="logo">
-          <Link to="/">
+          <Link to="/" aria-label="Home button">
             <Logo />
           </Link>
         </div>
