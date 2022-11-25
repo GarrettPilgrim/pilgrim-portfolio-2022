@@ -29,7 +29,11 @@ class Burger extends React.Component {
     if (this.state.visibility) {
       return (
         <>
-          <button className="burger-container" onClick={this.toggleVisibility}>
+          <button
+            className="burger-container"
+            onClick={this.toggleVisibility}
+            aria-label="close"
+          >
             <div className="burger burger-x" />
             <div className="burger burger-x" />
             <div className="burger burger-x" />
@@ -42,7 +46,11 @@ class Burger extends React.Component {
     } else {
       return (
         <>
-          <button className="burger-container" onClick={this.toggleVisibility}>
+          <button
+            className="burger-container"
+            onClick={this.toggleVisibility}
+            aria-label="open"
+          >
             <div className="burger burger-reg" />
             <div className="burger burger-reg" />
             <div className="burger burger-reg" />
