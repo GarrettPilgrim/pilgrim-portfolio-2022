@@ -15,6 +15,8 @@ const Cover = () => {
         <img
           src={headshot}
           alt="A portrait of Garrett Pilgrim from the shoulders up."
+          width="924"
+          height="844"
         ></img>
         {/* <div className="circle" /> */}
       </div>
