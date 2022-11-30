@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../components/card/card";
 import FancyList from "../components/fancy-list/fancy-list";
 import Job from "../components/job/job";
-import { jobs, edu, skills, awards } from "../info/info";
+import { jobs, edu, skills, awards, technlogies } from "../info/info";
 
 const Resume = () => {
   const getJobs = (job) => {
@@ -78,6 +78,12 @@ const Resume = () => {
         <h2>Skills</h2>
         <FancyList>
           <ul>{getArr(skills)}</ul>
+        </FancyList>
+      </section>
+      <section>
+        <h2>Technlogies</h2>
+        <FancyList>
+          <ul>{getArr(technlogies)}</ul>
         </FancyList>
       </section>
       <section>

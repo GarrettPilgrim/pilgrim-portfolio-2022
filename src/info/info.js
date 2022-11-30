@@ -336,21 +336,33 @@ const edu = {
 };
 
 const skills = [
+  "Front-End Development",
+  "Responsive Web Design",
+  "UI/UX",
+  "SEO",
+  "Advertising",
+  "Branding",
+  "Marketing",
+  "Motion Graphics",
+  "Video Production",
+];
+
+const technlogies = [
   "CSS3",
   "HTML5",
   "Javascript ES6",
-  "Responsive Design",
   "React",
-  "SEO",
-  "Teachable",
-  "UI",
-  "UX",
-  "After Effects",
-  "Blender",
-  "Premiere Pro",
-  "Video Production",
-  "Photoshop",
+  "Gatsby",
+  "Git/Github",
   "Illustrator",
+  "Photoshop",
+  "After Effects",
+  "Premiere Pro",
+  "Blender",
+  "Node.js",
+  "Netlify",
+  "Teachable",
+  "WordPress",
 ];
 
 const awards = {
@@ -518,4 +530,14 @@ const motion = {
   },
 };
 
-export { jobs, edu, dev, skills, awards, design, motion, getGridItems };
+export {
+  jobs,
+  edu,
+  dev,
+  skills,
+  awards,
+  design,
+  motion,
+  technlogies,
+  getGridItems,
+};
