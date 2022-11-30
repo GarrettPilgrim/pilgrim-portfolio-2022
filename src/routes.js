@@ -6,10 +6,10 @@ import Dev from "./pages/dev";
 import Design from "./pages/design";
 import Motion from "./pages/motion";
 import Resume from "./pages/resume";
-// import About from "./pages/about";
 import ErrorPage from "./pages/404";
 
 // SUB PAGES
+// dev
 import ClearCaivrs from "./pages/dev/clearcaivrs";
 import PilgrimWedding from "./pages/dev/pilgrimwedding";
 import PSLFWaiver from "./pages/dev/pslfwaiver";
@@ -17,15 +17,18 @@ import Teachable from "./pages/dev/teachable";
 import WillyWonka from "./pages/dev/willywonka";
 import ThisPortfolio from "./pages/dev/thisportfolio";
 
+// design
 import Ahsoka from "./pages/design/ahsokatano";
 import Chulo from "./pages/design/chulo";
 import Waititi from "./pages/design/taikawaititi";
 import WoodlandHills from "./pages/design/woodlandhills";
 import BobRoss from "./pages/design/bobross";
 
+// motion
 import Donut from "./pages/motion/3ddonut";
 import UdeanyMotion from "./pages/motion/udeanymotion";
 
+// ROUTES
 const routes = [
   // MAIN PAGES
   { path: "/", name: "Home", element: <Home />, nodeRef: createRef() },

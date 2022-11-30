@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-// import { createRef } from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -35,14 +34,18 @@ const router = createBrowserRouter([
 function Index() {
   const location = useLocation();
   const currentOutlet = useOutlet();
+  
   const { nodeRef } =
     routes.find((route) => route.path === location.pathname) ?? {};
 
+  // REWORK LOCATION NAME FOR PAGE TITLES
   const styleTitle = () => {
     const pageTitle = location.pathname.replaceAll("/", " ");
     const newPageTitle = pageTitle.charAt(1).toUpperCase() + pageTitle.slice(2);
     return newPageTitle;
   };
+  
+  // SET HOME TITLE AND SUB PAGE TITLES
   useEffect(() => {
     if (styleTitle()) {
       document.title = `Garrett Pilgrim — ` + styleTitle();
@@ -50,6 +53,7 @@ function Index() {
       document.title = `Garrett Pilgrim Portfolio`;
     }
   });
+
   return (
     <>
       <Header />
@@ -77,23 +81,3 @@ function Index() {
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(<RouterProvider router={router} fallbackElement={<ErrorPage />} />);
-
-// INDEX PRIOR TO TRANSITIONS
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// import App from "./app";
-// import "./styles.scss";
-// import "./base.scss";
-
-// class Index extends React.Component {
-//   render() {
-//     return (
-//       <>
-//         <App />
-//       </>
-//     );
-//   }
-// }
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<Index />);
