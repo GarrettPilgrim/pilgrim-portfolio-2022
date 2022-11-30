@@ -6,11 +6,11 @@ footer {
   padding: 4rem 0;
   max-height: auto;
   overflow: hidden;
-  background: base.$gradient-multi; 
+  background: base.$gradient-multi;
 }
 
 footer form {
-  max-width: 60ch;
+  max-width: 50ch;
   margin: auto;
   padding: 3rem 1rem;
   background: base.$transparent-primary;
@@ -19,7 +19,7 @@ footer form {
   border-radius: base.$border-curve;
 }
 
-footer fieldset>* {
+footer fieldset > * {
   margin-top: 1rem;
 }
 
@@ -32,7 +32,7 @@ footer fieldset {
 
 footer h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: rem;
   margin: 0;
 }
 
@@ -47,7 +47,7 @@ footer textarea,
 footer input {
   color: base.$dark;
   font-size: 1rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 footer textarea {
@@ -56,12 +56,12 @@ footer textarea {
 }
 
 footer input {
-  height: 5ch;
+  height: 3.5ch;
   border: none;
 }
 
 footer label {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 footer button {

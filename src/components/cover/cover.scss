@@ -47,6 +47,7 @@ header img {
 @media (max-width: base.$mobile-size) {
   .cover-frame {
     grid-template-columns: 1fr;
+    padding-top: 100px;
   }
 
   .first-column {
