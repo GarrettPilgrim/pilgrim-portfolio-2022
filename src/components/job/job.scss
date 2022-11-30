@@ -1,22 +1,22 @@
 @use "../../base.scss";
 
 .job {
+  align-items: center;
+  background: rgba($color: base.$white, $alpha: .01);
+  border-radius: base.$border-curve;
+  box-shadow: base.$drop-shadow;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto auto;
+  justify-items: center;
   margin: 2rem 1rem;
   padding: 3rem 2rem;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 2rem;
-  align-items: center;
-  justify-items: center;
-  background: rgba($color: base.$white, $alpha: .01);
-  box-shadow: base.$drop-shadow;
-  border-radius: base.$border-curve;
 }
 
 .job svg {
-  width: 100%;
-  padding: 2rem;
   fill: base.$white;
+  padding: 2rem;
+  width: 100%;
 }
 
 .job-text {
@@ -33,8 +33,8 @@
 }
 
 .job-text span {
-  font-size: .6em;
   color: base.$white;
+  font-size: .6em;
 }
 
 .job-text h3+p {
@@ -43,20 +43,21 @@
 
 
 .job-text div {
-  margin-top: 2rem;
   border-top: .2rem solid base.$white;
+  margin-top: 2rem;
 }
 
 .job-text div p,
 .job-text h4 {
-  margin-right: 0;
   margin-left: 0;
+  margin-right: 0;
 }
 
 @media (max-width: base.$tablet-size) {
+  
   .job {
     grid-template-columns: 1fr;
-    padding: 3rem 0;
     margin: 1rem auto;
+    padding: 3rem 0;
   }
 }

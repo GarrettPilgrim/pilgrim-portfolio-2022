@@ -1,15 +1,15 @@
 @use "../../base.scss";
 
 .card {
-  max-width: fit-content;
-  margin: 2rem auto;
-  padding: 3rem 2rem;
-  grid-gap: 2rem;
   align-items: center;
-  justify-items: center;
   background: rgba($color: base.$white, $alpha: .01);
-  box-shadow: base.$drop-shadow;
   border-radius: base.$border-curve;
+  box-shadow: base.$drop-shadow;
+  grid-gap: 2rem;
+  justify-items: center;
+  margin: 2rem auto;
+  max-width: fit-content;
+  padding: 3rem 2rem;
 }
 
 .card img {
@@ -41,20 +41,20 @@
 }
 
 .card-text h3 span {
+  color: base.$white;
   font-family: base.$header-fonts;
   font-size: .6em;
-  color: base.$white;
 }
 
 .card-text div {
-  margin-top: 2rem;
   border-top: .2rem solid base.$white;
+  margin-top: 2rem;
 }
 
 .card-text div p,
 .card-text h4 {
-  margin-right: 0;
   margin-left: 0;
+  margin-right: 0;
 }
 
 .card ul {
@@ -62,6 +62,7 @@
 }
 
 @media (max-width: base.$tablet-size) {
+  
   .card {
     padding: 3rem 0rem;
   }

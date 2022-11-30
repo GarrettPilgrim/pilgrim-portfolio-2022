@@ -25,8 +25,8 @@ span {
 }
 
 header img {
-  height: 1;
   filter: drop-shadow(2px 5px 10px base.$dark);
+  height: 1;
   position: relative;
 }
 
@@ -45,8 +45,10 @@ header img {
 }
 
 @media (max-width: base.$mobile-size) {
+  
   .cover-frame {
     grid-template-columns: 1fr;
+    padding-top: 100px;
   }
 
   .first-column {

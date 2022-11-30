@@ -440,15 +440,15 @@ const dev = {
     alt: "",
     link: "/dev/teachable",
   },
-  WillyWonka: {
-    name: "Willy Wonka Site",
-    url: "",
-    github: "https://github.com/GarrettPilgrim/willy-wonka",
-    subheader: "A single-page site created live in class",
-    cover: "",
-    alt: "",
-    link: "/dev/willywonka",
-  },
+  // WillyWonka: {
+  //   name: "Willy Wonka Site",
+  //   url: "",
+  //   github: "https://github.com/GarrettPilgrim/willy-wonka",
+  //   subheader: "A single-page site created live in class",
+  //   cover: "",
+  //   alt: "",
+  //   link: "/dev/willywonka",
+  // },
   Portfolio: {
     name: "This portfolio site",
     url: "",
@@ -489,13 +489,13 @@ const design = {
     alt: "",
     link: "/design/woodlandhills",
   },
-  BobRoss: {
-    name: "Bob Ross",
-    subheader: "Digitally painting with Bob Ross",
-    cover: "",
-    alt: "",
-    link: "/design/bobross",
-  },
+  // BobRoss: {
+  //   name: "Bob Ross",
+  //   subheader: "Digitally painting with Bob Ross",
+  //   cover: "",
+  //   alt: "",
+  //   link: "/design/bobross",
+  // },
 };
 
 const motion = {

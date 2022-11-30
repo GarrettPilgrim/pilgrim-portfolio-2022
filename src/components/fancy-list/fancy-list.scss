@@ -2,16 +2,13 @@
 
 .fancy-list ul,
 .nested-list {
-  max-width: 90%;
-  margin: 1rem auto;
-  // display: flex;
-  // justify-content: center;
-  // flex-wrap: wrap;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
   list-style: none;
+  margin: 1rem auto;
+  max-width: 90%;
+  padding: 0;
 }
 
 .nested-list {
@@ -20,11 +17,11 @@
 
 .fancy-list ul li,
 .nested-list-item {
-  padding: calc(1rem + 1%) calc(1rem + 2%);
-  box-shadow: base.$drop-shadow;
   backdrop-filter: base.$blur;
-  font-family: base.$header-fonts;
   border-radius: base.$border-curve;
+  box-shadow: base.$drop-shadow;
+  font-family: base.$header-fonts;
+  padding: calc(1rem + 1%) calc(1rem + 2%);
 }
 
 .fancy-list ul li {
@@ -37,11 +34,12 @@
 }
 
 .nested-list-item h3 {
-  font-size: clamp(1.2em, 2.5vw, 1.8em);
   color: base.$primary-color;
+  font-size: clamp(1.2em, 2.5vw, 1.8em);
 }
 
 @media (max-width: base.$tablet-size) {
+  
   .fancy-list ul {
     grid-template-columns: 1fr;
   }

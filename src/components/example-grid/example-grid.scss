@@ -1,18 +1,18 @@
 @use '../../base.scss';
 
 .example-grid {
-  margin: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
   font-size: .4rem;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
 }
 
 .example-grid-item {
-  display: grid;
   align-items: center;
   background: base.$primary-color;
   color: base.$white;
+  display: grid;
   text-decoration: none;
 }
 
@@ -24,24 +24,24 @@
 .example-grid-item img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .example-grid-item a {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
-  padding: 3rem 1rem;
-  position: relative;
   align-self: stretch;
-  color: base.$white;
-  text-decoration: none;
+  backdrop-filter: blur(3px);
   background: base.$transparent-dark;
   box-shadow: base.$drop-shadow;
-  backdrop-filter: blur(3px);
+  color: base.$white;
+  display: flex;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  justify-content: center;
+  padding: 3rem 1rem;
+  position: relative;
+  text-decoration: none;
   z-index: 90;
 }
 
@@ -63,6 +63,7 @@
 }
 
 @media (max-width: base.$tablet-size) {
+  
   .example-grid {
     grid-template-columns: 1fr;
   }
