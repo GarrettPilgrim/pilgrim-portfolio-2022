@@ -1,8 +1,8 @@
 @use "../../base.scss";
 
 .example-page-cover {
-  width: 100vw;
   font-size: clamp(3.2em, 10vw, 8em);
+  width: 100vw;
 }
 
 .example-page-cover img {
@@ -24,20 +24,20 @@
 }
 
 .example-page-text {
-  max-width: 80ch;
   margin: auto;
+  max-width: 80ch;
 }
 
 .embed {
-  width: 90%;
   height: 70vh;
   margin: 1rem auto;
+  width: 90%;
 }
 
 .example-page embed {
   display: block;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .example-page-link {
@@ -46,9 +46,9 @@
 }
 
 .example-page a:not(p > a) {
-  padding: 1.2rem 3.2rem;
   background: base.$primary-color;
   color: base.$white;
+  padding: 1.2rem 3.2rem;
   text-decoration: none;
 }
 
@@ -58,12 +58,13 @@
 }
 
 .example-page iframe {
+  height: 400px;
   max-width: 100%;
   width: 1000px;
-  height: 400px;
 }
 
 @media (max-width: base.$mobile-size) {
+  
   .example-page iframe {
     height: 250px;
   }
