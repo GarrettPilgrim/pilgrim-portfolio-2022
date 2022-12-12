@@ -336,31 +336,31 @@ const edu = {
 };
 
 const skills = [
-  "Front-End Development",
-  "Responsive Web Design",
-  "UI/UX",
-  "SEO",
   "Advertising",
   "Branding",
+  "Front-End Development",
   "Marketing",
   "Motion Graphics",
+  "Responsive Web Design",
+  "SEO",
+  "UI/UX",
   "Video Production",
 ];
 
 const technlogies = [
+  "After Effects",
+  "Blender",
   "CSS3",
-  "HTML5",
-  "Javascript ES6",
-  "React",
   "Gatsby",
   "Git/Github",
+  "HTML5",
   "Illustrator",
-  "Photoshop",
-  "After Effects",
-  "Premiere Pro",
-  "Blender",
-  "Node.js",
+  "Javascript ES6",
   "Netlify",
+  "Node.js",
+  "Photoshop",
+  "Premiere Pro",
+  "React",
   "Teachable",
   "WordPress",
 ];
