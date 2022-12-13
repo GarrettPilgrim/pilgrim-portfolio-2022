@@ -56,8 +56,8 @@ function Index() {
 
   return (
     <>
+      <Header />
       <Suspense fallback={<div>Loading...</div>}>
-        <Header />
         <ScrollToTop />
         <SwitchTransition>
           <CSSTransition
