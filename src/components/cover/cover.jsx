@@ -17,6 +17,7 @@ const Cover = () => {
           alt="A portrait of Garrett Pilgrim from the shoulders up."
           width="924"
           height="844"
+          loading="lazy"
         ></img>
         {/* <div className="circle" /> */}
       </div>

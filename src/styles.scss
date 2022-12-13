@@ -92,3 +92,39 @@ video {
   margin: 1rem auto;
   max-width: 100%;
 }
+
+.loading-page {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.loading-logo {
+  animation: 1s bouncing 1500ms infinite;
+  border-radius: 50%;
+  height: 30px;
+  opacity: 0;
+  width: 30px;
+}
+
+@keyframes bouncing {
+  0% {
+    border: solid 2px base.$white;
+    opacity: 1;
+    transform: scale(100%);
+  }
+
+  45% {
+    background: base.$transparent-loader;
+    border: solid 2px base.$primary-color;
+    opacity: 1;
+    transform: scale(200%);
+  }
+
+  100% {
+    border: solid 2px base.$white;
+    opacity: 1;
+    transform: scale(100%);
+  }
+}

@@ -25,7 +25,7 @@ const ExamplePage = (props) => {
   // Determines if the object has an image assigned and returns <img> to DOM if true
   const returnImage = (img) => {
     if (img !== "" || img !== undefined) {
-      return <img src={props.img} alt={props.alt} />;
+      return <img src={props.img} alt={props.alt} loading="lazy" />;
     }
     return "";
   };
