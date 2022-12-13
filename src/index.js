@@ -13,6 +13,7 @@ import routes from "./routes";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import ErrorPage from "./pages/404";
+import Loader from "./pages/loader";
 import ScrollToTop from "./components/movement/scroll-to-top/scroll-to-top";
 
 // STYLES
@@ -57,7 +58,7 @@ function Index() {
   return (
     <>
       <Header />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loader />}>
         <ScrollToTop />
         <SwitchTransition>
           <CSSTransition
