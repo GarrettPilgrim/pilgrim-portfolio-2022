@@ -55,9 +55,9 @@ function Index() {
   });
 
   return (
-    <>
-      <Header />
+    <div>
       <Suspense fallback={<div>Loading...</div>}>
+        <Header />
         <ScrollToTop />
         <SwitchTransition>
           <CSSTransition
@@ -76,7 +76,7 @@ function Index() {
         </SwitchTransition>
         <Footer />
       </Suspense>
-    </>
+    </div>
   );
 }
 
