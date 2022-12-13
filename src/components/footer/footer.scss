@@ -19,6 +19,11 @@ footer form {
   padding: 3rem 1rem;
 }
 
+form .bot-field-hidden {
+  visibility: hidden;
+  display: none;
+}
+
 footer fieldset > * {
   margin-top: 1rem;
 }
