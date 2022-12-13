@@ -1,4 +1,4 @@
-import React, { useEffect, Suspense } from "react";
+import React, { useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -55,28 +55,26 @@ function Index() {
   });
 
   return (
-    <div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Header />
-        <ScrollToTop />
-        <SwitchTransition>
-          <CSSTransition
-            key={location.pathname}
-            nodeRef={nodeRef}
-            timeout={300}
-            classNames="page"
-            unmountOnExit
-          >
-            {(state) => (
-              <div ref={nodeRef} className="page">
-                {currentOutlet}
-              </div>
-            )}
-          </CSSTransition>
-        </SwitchTransition>
-        <Footer />
-      </Suspense>
-    </div>
+    <>
+      <Header />
+      <ScrollToTop />
+      <SwitchTransition>
+        <CSSTransition
+          key={location.pathname}
+          nodeRef={nodeRef}
+          timeout={300}
+          classNames="page"
+          unmountOnExit
+        >
+          {(state) => (
+            <div ref={nodeRef} className="page">
+              {currentOutlet}
+            </div>
+          )}
+        </CSSTransition>
+      </SwitchTransition>
+      <Footer />
+    </>
   );
 }
 
