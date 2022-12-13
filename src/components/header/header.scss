@@ -1,4 +1,4 @@
-@use '../../base.scss';
+@use "../../base.scss";
 
 .header-grid {
   align-items: center;
@@ -10,55 +10,57 @@
   z-index: 100;
 }
 
-nav ul {
-  display: flex;
-  grid-column: 2 / -1;
-  justify-content: flex-end;
-  list-style: none;
-  margin: 1rem 0;
-}
+nav {
+  ul {
+    display: flex;
+    grid-column: 2 / -1;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 1rem 0;
+  }
+  
+  ul a {
+    backdrop-filter: base.$blur;
+    background: base.$transparent-primary;
+    border-radius: base.$border-curve;
+    box-shadow: base.$drop-shadow;
+    color: base.$white;
+    cursor: pointer;
+    display: block;
+    margin-right: calc(0.6rem + 1vw);
+    padding: 0.6rem 1.6rem;
+    text-decoration: none;
+  }
 
-nav ul a {
-  backdrop-filter: base.$blur;
-  background: base.$transparent-primary;
-  border-radius: base.$border-curve;
-  box-shadow: base.$drop-shadow;
-  color: base.$white;
-  cursor: pointer;
-  display: block;
-  margin-right: calc(.6rem + 1vw);
-  padding: .6rem 1.6rem;
-  text-decoration: none;
-}
+  ul a:active {
+    background: rgba($color: base.$secondary-color, $alpha: 0.8);
+  }
 
-nav ul a:active {
-  background: rgba($color: base.$secondary-color, $alpha: .8);
-}
-
-nav ul a:hover {
-  background: rgba($color: base.$white, $alpha: .8);
-  border-radius: calc(base.$border-curve * 2);
-  color: base.$primary-color;
-  transform: scale(110%);
+  ul a:hover {
+    background: rgba($color: base.$white, $alpha: 0.8);
+    border-radius: calc(base.$border-curve * 2);
+    color: base.$primary-color;
+    transform: scale(110%);
+  }
 }
 
 .logo {
   max-width: 50px;
   z-index: 100;
-}
 
-.logo a {
-  filter: drop-shadow(4px 4px 6px rgba($color: #000000, $alpha: .5));
-  padding: 1rem;
-}
+  a {
+    filter: drop-shadow(4px 4px 6px rgba($color: #000000, $alpha: 0.5));
+    padding: 1rem;
+  }
 
-.logo svg {
-  transition: 300ms ease-in-out;
-}
+  svg {
+    transition: 300ms ease-in-out;
+  }
 
-.logo svg:hover {
-  filter: hue-rotate(180deg);
-  transform: scale(110%);
+  svg:hover {
+    filter: hue-rotate(180deg);
+    transform: scale(110%);
+  }
 }
 
 .burger-container {
@@ -69,7 +71,6 @@ nav ul a:hover {
 }
 
 @media (max-width: base.$tablet-size) {
-  
   .desktop-menu {
     display: none;
   }

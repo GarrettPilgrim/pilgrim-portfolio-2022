@@ -2,7 +2,7 @@
 
 .card {
   align-items: center;
-  background: rgba($color: base.$white, $alpha: .01);
+  background: rgba($color: base.$white, $alpha: 0.01);
   border-radius: base.$border-curve;
   box-shadow: base.$drop-shadow;
   grid-gap: 2rem;
@@ -20,49 +20,48 @@
 .card-text {
   max-width: 80ch;
   padding: 1rem;
-}
 
-.card-text>* {
-  margin: 0;
-}
+  > * {
+    margin: 0;
+  }
 
-.card-text h3 {
-  color: base.$primary-color;
-}
+  h3 {
+    color: base.$primary-color;
+  }
 
-.card-text h4 {
-  font-family: base.$body-fonts;
-  font-size: .9em;
-}
+  h4 {
+    font-family: base.$body-fonts;
+    font-size: 0.9em;
+  }
 
-.card-text h5 {
-  font-size: clamp(1.2em, 1.25vw, 1.8em);
-  line-height: 100%;
-}
+  h5 {
+    font-size: clamp(1.2em, 1.25vw, 1.8em);
+    line-height: 100%;
+  }
 
-.card-text h3 span {
-  color: base.$white;
-  font-family: base.$header-fonts;
-  font-size: .6em;
-}
+  h3 span {
+    color: base.$white;
+    font-family: base.$header-fonts;
+    font-size: 0.6em;
+  }
 
-.card-text div {
-  border-top: .2rem solid base.$white;
-  margin-top: 2rem;
-}
+  div {
+    border-top: 0.2rem solid base.$white;
+    margin-top: 2rem;
+  }
 
-.card-text div p,
-.card-text h4 {
-  margin-left: 0;
-  margin-right: 0;
-}
+  div p,
+  h4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-.card ul {
-  margin: 1rem 0;
+  ul {
+    margin: 1rem 0;
+  }
 }
 
 @media (max-width: base.$tablet-size) {
-  
   .card {
     padding: 3rem 0rem;
   }
