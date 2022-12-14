@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <form name="contact" method="POST" action="/">
+        <form name="contact" method="POST" action="/success">
           <h2>Get in Touch</h2>
           <fieldset>
             <input type="hidden" name="form-name" value="contact" />

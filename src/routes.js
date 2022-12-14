@@ -6,6 +6,7 @@ const Design = React.lazy(() => import("./pages/design"));
 const Motion = React.lazy(() => import("./pages/motion"));
 const Resume = React.lazy(() => import("./pages/resume"));
 const ErrorPage = React.lazy(() => import("./pages/404"));
+const FormSuccess = React.lazy(() => import("./pages/success"));
 
 const ClearCaivrs = React.lazy(() => import("./pages/dev/clearcaivrs"));
 const PilgrimWedding = React.lazy(() => import("./pages/dev/pilgrimwedding"));
@@ -151,6 +152,12 @@ const routes = [
     path: "/motion/udeanymotion",
     name: "Udeany Motion",
     element: <UdeanyMotion />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/success",
+    name: "Form Submitted",
+    element: <FormSuccess />,
     nodeRef: createRef(),
   },
   {
