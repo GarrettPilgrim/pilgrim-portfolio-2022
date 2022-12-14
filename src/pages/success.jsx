@@ -1,7 +1,7 @@
 import React from "react";
 import ExamplePage from "../components/example-page/example-page";
 
-const ErrorPage = () => {
+const FormSuccess = () => {
   return (
     <>
       <h1>Thank you</h1>
@@ -11,7 +11,7 @@ const ErrorPage = () => {
           width="480"
           height="215"
           title="Thank you GIF"
-          className="giphy-thank-you"
+          className="giphy-gif"
         ></iframe>
         <h2>Form Submitted</h2>
         <p>
@@ -28,4 +28,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default FormSuccess;
