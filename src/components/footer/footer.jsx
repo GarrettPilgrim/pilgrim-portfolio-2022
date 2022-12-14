@@ -9,21 +9,10 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <form
-          name="contact"
-          method="POST"
-          action="/"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-        >
+        <form name="contact" method="POST" action="/">
           <h2>Get in Touch</h2>
           <fieldset>
             <input type="hidden" name="form-name" value="contact" />
-            <div class="bot-field-hidden hidden">
-              <label>
-                Don’t fill this out if you’re human: <input name="bot-field" />
-              </label>
-            </div>
             <label for="name">
               Name:
               <input id="name" name="name" type="text" />
