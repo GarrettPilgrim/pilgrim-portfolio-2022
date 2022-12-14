@@ -11,13 +11,14 @@ const Footer = () => {
       <footer>
         <form
           name="contact"
-          method="POST"
+          action="/"
           data-netlify="true"
           netlify-honeypot="bot-field"
         >
           <h2>Get in Touch</h2>
           <fieldset>
-            <div class="bot-field-hidden">
+            <input type="hidden" name="form-name" value="contact" />
+            <div class="bot-field-hidden hidden">
               <label>
                 Don’t fill this out if you’re human: <input name="bot-field" />
               </label>
@@ -54,22 +55,7 @@ const Footer = () => {
           >
             <GitHub />
           </a>
-          {/* <a
-              href="https://www.instagram.com/pilgrimgarrett/?next=%2F"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Instagram />
-            </a> */}
-          {/* <a
-              href="https://www.tiktok.com/@garrettpilgrim"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <TikTok />
-            </a> */}
         </div>
-        {/* <div className="circle"></div> */}
       </footer>
     </>
   );
