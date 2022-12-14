@@ -45,20 +45,20 @@ const jobs = {
     description: (
       <div>
         <p>
-          At Udeany, I lead the marketing and technology efforts to grow the
-          brand. This includes building and maintaining websites, Teachable
-          courses, and CRM software.
+          I lead the marketing and technology efforts to grow the brand,
+          including building and maintaining websites, creating Teachable
+          courses, and managing the CRM software.
         </p>
         <p>
           I increased the annual sales by 33% in 2021 and streamlined
           communication processes with an automated email marketing campaign to
-          save work hours which lead to a 31% conversion rate from contact form
+          save work hours, leading to a 31% conversion rate from contact form
           submission to client.
         </p>
         <p>
-          In April 2022, I lead the development of a niche landing page which
-          increased sales by 50% from April to May and a further 12.5% from May
-          to June setting a company sales record.
+          In April 2022, I led the development of a niche landing page which
+          increased sales by 50% from April to May and 12.5% from May to June,
+          setting a company sales record.
         </p>
         <h4>Work Areas</h4>
         <ul>
@@ -82,13 +82,13 @@ const jobs = {
     description: (
       <div>
         <p>
-          Mayflower Originals was founded as an online retailer. However, it has
-          morphed into my personal publishing and production brand for books and
-          eventually for animated shorts.
+          I founded Mayflower Originals as an online retailer. However, it has
+          morphed into my publishing and production brand for books and,
+          eventually, animated shorts.
         </p>
         <p>
           I developed websites, designed physical products such as clothing and
-          books, and ran marketing campaigns including social media and Google
+          books, and ran marketing campaigns on social media and through Google
           Ads.
         </p>
         <h4>Work Areas</h4>
@@ -114,10 +114,14 @@ const jobs = {
     description: (
       <div>
         <p>
-          I teach coures on design, web development, and storytelling on a
+          I teach design, web development, and storytelling courses on a
           contract basis in the Department of Journalism and Strategic Media.
         </p>
-
+        <p>
+          The web development courses emphasize HTML, CSS, and Javascript
+          languages with principles focused on responsiveness, accessibility,
+          DRY and clean code, and user experience.
+        </p>
         <h4>Taught Courses</h4>
         <ul>
           <li>Multimedia Storytelling</li>
@@ -137,8 +141,14 @@ const jobs = {
     description: (
       <div>
         <p>
-          As a Grad Assistant, I helped professors with classroom instruction,
-          organization, copywriting, grading, and taught courses independently.
+          I helped professors with classroom instruction, organization,
+          copywriting, and grading and taught courses independently.
+        </p>
+        <p>
+          Specifically, I taught courses in visual media and multimedia
+          storytelling, which emphasized learning the Adobe Creative apps,
+          including design, photography, audio production, and video production
+          techniques.
         </p>
         <h4>Work Areas</h4>
         <ul>
@@ -159,13 +169,21 @@ const jobs = {
     description: (
       <div>
         <p>
-          As Firm Director, I managed Account Leads and ensured delivery of
-          quality service to our clients.
+          I managed the accounts, ensured quality service to the student-run
+          firm’s clients, and met with them directly to address each client’s
+          unique marketing needs.
         </p>
         <p>
-          I hosted weekly meetings to ensure clients needs were being met and to
-          strategize with leads and their teams.
+          I met with the account teams to ensure we met client needs and to
+          strategize with team members to keep projects on track.
         </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Client communications</li>
+          <li>Collaboration</li>
+          <li>Management</li>
+          <li>Quality assurance</li>
+        </ul>
       </div>
     ),
   },
@@ -178,15 +196,15 @@ const jobs = {
     description: (
       <div>
         <p>
-          As Account Lead I managed clients and collaborated to meet their
-          marketing needs. I worked with two primary clients: Pi Beta Phi and
-          Meeman 901 Strategies itself.
+          I managed clients and collaborated to meet their marketing needs. I
+          worked with two primary clients: Pi Beta Phi and Meeman 901
+          Strategies.
         </p>
         <p>
-          With Meeman 901 Strategies, I oversaw the design and development of a
-          new website for the firm. This included guiding the design process,
-          outlining strategic needs, and debugging errors along the way.
-          Additionally, I wrote and edited the site's copy for SEO.
+          I oversaw the firm’s design and development of a new website. This
+          project included guiding the design process, outlining strategic
+          needs, and debugging errors along the way. Additionally, I wrote and
+          edited the site’s copy for SEO.
         </p>
         <p>
           With Pi Beta Phi, I lead the creation of a{" "}
@@ -196,6 +214,14 @@ const jobs = {
           for the sorority. This included planning and client coordination,
           production, post production, and reshoots.
         </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Marketing</li>
+          <li>Project management</li>
+          <li>SEO</li>
+          <li>Videography</li>
+          <li>Web design</li>
+        </ul>
       </div>
     ),
   },
@@ -208,14 +234,9 @@ const jobs = {
     description: (
       <div>
         <p>
-          While working in Digital Media, I wrote web copy for sales pages,
-          tested an 8-bit video game, and maintained a retro Memphis apparel
-          website.
-        </p>
-        <p>
-          While working in Digital Media, I wrote web copy for sales pages,
-          managed the agency's social media, tested an 8-bit video game, and
-          maintained a retro Memphis apparel website, Mid-South Flair.
+          I wrote web copy for product sales pages, managed the agency’s social
+          media, tested an 8-bit video game, and maintained a retro Memphis
+          apparel website, Mid-South Flair.
         </p>
         <h4>Work Areas</h4>
         <ul>
@@ -238,9 +259,15 @@ const jobs = {
     description: (
       <div>
         <p>
-          As an intern, I assisted corporate marketing leads in running the
-          strategies and tactics for the entire coverage area including West
-          Tennessee, Northeast Mississippi, and Eastern Arkansas.
+          I assisted corporate marketing leads in strategizing and implementing
+          tactics for the entire coverage area, including West Tennessee,
+          Northeast Mississippi, and Eastern Arkansas.
+        </p>
+        <p>
+          I maintained a local fitness app that promoted local events. I
+          assisted with marketing compliance with section 1557 of the ACA. I was
+          also responsible for the Art of Caring photography for the auction
+          site.
         </p>
         <h4>Work Areas</h4>
         <ul>
@@ -255,6 +282,7 @@ const jobs = {
           <li>Proofing new designs</li>
           <li>Salesforce management</li>
           <li>Taking and editing photos for the Art of Caring events</li>
+          <li>Ensuring compliance with ACA marketing regulations</li>
         </ul>
       </div>
     ),
@@ -268,13 +296,21 @@ const jobs = {
     description: (
       <div>
         <p>
-          At Choose901, I blogged on Memphis area events to promote the good
-          happening in the city as part of a City Leadership initiative.
+          I blogged on Memphis area events to promote the good happening in the
+          city as part of a City Leadership initiative.
         </p>
         <p>
-          While on the job, took photos, conducted research, wrote SEO focused
-          web copy, and inserted SEO tags.
+          While on the job, I took photos, conducted research for stories, wrote
+          SEO-focused web copy, and inserted SEO tags.
         </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Copy writing</li>
+          <li>On page SEO</li>
+          <li>Photography</li>
+          <li>Photo editing</li>
+          <li>SEO tagging</li>
+        </ul>
       </div>
     ),
   },

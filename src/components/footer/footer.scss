@@ -119,3 +119,8 @@ footer .circle {
   width: calc(250px + 60vw);
   z-index: -1;
 }
+
+.bot-field-hidden {
+  visibility: hidden;
+  display: none;
+}
