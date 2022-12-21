@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <form name="contact" method="POST" action="/succss" onSubmit="submit">
+        <form name="contact" method="POST" action="/success" onSubmit="submit">
           <h2>Get in Touch</h2>
           <fieldset>
             <input type="hidden" name="form-name" value="contact" />
