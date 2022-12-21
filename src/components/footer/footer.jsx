@@ -6,17 +6,13 @@ import { ReactComponent as LinkedIn } from "../../images/svgs/linkedin-icon.svg"
 import { ReactComponent as GitHub } from "../../images/svgs/github-icon.svg";
 
 const Footer = () => {
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  // }
-  
   return (
     <>
       <footer>
-        <form name="contact" method="POST" action="/succss" onSubmit="submit">
+        <form name="contact" method="POST" action="/success" onSubmit="submit">
+          <input type="hidden" name="form-name" value="contact" />
           <h2>Get in Touch</h2>
           <fieldset>
-            <input type="hidden" name="form-name" value="contact" />
             <label for="name">
               Name:
               <input id="name" name="name" type="text" />
