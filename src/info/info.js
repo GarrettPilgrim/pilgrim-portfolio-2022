@@ -22,6 +22,7 @@ import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg"
 import DonutCover from "../images/photos/motion/donut-cover.png";
 import ResumeCover from "../images/photos/resume-home.jpg";
 import UdeanyMotionCover from "../images/photos/motion/udeanymotion-cover.jpg";
+import WonkaCover from "../images/photos/dev/wonka-cover.jpg";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -491,11 +492,12 @@ const dev = {
   },
   WillyWonka: {
     name: "Willy Wonka Site",
-    url: "",
+    url: "https://willy-wonka.netlify.app/",
     github: "https://github.com/GarrettPilgrim/willy-wonka",
-    subheader: "A single-page site created live in class and refactored to a Next.js app",
-    cover: "",
-    alt: "",
+    subheader:
+      "A single-page site created live in class and refactored to a Next.js app",
+    cover: WonkaCover,
+    alt: "A screenshot of a chocolatey Willy Wonka site.",
     link: "/dev/willywonka",
   },
   Portfolio: {

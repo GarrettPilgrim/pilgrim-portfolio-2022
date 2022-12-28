@@ -10,14 +10,16 @@ const WillyWonka = () => {
         url={dev.WillyWonka.url}
         img={dev.WillyWonka.cover}
         alt={dev.WillyWonka.alt}
+        github={dev.WillyWonka.github}
+        embed={true}
       >
         <h2>The Challenge</h2>
         <p>
-          The UI for the site was built using pure HTML and CSS live in class to
-          demonstrate coding techniques and principles to students.
+          I built the site's basic UI using pure HTML and CSS live in class to
+          teach students coding techniques and principles.
         </p>
         <p>
-          These live coding session show the process of buidling a site and
+          These live coding sessions show the process of building a site and
           modern layout techniques such as grid and flex.
         </p>
         <h2>Refactoring</h2>
@@ -27,7 +29,8 @@ const WillyWonka = () => {
         </p>
         <p>
           I created product pages with dynamic rendering based on markdown data
-          and refined design system with DRY code and component-based design.
+          and refined the design system with DRY code and component-based
+          design.
         </p>
         <h3>The Tools</h3>
         <ul>
