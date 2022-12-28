@@ -12,6 +12,7 @@ class PilgrimWedding extends React.Component {
           img={dev.PilgrimWedding.cover}
           alt={dev.PilgrimWedding.alt}
           github={dev.PilgrimWedding.github}
+          embed={true}
         >
           <h2>The Need</h2>
           <p>

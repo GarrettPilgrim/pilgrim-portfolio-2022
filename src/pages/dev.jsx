@@ -7,11 +7,11 @@ const Dev = () => {
     <>
       <h1>Dev</h1>
       <Grid>
+        {getGridItems(dev.WillyWonka)}
         {getGridItems(dev.Caivrs)}
         {getGridItems(dev.Teachable)}
         {getGridItems(dev.PilgrimWedding)}
         {getGridItems(dev.Portfolio)}
-        {/* {getGridItems(dev.WillyWonka)} */}
         {getGridItems(dev.Pslf)}
       </Grid>
     </>

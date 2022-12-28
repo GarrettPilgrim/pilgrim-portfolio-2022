@@ -54,8 +54,8 @@ const ExamplePage = (props) => {
           {returnImage(props.img)}
         </div>
         <div className="example-page-text">{props.children}</div>
-        {returnURL(props.embed)}
         {returnGit(props.github)}
+        {returnURL(props.embed)}
       </main>
     </>
   );

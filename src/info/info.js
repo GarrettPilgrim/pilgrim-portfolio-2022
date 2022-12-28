@@ -22,6 +22,7 @@ import WoodlandHillsCover from "../images/photos/design/woodlandhills-cover.jpg"
 import DonutCover from "../images/photos/motion/donut-cover.png";
 import ResumeCover from "../images/photos/resume-home.jpg";
 import UdeanyMotionCover from "../images/photos/motion/udeanymotion-cover.jpg";
+import WonkaCover from "../images/photos/dev/wonka-cover.jpg";
 
 // FUNCTIONS
 const getGridItems = (item) => {
@@ -393,6 +394,7 @@ const technlogies = [
   "Illustrator",
   "Javascript ES6",
   "Netlify",
+  "Next.js",
   "Node.js",
   "Photoshop",
   "Premiere Pro",
@@ -488,15 +490,16 @@ const dev = {
     alt: "",
     link: "/dev/teachable",
   },
-  // WillyWonka: {
-  //   name: "Willy Wonka Site",
-  //   url: "",
-  //   github: "https://github.com/GarrettPilgrim/willy-wonka",
-  //   subheader: "A single-page site created live in class",
-  //   cover: "",
-  //   alt: "",
-  //   link: "/dev/willywonka",
-  // },
+  WillyWonka: {
+    name: "Willy Wonka Site",
+    url: "https://willy-wonka.netlify.app/",
+    github: "https://github.com/GarrettPilgrim/willy-wonka",
+    subheader:
+      "A single-page site created live in class and refactored to a Next.js app",
+    cover: WonkaCover,
+    alt: "A screenshot of a chocolatey Willy Wonka site.",
+    link: "/dev/willywonka",
+  },
   Portfolio: {
     name: "This portfolio site",
     url: "",
