@@ -9,7 +9,7 @@ const Cover = () => {
       <div className="first-column">
         <div>
           <h1>Garrett Pilgrim</h1>
-          <span>Developer and Designer</span>
+          <span>Developer and Marketer</span>
         </div>
       </div>
       <div className="second-column">
