@@ -59,9 +59,9 @@ const Resume = () => {
       <h1>Resume</h1>
       <section>
         <h2>Jobs</h2>
-        {getJobs(jobs.Udeany)}
         {getJobs(jobs.Adjunct)}
         {getJobs(jobs.Mayflower)}
+        {getJobs(jobs.Udeany)}
         {getJobs(jobs.Graduate)}
         {getJobs(jobs.Director)}
         {getJobs(jobs.Lead)}
