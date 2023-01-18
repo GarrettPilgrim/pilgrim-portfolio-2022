@@ -41,12 +41,12 @@ const jobs = {
     title: "Marketing and Technology Partner",
     company: "Udeany",
     start: "February 2021",
-    end: "Present",
+    end: "December 2022",
     logo: <UdeanyLogo />,
     description: (
       <div>
         <p>
-          I lead the marketing and technology efforts to grow the brand,
+          I led the marketing and technology efforts to grow the brand,
           including building and maintaining websites, creating Teachable
           courses, and managing the CRM software.
         </p>
