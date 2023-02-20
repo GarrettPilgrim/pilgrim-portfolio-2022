@@ -2,7 +2,14 @@ import React from "react";
 import Card from "../components/card/card";
 import FancyList from "../components/fancy-list/fancy-list";
 import Job from "../components/job/job";
-import { jobs, edu, skills, awards, technlogies } from "../info/info";
+import {
+  jobs,
+  edu,
+  skills,
+  awards,
+  technlogies,
+  certifications,
+} from "../info/info";
 
 const Resume = () => {
   const getJobs = (job) => {
@@ -35,10 +42,10 @@ const Resume = () => {
     );
   };
 
-  const getAwards = (i) => {
+  const getFancyList = (i) => {
     return (
       <div className="nested-list-item">
-        <h3>{i.award}</h3>
+        <h3>{i.name}</h3>
         <p>
           <em>
             {i.from} <br />
@@ -87,12 +94,20 @@ const Resume = () => {
         </FancyList>
       </section>
       <section>
+        <h2>Certifications</h2>
+        <FancyList listType="nested-list">
+          {getFancyList(certifications.js)}
+          {getFancyList(certifications.responsive)}
+          {getFancyList(certifications.seo)}
+        </FancyList>
+      </section>
+      <section>
         <h2>Awards</h2>
         <FancyList listType="nested-list">
-          {getAwards(awards.aejmc)}
-          {getAwards(awards.adfed)}
-          {getAwards(awards.meeman901)}
-          {getAwards(awards.ron)}
+          {getFancyList(awards.aejmc)}
+          {getFancyList(awards.adfed)}
+          {getFancyList(awards.meeman901)}
+          {getFancyList(awards.ron)}
         </FancyList>
       </section>
     </>

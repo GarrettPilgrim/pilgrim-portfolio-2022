@@ -405,7 +405,7 @@ const technlogies = [
 
 const awards = {
   aejmc: {
-    award: "Top Student Paper Visual Communication",
+    name: "Top Student Paper Visual Communication",
     date: "March 2019",
     from: "AEJMC Southeast Colloquium",
     description: (
@@ -417,7 +417,7 @@ const awards = {
     ),
   },
   adfed: {
-    award: "Student Chapter President",
+    name: "Student Chapter President",
     date: "August 2017 - May 2018",
     from: "American Advertising Federation",
     description: (
@@ -430,7 +430,7 @@ const awards = {
     ),
   },
   meeman901: {
-    award: "Meeman 901 Strategies Leadership Award",
+    name: "Meeman 901 Strategies Leadership Award",
     date: "April 2017",
     from: "The University of Memphis",
     description: (
@@ -442,13 +442,69 @@ const awards = {
     ),
   },
   ron: {
-    award: "Ron Spielberger Advertising Creative Achievement Award",
+    name: "Ron Spielberger Advertising Creative Achievement Award",
     date: "April 2017",
     from: "The University of Memphis",
     description: (
       <p>
         I earned the Advertising Creative Achievement Award twice for my design,
         photo, and video work in strategic design courses.
+      </p>
+    ),
+  },
+};
+
+const certifications = {
+  js: {
+    name: "JavaScript Algorithms and Data Structures",
+    date: "January 2023",
+    from: "freeCodeCamp",
+    description: (
+      <p>
+        I took the JavaScript Algorithms and Data Structures certificate to
+        valid skills with the programming language and boost my skills
+        including:
+        <ul>
+          <li>Data structures</li>
+          <li>ES6 JavaScript</li>
+          <li>Functional Programming</li>
+          <li>Object Oriented Programming</li>
+        </ul>
+      </p>
+    ),
+  },
+  responsive: {
+    name: "Responsive Web Design",
+    date: "January 2023",
+    from: "freeCodeCamp",
+    description: (
+      <p>
+        The Responsive Web Design certificate refreshed and strengthened my
+        knowledge of core HTML and CSS with a focus on:
+        <ul>
+          <li>Accessibility</li>
+          <li>CSS3</li>
+          <li>HTML5</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </p>
+    ),
+  },
+  seo: {
+    name: "SEO",
+    date: "January 2023",
+    from: "Hubspot",
+    description: (
+      <p>
+        I refreshed and furthed my knowledge of the best search engine
+        optimization practices with Hubspot with a focus on:
+        <ul>
+          <li>Keyword Research</li>
+          <li>Link Building</li>
+          <li>On Page SEO</li>
+          <li>SEO Basics</li>
+          <li>Technical SEO</li>
+        </ul>
       </p>
     ),
   },
@@ -579,4 +635,5 @@ export {
   motion,
   technlogies,
   getGridItems,
+  certifications,
 };
