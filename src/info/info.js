@@ -510,7 +510,7 @@ const certifications = {
   },
 };
 
-const dev = {
+const web = {
   PilgrimWedding: {
     name: "Pilgrim Wedding",
     url: "https://pilgrimagewedding.netlify.app/",
@@ -518,7 +518,7 @@ const dev = {
     subheader: "A single-page Gatsby landing page to RSVP for my wedding.",
     cover: PilgrimCover,
     alt: "A screenshot of the Pilgrim Wedding webpage showing a loving couple and rose illustrations.",
-    link: "/dev/pilgrimwedding",
+    link: "/web/pilgrimwedding",
   },
   Caivrs: {
     name: "Clear Caivrs",
@@ -527,7 +527,7 @@ const dev = {
       "A landing page designed to convince clients to buy the Udeany CAIVRS ecourse.",
     cover: CaivrsCover,
     alt: "A screenshot of the ClearCAIVRS landing page showing two men shaking hands in front of a sold house sign.",
-    link: "/dev/clearcaivrs",
+    link: "/web/clearcaivrs",
   },
   Pslf: {
     name: "PSLF Waiver",
@@ -536,7 +536,7 @@ const dev = {
       "A landing page guiding leads to purchase the PSLF Waiver course.",
     cover: PslfCover,
     alt: "",
-    link: "/dev/pslfwaiver",
+    link: "/web/pslfwaiver",
   },
   Teachable: {
     name: "Udeany Courses",
@@ -544,7 +544,7 @@ const dev = {
     subheader: "",
     cover: TeachableCover,
     alt: "",
-    link: "/dev/teachable",
+    link: "/web/teachable",
   },
   WillyWonka: {
     name: "Willy Wonka Site",
@@ -554,7 +554,7 @@ const dev = {
       "A single-page site created live in class and refactored to a Next.js app",
     cover: WonkaCover,
     alt: "A screenshot of a chocolatey Willy Wonka site.",
-    link: "/dev/willywonka",
+    link: "/web/willywonka",
   },
   Portfolio: {
     name: "This portfolio site",
@@ -563,7 +563,7 @@ const dev = {
     subheader: "The website you're currently on, my portfolio",
     cover: ResumeCover,
     alt: "",
-    link: "/dev/thisportfolio",
+    link: "/web/thisportfolio",
   },
 };
 
@@ -628,7 +628,7 @@ const motion = {
 export {
   jobs,
   edu,
-  dev,
+  web,
   skills,
   awards,
   design,

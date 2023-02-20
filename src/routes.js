@@ -1,19 +1,19 @@
 import React, { createRef } from "react";
 
 const Home = React.lazy(() => import("./pages/home"));
-const Dev = React.lazy(() => import("./pages/dev"));
+const Web = React.lazy(() => import("./pages/web"));
 const Design = React.lazy(() => import("./pages/design"));
 const Motion = React.lazy(() => import("./pages/motion"));
 const Resume = React.lazy(() => import("./pages/resume"));
 const ErrorPage = React.lazy(() => import("./pages/404"));
 const FormSuccess = React.lazy(() => import("./pages/success"));
 
-const ClearCaivrs = React.lazy(() => import("./pages/dev/clearcaivrs"));
-const PilgrimWedding = React.lazy(() => import("./pages/dev/pilgrimwedding"));
-const PSLFWaiver = React.lazy(() => import("./pages/dev/pslfwaiver"));
-const Teachable = React.lazy(() => import("./pages/dev/teachable"));
-const ThisPortfolio = React.lazy(() => import("./pages/dev/thisportfolio"));
-const WillyWonka = React.lazy(() => import("./pages/dev/willywonka"));
+const ClearCaivrs = React.lazy(() => import("./pages/web/clearcaivrs"));
+const PilgrimWedding = React.lazy(() => import("./pages/web/pilgrimwedding"));
+const PSLFWaiver = React.lazy(() => import("./pages/web/pslfwaiver"));
+const Teachable = React.lazy(() => import("./pages/web/teachable"));
+const ThisPortfolio = React.lazy(() => import("./pages/web/thisportfolio"));
+const WillyWonka = React.lazy(() => import("./pages/web/willywonka"));
 
 const Ahsoka = React.lazy(() => import("./pages/design/ahsokatano"));
 const Chulo = React.lazy(() => import("./pages/design/chulo"));
@@ -28,7 +28,7 @@ const UdeanyMotion = React.lazy(() => import("./pages/motion/udeanymotion"));
 const routes = [
   // MAIN PAGES
   { path: "/", name: "Home", element: <Home />, nodeRef: createRef() },
-  { path: "/dev", name: "Dev", element: <Dev />, nodeRef: createRef() },
+  { path: "/web", name: "Dev", element: <Web />, nodeRef: createRef() },
   {
     path: "/resume",
     name: "Resume",
@@ -49,37 +49,37 @@ const routes = [
   },
   // SUB PAGES
   {
-    path: "/dev/clearcaivrs",
+    path: "/web/clearcaivrs",
     name: "Clear Caivrs",
     element: <ClearCaivrs />,
     nodeRef: createRef(),
   },
   {
-    path: "/dev/pslfwaiver",
+    path: "/web/pslfwaiver",
     name: "PSLF Waiver",
     element: <PSLFWaiver />,
     nodeRef: createRef(),
   },
   {
-    path: "/dev/teachable",
+    path: "/web/teachable",
     name: "Teachable",
     element: <Teachable />,
     nodeRef: createRef(),
   },
   {
-    path: "/dev/willywonka",
+    path: "/web/willywonka",
     name: "Willy Wonka",
     element: <WillyWonka />,
     nodeRef: createRef(),
   },
   {
-    path: "/dev/thisportfolio",
+    path: "/web/thisportfolio",
     name: "This Portfolio",
     element: <ThisPortfolio />,
     nodeRef: createRef(),
   },
   {
-    path: "/dev/pilgrimwedding",
+    path: "/web/pilgrimwedding",
     name: "Pilgrim Wedding",
     element: <PilgrimWedding />,
     nodeRef: createRef(),

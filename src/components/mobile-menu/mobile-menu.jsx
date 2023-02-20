@@ -13,8 +13,8 @@ const MobileMenu = (props) => {
             </Link>
           </li>
           <li>
-            <Link to="/dev" onClick={props.clickClose}>
-              Dev
+            <Link to="/web" onClick={props.clickClose}>
+              Web
             </Link>
           </li>
           <li>

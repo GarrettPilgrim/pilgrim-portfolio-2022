@@ -16,7 +16,7 @@ class Header extends React.Component {
         <nav className="desktop-menu">
           <ul>
             <li>
-              <Link to="/dev">Dev</Link>
+              <Link to="/web">Web</Link>
             </li>
             <li>
               <Link to="/design">Design</Link>

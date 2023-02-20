@@ -1,16 +1,16 @@
 import React from "react";
 import ExamplePage from "../../components/example-page/example-page";
-import { dev } from "../../info/info";
+import { web } from "../../info/info";
 
 class PSLFWaiver extends React.Component {
   render() {
     return (
       <>
         <ExamplePage
-          name={dev.Pslf.name}
-          url={dev.Pslf.url}
-          img={dev.Pslf.cover}
-          alt={dev.Pslf.alt}
+          name={web.Pslf.name}
+          url={web.Pslf.url}
+          img={web.Pslf.cover}
+          alt={web.Pslf.alt}
         >
           <h2>The Problem</h2>
           <p>
