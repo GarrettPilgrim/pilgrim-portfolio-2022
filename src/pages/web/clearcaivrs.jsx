@@ -1,15 +1,15 @@
 import React from "react";
 import ExamplePage from "../../components/example-page/example-page";
-import { dev } from "../../info/info";
+import { web } from "../../info/info";
 
 const ClearCaivrs = () => {
   return (
     <>
       <ExamplePage
-        name={dev.Caivrs.name}
-        url={dev.Caivrs.url}
-        img={dev.Caivrs.cover}
-        alt={dev.Caivrs.alt}
+        name={web.Caivrs.name}
+        url={web.Caivrs.url}
+        img={web.Caivrs.cover}
+        alt={web.Caivrs.alt}
         embed={true}
       >
         <h2>The Problem</h2>

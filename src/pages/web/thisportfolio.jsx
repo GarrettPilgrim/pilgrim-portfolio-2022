@@ -1,16 +1,16 @@
 import React from "react";
 import ExamplePage from "../../components/example-page/example-page";
-import { dev } from "../../info/info";
+import { web } from "../../info/info";
 
 const ThisPortfolio = () => {
   return (
     <>
       <ExamplePage
-        name={dev.Portfolio.name}
-        url={dev.Portfolio.url}
-        github={dev.Portfolio.github}
-        img={dev.Portfolio.cover}
-        alt={dev.Portfolio.alt}
+        name={web.Portfolio.name}
+        url={web.Portfolio.url}
+        github={web.Portfolio.github}
+        img={web.Portfolio.cover}
+        alt={web.Portfolio.alt}
       >
         <h2>The Problem</h2>
         <p>

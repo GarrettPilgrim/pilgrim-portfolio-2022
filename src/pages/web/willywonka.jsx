@@ -1,16 +1,16 @@
 import React from "react";
 import ExamplePage from "../../components/example-page/example-page";
-import { dev } from "../../info/info";
+import { web } from "../../info/info";
 
 const WillyWonka = () => {
   return (
     <>
       <ExamplePage
-        name={dev.WillyWonka.name}
-        url={dev.WillyWonka.url}
-        img={dev.WillyWonka.cover}
-        alt={dev.WillyWonka.alt}
-        github={dev.WillyWonka.github}
+        name={web.WillyWonka.name}
+        url={web.WillyWonka.url}
+        img={web.WillyWonka.cover}
+        alt={web.WillyWonka.alt}
+        github={web.WillyWonka.github}
         embed={true}
       >
         <h2>The Challenge</h2>

@@ -1,17 +1,17 @@
 import React from "react";
 import ExamplePage from "../../components/example-page/example-page";
-import { dev } from "../../info/info";
+import { web } from "../../info/info";
 
 class PilgrimWedding extends React.Component {
   render() {
     return (
       <>
         <ExamplePage
-          name={dev.PilgrimWedding.name}
-          url={dev.PilgrimWedding.url}
-          img={dev.PilgrimWedding.cover}
-          alt={dev.PilgrimWedding.alt}
-          github={dev.PilgrimWedding.github}
+          name={web.PilgrimWedding.name}
+          url={web.PilgrimWedding.url}
+          img={web.PilgrimWedding.cover}
+          alt={web.PilgrimWedding.alt}
+          github={web.PilgrimWedding.github}
           embed={true}
         >
           <h2>The Need</h2>

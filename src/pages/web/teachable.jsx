@@ -1,16 +1,16 @@
 import React from "react";
 import ExamplePage from "../../components/example-page/example-page";
-import { dev } from "../../info/info";
+import { web } from "../../info/info";
 
 class Teachable extends React.Component {
   render() {
     return (
       <>
         <ExamplePage
-          name={dev.Teachable.name}
-          url={dev.Teachable.url}
-          img={dev.Teachable.cover}
-          alt={dev.Teachable.alt}
+          name={web.Teachable.name}
+          url={web.Teachable.url}
+          img={web.Teachable.cover}
+          alt={web.Teachable.alt}
         >
           <h2>The Problem</h2>
           <p>
