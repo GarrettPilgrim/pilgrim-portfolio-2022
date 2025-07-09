@@ -9,6 +9,7 @@ import { ReactComponent as Baptist } from "../images/logos/baptist-logo.svg";
 import { ReactComponent as Meeman } from "../images/logos/meeman901-logo.svg";
 import { ReactComponent as Mayflower } from "../images/logos/mayflower-logo.svg";
 import { ReactComponent as Signature } from "../images/logos/signature-logo.svg";
+import { ReactComponent as NeonCanvasLogo } from "../images/logos/neon-canvas-logo.svg";
 
 // COVER IMAGE IMPORTS
 import CaivrsCover from "../images/photos/dev/caivrs-cover.jpg";
@@ -37,6 +38,49 @@ const getGridItems = (item) => {
 };
 
 const jobs = {
+  NeonCanvas: {
+    title: "Digital Ad Strategist",
+    company: "Neon Canvas",
+    start: "April 2023",
+    end: "Present",
+    logo: <NeonCanvasLogo />,
+    description: (
+      <div>
+        <p>
+          I manage Meta ad campaigns for over 300 clients, optimizing $10–$100
+          daily budgets for brand awareness ads, which led to a monthly average
+          10% increase in clicks and 20% increase in impressions.
+        </p>
+        <p>
+          I led a new initiative for lead generation ads to drive conversions,
+          achieving 15–20 new leads per client monthly at a $20–$30 cost per
+          lead.
+        </p>
+        <p>
+          I also revamped Meta ad process using Asana and implemented Zapier
+          automations for lead delivery.
+        </p>
+        <h4>Work Areas</h4>
+        <ul>
+          <li>Advertising Strategy</li>
+          <li>Asana</li>
+          <li>Automation</li>
+          <li>CSS</li>
+          <li>Digital Advertising</li>
+          <li>Hubspot</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Meta Ads</li>
+          <li>Performance Analysis</li>
+          <li>Photoshop</li>
+          <li>Project Management</li>
+          <li>Web Analytics</li>
+          <li>Wordpress</li>
+          <li>Zapier</li>
+        </ul>
+      </div>
+    ),
+  },
   Udeany: {
     title: "Marketing and Technology Partner",
     company: "Udeany",
@@ -78,7 +122,7 @@ const jobs = {
     title: "Founder",
     company: "Mayflower Originals",
     start: "January 2020",
-    end: "Present",
+    end: "December 2022",
     logo: <Mayflower />,
     description: (
       <div>
@@ -110,16 +154,16 @@ const jobs = {
     title: "Adjunct Professor",
     company: "The University of Memphis",
     start: "August 2020",
-    end: "Present",
+    end: "May 2023",
     logo: <UofMLogo />,
     description: (
       <div>
         <p>
-          I teach design, web development, and storytelling courses on a
+          I taught design, web development, and storytelling courses on a
           contract basis in the Department of Journalism and Strategic Media.
         </p>
         <p>
-          The web development courses emphasize HTML, CSS, and Javascript
+          The web development courses emphasized HTML, CSS, and Javascript
           languages with principles focused on responsiveness, accessibility,
           DRY and clean code, and user experience.
         </p>

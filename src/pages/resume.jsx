@@ -66,6 +66,7 @@ const Resume = () => {
       <h1>Resume</h1>
       <section>
         <h2>Jobs</h2>
+        {getJobs(jobs.NeonCanvas)}
         {getJobs(jobs.Adjunct)}
         {getJobs(jobs.Mayflower)}
         {getJobs(jobs.Udeany)}
